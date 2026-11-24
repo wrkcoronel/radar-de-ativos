@@ -250,7 +250,7 @@ async function iniciar() {
       });
       atualizarDestaqueColuna(tabelaHeadEl, faixaId);
       atualizarLegenda();
-      renderizarKpis($("numeros"), { serieAtual, ordemAtivos });
+      renderizarKpis($("numeros"), { serieAtual, ordemAtivos: graficoCtrl.obterAtivosVisiveis() });
       painelNoticias.renderizar({ serieAtual, ativosVisiveis: graficoCtrl.obterAtivosVisiveis() }, true);
       renderizarSim();
       persistir();
@@ -309,6 +309,7 @@ async function iniciar() {
         btn.setAttribute("aria-pressed", String(graficoCtrl.estaVisivel(Number(btn.dataset.idx))));
       });
       sincronizarVisibilidadeTabela(tabelaBodyEl, graficoCtrl.estaVisivel);
+      renderizarKpis($("numeros"), { serieAtual, ordemAtivos: graficoCtrl.obterAtivosVisiveis() });
       painelNoticias.renderizar({ serieAtual, ativosVisiveis: graficoCtrl.obterAtivosVisiveis() }, true);
       renderizarSim();
       persistir();
