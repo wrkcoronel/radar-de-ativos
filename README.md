@@ -1,10 +1,36 @@
+<div align="center">
+
 # Radar de Ativos
 
 **Painel operacional que compara, dia a dia, renda fixa (Selic), bolsa brasileira, ETFs americanos e dólar, e explica o período em português simples, cruzando os números com as notícias que moveram o mercado.**
 
-🔗 **[Abrir o painel](https://wrkcoronel.github.io/radar-de-ativos/)**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+
+[🔗 Abrir o painel](https://wrkcoronel.github.io/radar-de-ativos/) · [O que dá para fazer](#o-que-dá-para-fazer) · [Como funciona](#como-funciona) · [Rodando localmente](#rodando-localmente)
+
+**Projeto pessoal · Dados e automação**
 
 ![Painel no tema escuro](docs/preview-escuro.png)
+
+</div>
+
+---
+
+## O que é o projeto
+
+O Radar de Ativos responde a uma pergunta comum de quem investe: *nesse período, onde o dinheiro teria rendido mais, na renda fixa, na bolsa brasileira, na bolsa americana ou no dólar?* Ele põe todas as opções no mesmo gráfico, começando de R$ 100, e escreve em português simples quem ganhou, por quê e quais notícias mexeram com o mercado naquele momento.
+
+Funciona direto no navegador, sem cadastro e sem instalar nada. A pessoa escolhe o período e os investimentos, e a página recalcula tudo na hora, inclusive um simulador de "e se eu tivesse investido R$ X?". A **Selic** é a taxa básica de juros do país, a referência da renda fixa.
+
+**O que o projeto mostra, para quem avalia o trabalho:**
+
+- **Pipeline de dados completo:** coleta de fontes públicas (Yahoo Finance, Banco Central e Google News), alinhamento das séries e consolidação em uma base única.
+- **Análise automática:** os textos, indicadores e a nota de cada notícia são gerados a partir dos números, para qualquer período escolhido.
+- **Custo zero para manter:** site estático no GitHub Pages e extrator em Node.js sem dependências externas.
+- **Qualidade e automação:** testes automatizados e atualização dos dados por GitHub Actions.
+- **Atenção a detalhes que mudam o resultado:** correção das datas do câmbio e cores pensadas para quem tem daltonismo.
 
 ---
 
