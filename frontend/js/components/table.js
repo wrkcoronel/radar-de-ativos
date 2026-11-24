@@ -35,7 +35,7 @@ export function montarTabelaRetornos({
 
   for (const faixa of indicesFaixas) {
     const th = document.createElement("th");
-    th.textContent = faixa.label;
+    th.textContent = faixa.curto || faixa.label;
     th.dataset.faixaId = faixa.id;
     th.classList.add("periodo-clicavel");
     th.title = `Ver os últimos ${faixa.label} no gráfico`;
@@ -75,6 +75,7 @@ export function montarTabelaRetornos({
     texto.append(nome, desc);
 
     spanAtivo.append(ponto, texto);
+    spanAtivo.title = DESCRICOES_ATIVOS[nomeAtivo] || "";
     tdNome.appendChild(spanAtivo);
     tr.appendChild(tdNome);
 

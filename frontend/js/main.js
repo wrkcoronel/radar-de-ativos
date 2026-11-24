@@ -292,6 +292,17 @@ async function iniciar() {
     gerenciadorTema.vincularGrafico(graficoCtrl.instancia);
     gerenciadorTema.aoMudarTema(() => graficoCtrl.recolorir());
 
+    // Garante que o gráfico acompanhe a largura do quadro (grade responsiva).
+    const areaCanvas = $("grafico-5y").parentElement;
+    let quadroPendente = null;
+    const ajustarGrafico = () => {
+      cancelAnimationFrame(quadroPendente);
+      quadroPendente = requestAnimationFrame(() => graficoCtrl.instancia.resize());
+    };
+    new ResizeObserver(ajustarGrafico).observe(areaCanvas);
+    window.addEventListener("resize", ajustarGrafico);
+    document.fonts?.ready.then(ajustarGrafico);
+
     // ---------- legenda (liga/desliga ativos) ----------
     function aoMudarVisibilidade() {
       legendaEl.querySelectorAll(".legenda-item").forEach((btn) => {
