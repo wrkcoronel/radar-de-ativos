@@ -1,5 +1,5 @@
 {
-  "extraidoEm": "2026-11-24T00:22:19.743Z",
+  "extraidoEm": "2026-11-24T05:45:24.015Z",
   "tickers": {
     "IVVB11.SA": "IVVB11 (S&P 500 em R$)",
     "BOVA11.SA": "BOVA11 (Bolsa Brasil)",
@@ -11,7 +11,7 @@
     "5y": {
       "dataInicio": "2021-11-24",
       "dataFim": "2026-11-23",
-      "totalPregoes": 1448,
+      "totalPregoes": 1288,
       "rankingFinal": [
         {
           "ativo": "Selic Acumulada (Renda Fixa)",
@@ -40,15 +40,15 @@
         },
         {
           "ativo": "USD/BRL (Dólar)",
-          "base100Final": 106.78,
-          "retornoLiquidoPct": 6.78
+          "base100Final": 106.12,
+          "retornoLiquidoPct": 6.12
         }
       ]
     },
     "1y": {
       "dataInicio": "2025-11-24",
       "dataFim": "2026-11-23",
-      "totalPregoes": 288,
+      "totalPregoes": 256,
       "rankingFinal": [
         {
           "ativo": "IVVB11 (S&P 500 em R$)",
@@ -62,8 +62,8 @@
         },
         {
           "ativo": "USD/BRL (Dólar)",
-          "base100Final": 110.11,
-          "retornoLiquidoPct": 10.11
+          "base100Final": 110.42,
+          "retornoLiquidoPct": 10.42
         },
         {
           "ativo": "VOO (S&P 500 em US$)",

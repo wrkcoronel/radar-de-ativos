@@ -2,12 +2,16 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   calcularMaiorQueda,
+  calcularQuedaAtual,
   escaparHtml,
   extrairDecisoesSelic,
+  gerarExtremosHtml,
   gerarResumoHtml,
+  gerarSustoHtml,
   mastigarDadosPeriodo,
   metaSelicAnual,
 } from "../frontend/js/components/summary.js";
+import { aplicarMoeda, prepararMoedas } from "../frontend/js/components/moeda.js";
 
 const SELIC = "Selic Acumulada (Renda Fixa)";
 const BOVA = "BOVA11 (Bolsa Brasil)";
@@ -86,4 +90,75 @@ test("resumo escapa HTML vindo das manchetes", () => {
   const html = gerarResumoHtml(dados, noticias);
   assert.ok(!html.includes("<script>"));
   assert.ok(!html.includes("javascript:"));
+});
+
+// ---------- queda atual, câmbio em reais e manchetes ----------
+
+test("calcularQuedaAtual mede quanto o ativo está abaixo do pico no último dia", () => {
+  const serie = [100, 120, 90, 96].map((v, i) => ({ data: `2024-01-0${i + 1}`, base100: { [BOVA]: v } }));
+  const r = calcularQuedaAtual(serie, BOVA);
+  assert.ok(Math.abs(r.quedaAtualPct + 20) < 1e-9);
+  assert.equal(r.dataPicoAtual, "2024-01-02");
+  const noTopo = calcularQuedaAtual([{ data: "2024-01-01", base100: { [BOVA]: 100 } }, { data: "2024-01-02", base100: { [BOVA]: 110 } }], BOVA);
+  assert.equal(noTopo.quedaAtualPct, 0);
+});
+
+test("quem ainda está no vermelho hoje aparece em 'No vermelho hoje'", () => {
+  // BOVA: grande queda já recuperada, mas hoje está 10% abaixo do novo pico. VOO sobe sempre.
+  const valores = {
+    [SELIC]: [100, 101, 102, 103, 104, 105, 106],
+    [BOVA]: [100, 60, 100, 130, 120, 118, 117],
+    [VOO]: [100, 102, 104, 106, 108, 110, 112],
+  };
+  const serie = valores[SELIC].map((_, i) =>
+    ponto(`2024-01-0${i + 1}`, 10, { [SELIC]: valores[SELIC][i], [BOVA]: valores[BOVA][i], [VOO]: valores[VOO][i] })
+  );
+  const dados = mastigarDadosPeriodo({ serieAtual: serie, ativosVisiveis: [SELIC, BOVA, VOO], noticiasFiltradas: [] });
+
+  assert.deepEqual(dados.quedasAtuais.map((q) => q.ativo), [BOVA]);
+  const html = gerarSustoHtml(dados);
+  assert.match(html, /No vermelho hoje/);
+  assert.match(html, /abaixo do pico de 4 jan 2024/);
+
+  // Quem já aparece como "ainda abaixo do pico" na lista principal não se repete na seção nova.
+  const semRecuperar = serie.map((p, i) => ({ ...p, base100: { ...p.base100, [BOVA]: [100, 130, 125, 120, 115, 110, 104][i] } }));
+  const d2 = mastigarDadosPeriodo({ serieAtual: semRecuperar, ativosVisiveis: [SELIC, BOVA, VOO], noticiasFiltradas: [] });
+  assert.equal(d2.quedasAtuais.length, 0);
+  assert.ok(!gerarSustoHtml(d2).includes("No vermelho hoje"));
+});
+
+test("câmbio: com as duas séries carregadas, reais e dólar vêm da medida direta", () => {
+  const serie = [
+    { data: "2024-01-01", selicDiariaDecimal: diaria(10), base100: { [SELIC]: 100, [VOO]: 100, [DOLAR]: 100 } },
+    { data: "2024-06-01", selicDiariaDecimal: diaria(10), base100: { [SELIC]: 105, [VOO]: 110, [DOLAR]: 120 } },
+  ];
+  prepararMoedas(serie);
+  aplicarMoeda(serie, "brl");
+  const dados = mastigarDadosPeriodo({ serieAtual: serie, ativosVisiveis: [SELIC, VOO, DOLAR], noticiasFiltradas: [] });
+  const voo = dados.efeitoCambio.ativos[0];
+  assert.ok(Math.abs(voo.emDolar - 10) < 1e-9);
+  assert.ok(Math.abs(voo.emReais - 32) < 1e-9);
+  // Em reais, o retorno exibido do VOO já é o convertido (sem aplicar o câmbio duas vezes).
+  assert.ok(Math.abs(dados.desempenho.find((d) => d.ativo === VOO).retornoPct - 32) < 1e-9);
+
+  aplicarMoeda(serie, "usd");
+  const emDolar = mastigarDadosPeriodo({ serieAtual: serie, ativosVisiveis: [SELIC, VOO, DOLAR], noticiasFiltradas: [] });
+  assert.ok(Math.abs(emDolar.desempenho.find((d) => d.ativo === VOO).retornoPct - 10) < 1e-9);
+  assert.ok(Math.abs(emDolar.efeitoCambio.ativos[0].emReais - 32) < 1e-9);
+});
+
+test("manchete do dia mais forte só vem do mesmo dia ou de um dia vizinho", () => {
+  const serie = [
+    ponto("2024-01-01", 10, { [BOVA]: 100 }),
+    ponto("2024-01-02", 10, { [BOVA]: 80 }),
+  ];
+  const longe = { id: "a", data: "2024-01-05", titulo: "Notícia de três dias depois", link: "https://x.test/a", categoria: "Mercado", score: 90, fonte: "Fonte A" };
+  const perto = { id: "b", data: "2024-01-03", titulo: "Notícia do dia seguinte", link: "https://x.test/b", categoria: "Mercado", score: 10, fonte: "Fonte B" };
+
+  const dados = mastigarDadosPeriodo({ serieAtual: serie, ativosVisiveis: [BOVA], noticiasFiltradas: [longe] });
+  assert.ok(!gerarExtremosHtml(dados, [longe]).includes("Notícia de três dias depois"));
+
+  const html = gerarExtremosHtml(dados, [longe, perto]);
+  assert.match(html, /Notícia do dia seguinte/);
+  assert.match(html, /Fonte B · 3 jan 2024/);
 });

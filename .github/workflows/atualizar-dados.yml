@@ -1,0 +1,55 @@
+name: Atualizar dados
+
+on:
+  # Só roda quando alguém clica em "Run workflow" (aba Actions). Não é agendado de propósito:
+  # a janela de 5 anos desliza todo dia e reescreve o consolidado inteiro, o que incharia o histórico.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Testar
+        run: npm test
+
+      - name: Extrair preços, Selic e notícias
+        run: npm run extrair
+
+      - name: Conferir os dados gerados
+        run: |
+          node --input-type=module -e '
+            import fs from "node:fs";
+            const d = JSON.parse(fs.readFileSync("dados/consolidado_5y.json", "utf8"));
+            const n = JSON.parse(fs.readFileSync("dados/noticias.json", "utf8"));
+            const ok = d.totalPregoes > 1000 && d.rankingFinal.length === 6 && n.noticias.length > 100;
+            console.log(`dataFim=${d.dataFim} pregoes=${d.totalPregoes} noticias=${n.noticias.length}`);
+            if (!ok) { console.error("Dados incompletos: nada será publicado."); process.exit(1); }
+          '
+
+      - name: Publicar só se os dados mudaram
+        run: |
+          git add dados
+          # "extraidoEm" muda a cada execução; só conta como mudança o que não é esse carimbo de hora.
+          if ! git diff --cached -U0 -I '"extraidoEm"' -- dados | grep -qE '^[+-][^+-]'; then
+            echo "Sem mudanças nos dados."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          DATA_FIM=$(node -p 'JSON.parse(require("fs").readFileSync("dados/consolidado_5y.json","utf8")).dataFim')
+          git commit -m "Atualiza dados até ${DATA_FIM}"
+          git push

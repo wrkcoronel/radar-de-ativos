@@ -15,6 +15,7 @@ function deParams(params) {
   if (params.get("ocultar")) e.ocultos = params.get("ocultar").split(",").filter(Boolean);
   if (params.has("valor")) e.valorInicial = limparNumero(params.get("valor"));
   if (params.has("aporte")) e.aporteMensal = limparNumero(params.get("aporte"));
+  if (params.get("moeda") === "usd") e.moeda = "usd";
   return e;
 }
 
@@ -29,9 +30,11 @@ export function lerEstado() {
   }
 }
 
-export function salvarEstado({ de, ate, completo, faixaId, ocultos, valorInicial, aporteMensal }) {
+const CHAVES_SALVAS = ["p", "de", "ate", "ocultar", "valor", "aporte", "moeda"];
+
+export function salvarEstado({ de, ate, completo, faixaId, ocultos, valorInicial, aporteMensal, moeda }) {
   const params = new URLSearchParams(window.location.search);
-  ["p", "de", "ate", "ocultar", "valor", "aporte"].forEach((k) => params.delete(k));
+  CHAVES_SALVAS.forEach((k) => params.delete(k));
 
   // Atalhos (6M, 1A...) ficam relativos: amanhã continuam sendo "os últimos 6 meses".
   if (!completo && faixaId) {
@@ -43,13 +46,14 @@ export function salvarEstado({ de, ate, completo, faixaId, ocultos, valorInicial
   if (ocultos.length) params.set("ocultar", ocultos.join(","));
   if (valorInicial !== 1000) params.set("valor", String(valorInicial));
   if (aporteMensal !== 0) params.set("aporte", String(aporteMensal));
+  if (moeda === "usd") params.set("moeda", "usd");
 
   const qs = params.toString();
   history.replaceState(null, "", `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash}`);
 
   try {
     const paraSalvar = Object.fromEntries(
-      [...params.entries()].filter(([k]) => ["p", "de", "ate", "ocultar", "valor", "aporte"].includes(k))
+      [...params.entries()].filter(([k]) => CHAVES_SALVAS.includes(k))
     );
     localStorage.setItem(CHAVE, JSON.stringify(paraSalvar));
   } catch {

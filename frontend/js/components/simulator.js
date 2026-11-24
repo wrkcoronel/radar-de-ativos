@@ -1,7 +1,13 @@
-import { CORES_ATIVOS, DOLAR_LABEL, NOMES_CURTOS_ATIVOS, SELIC_LABEL } from "../config/constants.js";
+import {
+  ATIVOS_EM_DOLAR,
+  CORES_ATIVOS,
+  DOLAR_LABEL,
+  NOMES_CURTOS_ATIVOS,
+  SELIC_LABEL,
+} from "../config/constants.js";
 import { formatarPct } from "../utils/formatters.js";
 
-export const ATIVOS_COTADOS_EM_DOLAR = ["VOO (S&P 500 em US$)", "QQQ (Nasdaq Tech em US$)"];
+export const ATIVOS_COTADOS_EM_DOLAR = ATIVOS_EM_DOLAR;
 
 function reais(v) {
   return v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
@@ -11,8 +17,12 @@ function reaisSinal(v) {
   return `${v > 0 ? "+" : v < 0 ? "−" : ""}${reais(Math.abs(v))}`;
 }
 
-/** Preço em reais (índice) de um ativo num dia; ETFs em dólar são convertidos pelo câmbio. */
+/**
+ * Preço em reais (índice) de um ativo num dia. O simulador é sempre em reais, qualquer que seja a moeda
+ * escolhida no gráfico: usa a série já convertida e, sem ela, converte os ETFs em dólar pelo câmbio.
+ */
 export function precoEmReais(ponto, ativo) {
+  if (ponto.base100Brl) return ponto.base100Brl[ativo] ?? null;
   const v = ponto.base100[ativo];
   if (v == null) return null;
   if (ATIVOS_COTADOS_EM_DOLAR.includes(ativo)) {

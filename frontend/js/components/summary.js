@@ -1,8 +1,15 @@
-import { CORES_ATIVOS, DOLAR_LABEL, NOMES_CURTOS_ATIVOS, SELIC_LABEL } from "../config/constants.js";
+import {
+  ATIVOS_EM_DOLAR,
+  CORES_ATIVOS,
+  DOLAR_LABEL,
+  NOMES_CURTOS_ATIVOS,
+  SELIC_LABEL,
+} from "../config/constants.js";
 import { formatarDataBR, formatarNumero, formatarPct } from "../utils/formatters.js";
 
 export { DOLAR_LABEL };
-const ATIVOS_EM_DOLAR = ["VOO (S&P 500 em US$)", "QQQ (Nasdaq Tech em US$)"];
+const QUEDA_ATUAL_MINIMA_PCT = -5;
+const JANELA_MANCHETE_DIAS = 1;
 const PREGOES_PARA_CONFIRMAR_SELIC = 3;
 
 // ---------- utilitários ----------
@@ -102,9 +109,9 @@ export function extrairDecisoesSelic(serie) {
   return { metaInicial, metaFinal: metaVigente, decisoes };
 }
 
-function retornoEntre(serie, ativo) {
-  const v0 = serie[0].base100[ativo];
-  const v1 = serie[serie.length - 1].base100[ativo];
+function retornoEntre(serie, ativo, campo = "base100") {
+  const v0 = serie[0][campo][ativo];
+  const v1 = serie[serie.length - 1][campo][ativo];
   return v0 && v1 != null ? ((v1 / v0) - 1) * 100 : null;
 }
 
@@ -138,6 +145,24 @@ export function calcularMaiorQueda(serie, ativo) {
   return { ...pior, recuperou: valorPico != null && final >= valorPico };
 }
 
+/** Quanto o ativo está abaixo do pico do recorte no último dia (0 se está no topo). */
+export function calcularQuedaAtual(serie, ativo) {
+  let pico = null;
+  let dataPico = null;
+  for (const ponto of serie) {
+    const v = ponto.base100[ativo];
+    if (v == null) continue;
+    if (pico == null || v > pico) {
+      pico = v;
+      dataPico = ponto.data;
+    }
+  }
+  const final = serie[serie.length - 1].base100[ativo];
+  if (pico == null || final == null) return { quedaAtualPct: 0, dataPicoAtual: null };
+  return { quedaAtualPct: ((final / pico) - 1) * 100, dataPicoAtual: dataPico };
+}
+
+/** Só aceita manchete do próprio dia ou de um dia vizinho: a de dias antes ou depois conta outra história. */
 function encontrarNoticiaProxima(dataIso, noticias, jaUsadas) {
   const alvo = Date.parse(dataIso);
   let melhor = null;
@@ -147,7 +172,7 @@ function encontrarNoticiaProxima(dataIso, noticias, jaUsadas) {
     if (jaUsadas.has(n.id ?? n.link)) continue;
     const distDias = Math.abs(Date.parse(n.data) - alvo) / 86400000;
     if (
-      distDias <= 3 &&
+      distDias <= JANELA_MANCHETE_DIAS &&
       (distDias < menorDist || (distDias === menorDist && n.score > (melhor?.score ?? 0)))
     ) {
       menorDist = distDias;
@@ -188,19 +213,23 @@ export function mastigarDadosPeriodo({ serieAtual, ativosVisiveis, noticiasFiltr
   const venceramSelic =
     retornoSelic != null ? deRisco.filter((d) => d.retornoPct > retornoSelic) : [];
 
-  // Câmbio: efeito em reais para quem compra ETF em dólar a partir do Brasil.
+  // Câmbio: efeito em reais para quem compra ETF em dólar a partir do Brasil. Com as duas séries
+  // carregadas (base100Usd/base100Brl), vale a medida direta; sem elas, compõe retorno e câmbio.
   const retornoDolar = retornoEntre(serieAtual, DOLAR_LABEL);
+  const temMoedas = Boolean(serieAtual[0].base100Usd);
   const efeitoCambio =
     retornoDolar != null && Math.abs(retornoDolar) >= 1
       ? {
           retornoDolar,
           ativos: deRisco
             .filter((d) => ATIVOS_EM_DOLAR.includes(d.ativo))
-            .map((d) => ({
-              nomeCurto: d.nomeCurto,
-              emDolar: d.retornoPct,
-              emReais: ((1 + d.retornoPct / 100) * (1 + retornoDolar / 100) - 1) * 100,
-            })),
+            .map((d) => {
+              const emDolar = temMoedas ? retornoEntre(serieAtual, d.ativo, "base100Usd") : d.retornoPct;
+              const emReais = temMoedas
+                ? retornoEntre(serieAtual, d.ativo, "base100Brl")
+                : ((1 + d.retornoPct / 100) * (1 + retornoDolar / 100) - 1) * 100;
+              return { nomeCurto: d.nomeCurto, emDolar, emReais };
+            }),
         }
       : null;
 
@@ -228,6 +257,17 @@ export function mastigarDadosPeriodo({ serieAtual, ativosVisiveis, noticiasFiltr
         .map((d) => ({ ...d, ...calcularMaiorQueda(serieAtual, d.ativo) }))
         .filter((d) => d.quedaPct <= -3)
         .sort((a, b) => a.quedaPct - b.quedaPct)
+        .slice(0, 3)
+    : [];
+
+  // Queda atual: quem ainda está no vermelho hoje, mesmo que já não seja a maior queda do período.
+  const jaListados = new Set(quedas.filter((q) => !q.recuperou).map((q) => q.ativo));
+  const quedasAtuais = serieAtual.length > 5
+    ? deRisco
+        .filter((d) => !jaListados.has(d.ativo))
+        .map((d) => ({ ...d, ...calcularQuedaAtual(serieAtual, d.ativo) }))
+        .filter((d) => d.quedaAtualPct <= QUEDA_ATUAL_MINIMA_PCT)
+        .sort((a, b) => a.quedaAtualPct - b.quedaAtualPct)
         .slice(0, 3)
     : [];
 
@@ -260,6 +300,7 @@ export function mastigarDadosPeriodo({ serieAtual, ativosVisiveis, noticiasFiltr
     maiorAlta,
     maiorQueda,
     quedas,
+    quedasAtuais,
     selicCtx,
     // Mantido por compatibilidade: agora conta decisões reais do Copom.
     mudancasSelic: selicCtx.decisoes.length,
@@ -540,24 +581,34 @@ export function gerarPlacarHtml(dados) {
   `;
 }
 
-/** Maior queda do pico ao fundo de cada ativo de risco. */
+/** Maior queda do pico ao fundo de cada ativo de risco e quem ainda está no vermelho hoje. */
 export function gerarSustoHtml(dados) {
-  if (!dados.lider || dados.quedas.length === 0) return "";
+  const quedasAtuais = dados.quedasAtuais || [];
+  if (!dados.lider || (dados.quedas.length === 0 && quedasAtuais.length === 0)) return "";
+
+  const item = (numero, texto) => `
+    <li>
+      <span class="susto-numero valor-negativo">${formatarPct(numero)}</span>
+      <span class="susto-texto">${texto}</span>
+    </li>`;
+
+  const maiores = dados.quedas.map((q) =>
+    item(
+      q.quedaPct,
+      `<strong>${escaparHtml(q.nomeCurto)}</strong> caiu do pico de ${dataJornal(q.dataPico)} até ${dataJornal(q.dataFundo)}.
+       <em>${q.recuperou ? "Já recuperou." : "Ainda está abaixo do pico."}</em>`
+    )
+  );
+  const atuais = quedasAtuais.map((q) =>
+    item(
+      q.quedaAtualPct,
+      `<strong>${escaparHtml(q.nomeCurto)}</strong> está abaixo do pico de ${dataJornal(q.dataPicoAtual)}.`
+    )
+  );
+
   return `
-    <ul class="lista-susto">
-      ${dados.quedas
-        .map(
-          (q) => `
-            <li>
-              <span class="susto-numero valor-negativo">${formatarPct(q.quedaPct)}</span>
-              <span class="susto-texto">
-                <strong>${escaparHtml(q.nomeCurto)}</strong> caiu do pico de ${dataJornal(q.dataPico)} até ${dataJornal(q.dataFundo)}.
-                <em>${q.recuperou ? "Já recuperou." : "Ainda está abaixo do pico."}</em>
-              </span>
-            </li>`
-        )
-        .join("")}
-    </ul>
+    ${maiores.length ? `<ul class="lista-susto">${maiores.join("")}</ul>` : ""}
+    ${atuais.length ? `<p class="susto-subtitulo">No vermelho hoje</p><ul class="lista-susto">${atuais.join("")}</ul>` : ""}
     ${nota("Quanto o investimento chegou a cair desde o ponto mais alto.")}
   `;
 }
@@ -577,7 +628,8 @@ export function gerarExtremosHtml(dados, noticiasFiltradas) {
         <span class="extremo-meta">${escaparHtml(mov.nomeCurto)} · ${dataJornal(mov.data)}</span>
         ${
           noticia
-            ? `<a class="extremo-link" href="${urlSegura(noticia.link)}" target="_blank" rel="noopener noreferrer">“${escaparHtml(noticia.titulo)}”</a>`
+            ? `<a class="extremo-link" href="${urlSegura(noticia.link)}" target="_blank" rel="noopener noreferrer">“${escaparHtml(noticia.titulo)}”</a>
+               <span class="extremo-fonte">${escaparHtml(noticia.fonte || "")}${noticia.fonte ? " · " : ""}${dataJornal(noticia.data)}</span>`
             : ""
         }
       </div>`;
@@ -588,7 +640,7 @@ export function gerarExtremosHtml(dados, noticiasFiltradas) {
       ${bloco("Maior alta em um dia", maiorAlta, "valor-positivo")}
       ${maiorQueda.varPct < 0 ? bloco("Maior queda em um dia", maiorQueda, "valor-negativo") : ""}
     </div>
-    ${nota("Com a manchete publicada mais perto da data.")}
+    ${nota("Manchete do mesmo dia ou de um dia vizinho, quando houver.")}
   `;
 }
 
