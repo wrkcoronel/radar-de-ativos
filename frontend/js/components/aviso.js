@@ -1,11 +1,12 @@
-// Aviso de isenção de responsabilidade: aparece na primeira visita e a cada 30 dias.
-const CHAVE = "radar-ativos-aviso-aceito";
-const VALIDADE_MS = 30 * 24 * 60 * 60 * 1000;
+// Aviso de isenção de responsabilidade.
+// Aparece uma única vez por navegador. Volta se a pessoa limpar os dados do site,
+// usar outro navegador/aparelho, ou se o texto do aviso mudar (aumente VERSAO_AVISO).
+const VERSAO_AVISO = 1;
+const CHAVE = `radar-ativos-aviso-v${VERSAO_AVISO}`;
 
-function aceitoRecentemente() {
+function jaAceitou() {
   try {
-    const quando = Number(localStorage.getItem(CHAVE));
-    return Number.isFinite(quando) && Date.now() - quando < VALIDADE_MS;
+    return localStorage.getItem(CHAVE) !== null;
   } catch {
     return false;
   }
@@ -23,14 +24,14 @@ export function iniciarAvisoLegal({ avisoEl, btnOkEl, btnAbrirEl }) {
     avisoEl.hidden = true;
     document.body.classList.remove("com-aviso");
     try {
-      localStorage.setItem(CHAVE, String(Date.now()));
+      localStorage.setItem(CHAVE, new Date().toISOString());
     } catch {
-      // sem localStorage o aviso volta na próxima visita
+      // sem armazenamento local (ex.: bloqueado), o aviso volta na próxima visita
     }
   }
 
   btnOkEl.addEventListener("click", fechar);
   btnAbrirEl?.addEventListener("click", mostrar);
 
-  if (!aceitoRecentemente()) mostrar();
+  if (!jaAceitou()) mostrar();
 }
