@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { SELIC_LABEL, TICKERS } from "../backend/config/constants.js";
-import { consolidarPeriodo, gerarResumo } from "../backend/domain/consolidador.js";
+import { consolidarPeriodo, corrigirDatasCambio, gerarResumo } from "../backend/domain/consolidador.js";
 
 function criarAtivosMock() {
   return {
@@ -90,4 +90,85 @@ test("consolidarPeriodo respeita dataCorteIso e gerarResumo consolida períodos"
   const resumo = gerarResumo(full, recorte);
   assert.equal(resumo.periodos["5y"].totalPregoes, 3);
   assert.equal(resumo.periodos["1y"].totalPregoes, 2);
+});
+
+// ---------- câmbio (BRL=X) ----------
+
+test("corrigirDatasCambio: no inverno o carimbo vale o fechamento do dia anterior", () => {
+  // 2024-01-03 (quarta, GMT): a foto da meia-noite de Londres é o fechamento de terça.
+  const r = corrigirDatasCambio([
+    { data: "2024-01-03", adjclose: 5.0 },
+    { data: "2024-01-04", adjclose: 5.1 },
+  ]);
+  assert.deepEqual(r, [
+    { data: "2024-01-02", adjclose: 5.0 },
+    { data: "2024-01-03", adjclose: 5.1 },
+  ]);
+});
+
+test("corrigirDatasCambio: no verão a data UTC já é a do fechamento", () => {
+  // 2025-07-02 (quarta, BST): carimbo das 23:00 UTC do dia anterior à meia-noite de Londres.
+  const r = corrigirDatasCambio([{ data: "2025-07-02", adjclose: 5.4 }]);
+  assert.deepEqual(r, [{ data: "2025-07-02", adjclose: 5.4 }]);
+});
+
+test("corrigirDatasCambio: sábado e domingo valem como o fechamento da sexta", () => {
+  const r = corrigirDatasCambio([
+    { data: "2025-07-06", adjclose: 5.42 }, // domingo (verão)
+    { data: "2026-11-23", adjclose: 5.95 }, // segunda (inverno) -> domingo -> sexta
+  ]);
+  assert.deepEqual(r, [
+    { data: "2025-07-04", adjclose: 5.42 },
+    { data: "2026-11-20", adjclose: 5.95 },
+  ]);
+});
+
+test("corrigirDatasCambio respeita a virada do horário de verão", () => {
+  // 2025-03-30 foi o último domingo de março: segunda 31/03 já está em BST (carimbo de domingo 23:00 UTC).
+  assert.equal(corrigirDatasCambio([{ data: "2025-03-30", adjclose: 1 }])[0].data, "2025-03-28");
+  // 2025-10-26 foi o último domingo de outubro: segunda 27/10 já está em GMT (carimbo 00:00 UTC de segunda).
+  assert.equal(corrigirDatasCambio([{ data: "2025-10-27", adjclose: 1 }])[0].data, "2025-10-24");
+});
+
+test("o câmbio não cria linhas em fim de semana e entra com a última cotação até o dia", () => {
+  const ativos = criarAtivosMock();
+  // Câmbio com cotação de domingo (verão) e nenhum pregão de bolsa no domingo.
+  ativos["BRL=X"] = {
+    historico: [
+      { data: "2024-07-01", adjclose: 5.0 }, // segunda (verão) = fechamento de segunda
+      { data: "2024-07-02", adjclose: 5.5 }, // terça
+      { data: "2024-07-07", adjclose: 5.6 }, // domingo = fechamento de sexta
+    ],
+  };
+  for (const t of ["IVVB11.SA", "BOVA11.SA", "VOO", "QQQ"]) {
+    ativos[t].historico = ativos[t].historico.map((r, i) => ({
+      ...r,
+      data: ["2024-07-01", "2024-07-02", "2024-07-05"][i] ?? r.data,
+    }));
+  }
+  ativos["BOVA11.SA"].historico = [
+    { data: "2024-07-01", adjclose: 50 },
+    { data: "2024-07-05", adjclose: 45 },
+  ];
+  const resultado = consolidarPeriodo(ativos, SELIC_MOCK);
+  assert.deepEqual(resultado.serieDiaria.map((p) => p.data), ["2024-07-01", "2024-07-02", "2024-07-05"]);
+  assert.equal(resultado.serieDiaria[1].precos["BRL=X"], 5.5);
+  assert.equal(resultado.serieDiaria[2].precos["BRL=X"], 5.6);
+});
+
+test("a Selic acumula os dias úteis que o calendário dos ativos pula", () => {
+  const ativos = criarAtivosMock();
+  const selic = [
+    { data: "2024-01-02", taxaDiariaDecimal: 0.001 },
+    { data: "2024-01-03", taxaDiariaDecimal: 0.001 },
+    { data: "2024-01-04", taxaDiariaDecimal: 0.001 },
+  ];
+  // Só dois pregões em comum: 02 e 04. O dia 03 (útil na Selic) precisa entrar no acumulado.
+  for (const t of Object.keys(ativos)) {
+    ativos[t].historico = ativos[t].historico.filter((r) => r.data !== "2024-01-03");
+  }
+  const r = consolidarPeriodo(ativos, selic);
+  assert.equal(r.serieDiaria.length, 2);
+  const esperado = (1.001 * 1.001) * 100;
+  assert.ok(Math.abs(r.serieDiaria[1].base100[SELIC_LABEL] - esperado) < 1e-3);
 });

@@ -56,6 +56,13 @@
         <span class="barra-rotulo">Investimentos</span>
         <div id="legenda-ativos" class="legenda" role="group" aria-label="Mostrar ou esconder investimentos"></div>
       </div>
+      <div class="barra-grupo">
+        <span class="barra-rotulo">VOO e QQQ em</span>
+        <div class="seletor-moeda" role="group" aria-label="Moeda de VOO e QQQ">
+          <button type="button" class="btn-moeda ativo" data-moeda="brl" aria-pressed="true">Reais</button>
+          <button type="button" class="btn-moeda" data-moeda="usd" aria-pressed="false">Dólar</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -68,7 +75,7 @@
       </div>
       <div class="resumo-detalhe">
         <p id="abertura-linha-fina" class="linha-fina"></p>
-        <p class="assinatura">Leitura automática · <span id="abertura-periodo"></span></p>
+        <p class="assinatura">Leitura automática · <span id="abertura-periodo"></span> · vale só para este recorte</p>
       </div>
     </section>
 
@@ -90,7 +97,7 @@
           <canvas id="grafico-5y" role="img" aria-label="Gráfico de linhas com a evolução de R$ 100 em cada investimento"></canvas>
         </div>
         <p class="bloco-rodape">
-          Arraste no gráfico para ampliar · duplo clique ou Esc volta · VOO e QQQ em dólar (no simulador, em reais) · Fontes: Yahoo Finance e BCB
+          Arraste no gráfico para ampliar · duplo clique ou Esc volta · <span id="nota-moeda">VOO e QQQ convertidos para reais pelo dólar do dia</span> · Fontes: Yahoo Finance e BCB
         </p>
       </section>
 
@@ -192,7 +199,7 @@
     <!-- Bastidores -->
     <footer id="como-funciona" class="bastidores">
       <div class="bastidores-etapas">
-        <div><strong>1 · Coleta diária.</strong> Extrator em Node.js (sem dependências) busca preços no Yahoo Finance, a Selic no BCB e manchetes no Google News.</div>
+        <div><strong>1 · Coleta.</strong> Extrator em Node.js (sem dependências) busca preços no Yahoo Finance, a Selic no BCB e manchetes no Google News.</div>
         <div><strong>2 · Consolidação.</strong> Séries alinhadas dia a dia na mesma base; cada notícia ganha nota de 0 a 100 por impacto no preço, tema e fonte.</div>
         <div><strong>3 · Análise no navegador.</strong> Textos, indicadores e simulações são calculados na hora para qualquer filtro, sem servidor.</div>
       </div>

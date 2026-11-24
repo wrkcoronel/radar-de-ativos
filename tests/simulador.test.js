@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { precoEmReais, simularInvestimento } from "../frontend/js/components/simulator.js";
 import { gerarCsv } from "../frontend/js/components/exportar.js";
+import { aplicarMoeda, prepararMoedas } from "../frontend/js/components/moeda.js";
 
 const SELIC = "Selic Acumulada (Renda Fixa)";
 const VOO = "VOO (S&P 500 em US$)";
@@ -52,4 +53,18 @@ test("CSV sai no padrão do Excel em português e rebaseado em R$ 100", () => {
   assert.equal(linhas[0], "Data;Selic (R$ 100 no início)");
   assert.equal(linhas[1], "02/01/2024;100,00");
   assert.equal(linhas[2], "03/01/2024;110,00");
+});
+
+test("com a série em reais já carregada, o simulador não converte o câmbio duas vezes", () => {
+  const serie = [
+    p("2024-01-02", { [VOO]: 100, [DOLAR]: 100 }),
+    p("2024-12-30", { [VOO]: 100, [DOLAR]: 125 }),
+  ];
+  prepararMoedas(serie);
+  for (const moeda of ["brl", "usd"]) {
+    aplicarMoeda(serie, moeda);
+    const r = simularInvestimento(serie, VOO, { valorInicial: 1000 });
+    // O simulador é sempre em reais, qualquer que seja a moeda do gráfico.
+    assert.ok(Math.abs(r.valorFinal - 1250) < 1e-9, moeda);
+  }
 });

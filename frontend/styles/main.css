@@ -185,6 +185,7 @@ select {
 
 .btn-tema,
 .chip-periodo,
+.btn-moeda,
 .btn-ordem {
   background: none;
   border: none;
@@ -199,6 +200,7 @@ select {
 
 .btn-tema:hover,
 .chip-periodo:hover,
+.btn-moeda:hover,
 .btn-ordem:hover {
   color: var(--text-strong);
   background-color: var(--surface-hover);
@@ -206,6 +208,7 @@ select {
 
 .btn-tema.ativo,
 .chip-periodo.ativo,
+.btn-moeda.ativo,
 .btn-ordem.ativo {
   color: var(--bg);
   background-color: var(--text-strong);
@@ -213,6 +216,7 @@ select {
 
 .seletor-tema,
 .chips-periodo,
+.seletor-moeda,
 .seletor-ordenacao {
   display: inline-flex;
   gap: 2px;
@@ -767,6 +771,13 @@ select {
   color: var(--text);
 }
 
+.extremo-fonte {
+  margin-top: 4px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
 .extremo-link {
   margin-top: 6px;
   font-family: var(--serifa);
@@ -821,6 +832,17 @@ select {
 
 .susto-texto strong {
   color: var(--text-strong);
+}
+
+.susto-subtitulo {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
 }
 
 .susto-texto em {

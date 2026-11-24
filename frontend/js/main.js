@@ -29,6 +29,7 @@ import {
   sincronizarVisibilidadeTabela,
 } from "./components/table.js";
 import { iniciarGerenciadorTema } from "./components/theme.js";
+import { MOEDA_PADRAO, aplicarMoeda, prepararMoedas } from "./components/moeda.js";
 
 const ROTULOS_CHIPS = { "1m": "1M", "3m": "3M", "6m": "6M", ytd: "No ano", "1y": "1A", "5y": "5A" };
 const VALOR_INICIAL_PADRAO = 1000;
@@ -47,12 +48,10 @@ function montarRodapeAutor(el) {
 
   const titulo = document.createElement("span");
   titulo.className = "ficha-rotulo";
-  titulo.textContent = "Autor";
-
-  const linha = document.createElement("span");
-  linha.className = "ficha-links";
   titulo.textContent = "Autor:";
-  if (nome) linha.append(nome);
+
+  const partes = [];
+  if (nome) partes.push(nome);
   for (const [rotulo, href] of [["GitHub", github], ["LinkedIn", linkedin]]) {
     if (!href) continue;
     const a = document.createElement("a");
@@ -60,8 +59,15 @@ function montarRodapeAutor(el) {
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.textContent = rotulo;
-    linha.append(" · ", a);
+    partes.push(a);
   }
+
+  const linha = document.createElement("span");
+  linha.className = "ficha-links";
+  partes.forEach((parte, i) => {
+    if (i > 0) linha.append(" · ");
+    linha.append(parte);
+  });
   el.append(titulo, linha);
   el.hidden = false;
 }
@@ -126,10 +132,6 @@ async function iniciar() {
     const ultimoIdx = serieCompleta.length - 1;
     const indicePorData = new Map(serieCompleta.map((p, i) => [p.data, i]));
 
-    const ordemAtivos = dados.rankingFinal
-      ? dados.rankingFinal.map((r) => r.ativo)
-      : Object.keys(serieCompleta[0].base100);
-
     // ---------- estado ----------
     const salvo = lerEstado();
     const estado = {
@@ -137,7 +139,14 @@ async function iniciar() {
       idxFim: ultimoIdx,
       valorInicial: salvo.valorInicial ?? VALOR_INICIAL_PADRAO,
       aporteMensal: salvo.aporteMensal ?? 0,
+      moeda: salvo.moeda ?? MOEDA_PADRAO,
     };
+
+    // VOO e QQQ em reais (padrão) ou em dólar; a ordem da legenda segue o resultado na moeda inicial.
+    prepararMoedas(serieCompleta);
+    aplicarMoeda(serieCompleta, estado.moeda);
+    const finalBase100 = serieCompleta[ultimoIdx].base100;
+    const ordemAtivos = Object.keys(finalBase100).sort((a, b) => finalBase100[b] - finalBase100[a]);
     let serieAtual = serieCompleta;
 
     $("selo-atualizacao-texto").textContent = `Dados até ${dataJornal(serieCompleta[ultimoIdx].data)}`;
@@ -209,6 +218,7 @@ async function iniciar() {
         ocultos: ocultosAtuais(),
         valorInicial: estado.valorInicial,
         aporteMensal: estado.aporteMensal,
+        moeda: estado.moeda,
       });
     }
 
@@ -372,16 +382,45 @@ async function iniciar() {
     dataAteEl.addEventListener("change", aoMudarDatas);
 
     // ---------- tabela ----------
-    montarTabelaRetornos({
-      theadEl: tabelaHeadEl,
-      tbodyEl: tabelaBodyEl,
-      serieCompleta,
-      ordemAtivos,
-      aoSelecionarFaixa: (novaSerie) => {
-        definirPeriodoPorFatia(novaSerie);
-        $("grafico").scrollIntoView({ behavior: "smooth", block: "start" });
-      },
-    });
+    function montarTabela() {
+      montarTabelaRetornos({
+        theadEl: tabelaHeadEl,
+        tbodyEl: tabelaBodyEl,
+        serieCompleta,
+        ordemAtivos,
+        aoSelecionarFaixa: (novaSerie) => {
+          definirPeriodoPorFatia(novaSerie);
+          $("grafico").scrollIntoView({ behavior: "smooth", block: "start" });
+        },
+      });
+      sincronizarVisibilidadeTabela(tabelaBodyEl, graficoCtrl.estaVisivel);
+    }
+    montarTabela();
+
+    // ---------- moeda de VOO e QQQ ----------
+    const botoesMoeda = document.querySelectorAll(".btn-moeda");
+    function atualizarControlesMoeda() {
+      botoesMoeda.forEach((btn) => {
+        const ativo = btn.dataset.moeda === estado.moeda;
+        btn.classList.toggle("ativo", ativo);
+        btn.setAttribute("aria-pressed", String(ativo));
+      });
+      $("nota-moeda").textContent =
+        estado.moeda === "usd"
+          ? "VOO e QQQ em dólar, como são cotados (o simulador segue em reais)"
+          : "VOO e QQQ convertidos para reais pelo dólar do dia";
+    }
+
+    function definirMoeda(moeda) {
+      if (moeda === estado.moeda) return;
+      estado.moeda = moeda;
+      aplicarMoeda(serieCompleta, moeda);
+      atualizarControlesMoeda();
+      montarTabela();
+      renderizarTudo();
+    }
+    botoesMoeda.forEach((btn) => btn.addEventListener("click", () => definirMoeda(btn.dataset.moeda)));
+    atualizarControlesMoeda();
 
     // ---------- simulador ----------
     let timerSim = null;
@@ -400,7 +439,9 @@ async function iniciar() {
 
     // ---------- ações ----------
     $("btn-csv").addEventListener("click", () => {
-      baixarCsv(serieAtual, graficoCtrl.obterAtivosVisiveis());
+      // O CSV sai sempre em reais, como o simulador.
+      const emReais = serieAtual.map((p) => ({ ...p, base100: p.base100Brl }));
+      baixarCsv(emReais, graficoCtrl.obterAtivosVisiveis());
     });
 
     $("btn-copiar-link").addEventListener("click", async (e) => {
@@ -425,6 +466,9 @@ async function iniciar() {
       simValorEl.value = String(VALOR_INICIAL_PADRAO);
       simAporteEl.value = "0";
       limparEstadoSalvo();
+      if (estado.moeda !== MOEDA_PADRAO) {
+        definirMoeda(MOEDA_PADRAO);
+      }
       definirPeriodo(0, ultimoIdx);
       mostrarAviso(e.currentTarget, "Filtros limpos");
     });

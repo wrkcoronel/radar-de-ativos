@@ -1,6 +1,9 @@
 export const SELIC_LABEL = "Selic Acumulada (Renda Fixa)";
 export const DOLAR_LABEL = "USD/BRL (Dólar)";
 
+// ETFs cotados em dólar: a página mostra em reais por padrão (quem investe do Brasil recebe em reais).
+export const ATIVOS_EM_DOLAR = ["VOO (S&P 500 em US$)", "QQQ (Nasdaq Tech em US$)"];
+
 // Cor fixa por ativo (nunca pela posição no ranking). Os valores reais ficam em
 // variáveis CSS (--ativo-*) com um passo para o tema claro e outro para o escuro,
 // validados para daltonismo com a skill de dataviz.
@@ -39,8 +42,8 @@ export const NOMES_CURTOS_ATIVOS = {
 export const DESCRICOES_ATIVOS = {
   "Selic Acumulada (Renda Fixa)": "Renda fixa: o rendimento da taxa básica de juros",
   "IVVB11 (S&P 500 em R$)": "As 500 maiores empresas dos EUA, comprado em reais",
-  "QQQ (Nasdaq Tech em US$)": "As gigantes de tecnologia dos EUA, em dólar",
-  "VOO (S&P 500 em US$)": "As 500 maiores empresas dos EUA, em dólar",
+  "QQQ (Nasdaq Tech em US$)": "As gigantes de tecnologia dos EUA (ETF cotado em dólar)",
+  "VOO (S&P 500 em US$)": "As 500 maiores empresas dos EUA (ETF cotado em dólar)",
   "BOVA11 (Bolsa Brasil)": "As principais empresas da bolsa brasileira",
   "USD/BRL (Dólar)": "Quantos reais custa um dólar",
 };
@@ -95,7 +98,7 @@ export const DURACAO_TRANSICAO_TEMA_MS = 280;
 
 // Preencha para exibir seus links no rodapé (deixe vazio para ocultar).
 export const PERFIL_AUTOR = {
-  nome: "",
+  nome: "Pedro Coronel",
   github: "https://github.com/wrkcoronel",
   linkedin: "",
 };
