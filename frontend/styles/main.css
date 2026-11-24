@@ -1373,3 +1373,64 @@ body.com-aviso {
     animation: none;
   }
 }
+
+/* ---------- Retorno por prazo: cabe no quadro, sem rolagem ---------- */
+
+.bloco-retornos .tabela-scroll {
+  overflow-x: visible;
+}
+
+.bloco-retornos .tabela-retornos {
+  table-layout: fixed;
+  font-size: 0.84rem;
+}
+
+.bloco-retornos .tabela-retornos th,
+.bloco-retornos .tabela-retornos td {
+  padding: 11px 4px;
+}
+
+.bloco-retornos .tabela-retornos th:first-child,
+.bloco-retornos .tabela-retornos td:first-child {
+  width: 96px;
+  position: static;
+}
+
+.bloco-retornos .tabela-retornos thead th {
+  letter-spacing: 0.04em;
+}
+
+.bloco-retornos .ativo-textos small {
+  display: none;
+}
+
+.bloco-retornos .ativo-celula {
+  cursor: help;
+}
+
+/* No celular não há largura para 9 colunas: só ali a tabela rola. */
+@media (max-width: 640px) {
+  .bloco-retornos .tabela-scroll {
+    overflow-x: auto;
+  }
+
+  .bloco-retornos .tabela-retornos {
+    table-layout: auto;
+  }
+
+  .bloco-retornos .tabela-retornos th:first-child,
+  .bloco-retornos .tabela-retornos td:first-child {
+    position: sticky;
+  }
+}
+
+/* O gráfico nunca passa da largura do quadro, mesmo durante um redimensionamento. */
+.bloco-grafico,
+.area-canvas {
+  min-width: 0;
+}
+
+.area-canvas {
+  overflow: hidden;
+}
+

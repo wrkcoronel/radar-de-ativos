@@ -81,14 +81,14 @@ export const PALETAS_GRAFICO = {
 };
 
 export const FAIXAS_TEMPO = [
-  { id: "24h", label: "24 horas", tipo: "pregoes", valor: 1 },
-  { id: "1w", label: "1 semana", tipo: "dias", valor: 7 },
-  { id: "1m", label: "1 mês", tipo: "meses", valor: 1 },
-  { id: "3m", label: "3 meses", tipo: "meses", valor: 3 },
-  { id: "6m", label: "6 meses", tipo: "meses", valor: 6 },
-  { id: "ytd", label: "No ano", tipo: "ytd" },
-  { id: "1y", label: "1 ano", tipo: "anos", valor: 1 },
-  { id: "5y", label: "5 anos", tipo: "todos" },
+  { id: "24h", label: "24 horas", curto: "24h", tipo: "pregoes", valor: 1 },
+  { id: "1w", label: "1 semana", curto: "1 sem", tipo: "dias", valor: 7 },
+  { id: "1m", label: "1 mês", curto: "1 mês", tipo: "meses", valor: 1 },
+  { id: "3m", label: "3 meses", curto: "3 meses", tipo: "meses", valor: 3 },
+  { id: "6m", label: "6 meses", curto: "6 meses", tipo: "meses", valor: 6 },
+  { id: "ytd", label: "No ano", curto: "No ano", tipo: "ytd" },
+  { id: "1y", label: "1 ano", curto: "1 ano", tipo: "anos", valor: 1 },
+  { id: "5y", label: "5 anos", curto: "5 anos", tipo: "todos" },
 ];
 
 export const DURACAO_TRANSICAO_TEMA_MS = 280;
