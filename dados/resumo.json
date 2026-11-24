@@ -1,0 +1,86 @@
+{
+  "extraidoEm": "2026-11-24T00:22:19.743Z",
+  "tickers": {
+    "IVVB11.SA": "IVVB11 (S&P 500 em R$)",
+    "BOVA11.SA": "BOVA11 (Bolsa Brasil)",
+    "VOO": "VOO (S&P 500 em US$)",
+    "QQQ": "QQQ (Nasdaq Tech em US$)",
+    "BRL=X": "USD/BRL (Dólar)"
+  },
+  "periodos": {
+    "5y": {
+      "dataInicio": "2021-11-24",
+      "dataFim": "2026-11-23",
+      "totalPregoes": 1448,
+      "rankingFinal": [
+        {
+          "ativo": "Selic Acumulada (Renda Fixa)",
+          "base100Final": 182.76,
+          "retornoLiquidoPct": 82.76
+        },
+        {
+          "ativo": "IVVB11 (S&P 500 em R$)",
+          "base100Final": 169.71,
+          "retornoLiquidoPct": 69.71
+        },
+        {
+          "ativo": "QQQ (Nasdaq Tech em US$)",
+          "base100Final": 168.22,
+          "retornoLiquidoPct": 68.22
+        },
+        {
+          "ativo": "VOO (S&P 500 em US$)",
+          "base100Final": 165.03,
+          "retornoLiquidoPct": 65.03
+        },
+        {
+          "ativo": "BOVA11 (Bolsa Brasil)",
+          "base100Final": 161.29,
+          "retornoLiquidoPct": 61.29
+        },
+        {
+          "ativo": "USD/BRL (Dólar)",
+          "base100Final": 106.78,
+          "retornoLiquidoPct": 6.78
+        }
+      ]
+    },
+    "1y": {
+      "dataInicio": "2025-11-24",
+      "dataFim": "2026-11-23",
+      "totalPregoes": 288,
+      "rankingFinal": [
+        {
+          "ativo": "IVVB11 (S&P 500 em R$)",
+          "base100Final": 119.58,
+          "retornoLiquidoPct": 19.58
+        },
+        {
+          "ativo": "Selic Acumulada (Renda Fixa)",
+          "base100Final": 114.11,
+          "retornoLiquidoPct": 14.11
+        },
+        {
+          "ativo": "USD/BRL (Dólar)",
+          "base100Final": 110.11,
+          "retornoLiquidoPct": 10.11
+        },
+        {
+          "ativo": "VOO (S&P 500 em US$)",
+          "base100Final": 109.21,
+          "retornoLiquidoPct": 9.21
+        },
+        {
+          "ativo": "QQQ (Nasdaq Tech em US$)",
+          "base100Final": 108.09,
+          "retornoLiquidoPct": 8.09
+        },
+        {
+          "ativo": "BOVA11 (Bolsa Brasil)",
+          "base100Final": 106.56,
+          "retornoLiquidoPct": 6.56
+        }
+      ]
+    }
+  }
+}

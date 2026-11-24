@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+
+# Gravações do layout antigo (mantidas só localmente)
+docs/demo.gif
+docs/demo.mp4
