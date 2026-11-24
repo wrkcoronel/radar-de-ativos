@@ -12,6 +12,7 @@ import { renderizarKpis } from "./components/kpis.js";
 import { renderizarSimulador } from "./components/simulator.js";
 import { lerEstado, limparEstadoSalvo, salvarEstado } from "./components/estado.js";
 import { baixarCsv } from "./components/exportar.js";
+import { iniciarAvisoLegal } from "./components/aviso.js";
 import {
   chapeuDoTom,
   dataJornal,
@@ -105,6 +106,11 @@ async function iniciar() {
 
   const gerenciadorTema = iniciarGerenciadorTema(document.querySelectorAll(".btn-tema"));
   montarRodapeAutor($("rodape-autor"));
+  iniciarAvisoLegal({
+    avisoEl: $("aviso-legal"),
+    btnOkEl: $("aviso-ok"),
+    btnAbrirEl: $("btn-abrir-aviso"),
+  });
 
   try {
     const [respDados, respNoticias] = await Promise.all([
