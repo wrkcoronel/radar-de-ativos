@@ -1,0 +1,5519 @@
+{
+  "dataInicio": "2025-11-24",
+  "dataFim": "2026-11-23",
+  "totalPregoes": 288,
+  "ativos": {
+    "IVVB11.SA": "IVVB11 (S&P 500 em R$)",
+    "BOVA11.SA": "BOVA11 (Bolsa Brasil)",
+    "VOO": "VOO (S&P 500 em US$)",
+    "QQQ": "QQQ (Nasdaq Tech em US$)",
+    "BRL=X": "USD/BRL (Dólar)",
+    "SELIC": "Selic Acumulada (Renda Fixa)"
+  },
+  "rankingFinal": [
+    {
+      "ativo": "IVVB11 (S&P 500 em R$)",
+      "base100Final": 119.58,
+      "retornoLiquidoPct": 19.58
+    },
+    {
+      "ativo": "Selic Acumulada (Renda Fixa)",
+      "base100Final": 114.11,
+      "retornoLiquidoPct": 14.11
+    },
+    {
+      "ativo": "USD/BRL (Dólar)",
+      "base100Final": 110.11,
+      "retornoLiquidoPct": 10.11
+    },
+    {
+      "ativo": "VOO (S&P 500 em US$)",
+      "base100Final": 109.21,
+      "retornoLiquidoPct": 9.21
+    },
+    {
+      "ativo": "QQQ (Nasdaq Tech em US$)",
+      "base100Final": 108.09,
+      "retornoLiquidoPct": 8.09
+    },
+    {
+      "ativo": "BOVA11 (Bolsa Brasil)",
+      "base100Final": 106.56,
+      "retornoLiquidoPct": 6.56
+    }
+  ],
+  "serieDiaria": [
+    {
+      "data": "2025-11-24",
+      "precos": {
+        "IVVB11.SA": 406.200012,
+        "BOVA11.SA": 152.350006,
+        "VOO": 607.936951,
+        "QQQ": 602.329956,
+        "BRL=X": 5.4021
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100,
+        "BOVA11 (Bolsa Brasil)": 100,
+        "VOO (S&P 500 em US$)": 100,
+        "QQQ (Nasdaq Tech em US$)": 100,
+        "USD/BRL (Dólar)": 100,
+        "Selic Acumulada (Renda Fixa)": 100
+      }
+    },
+    {
+      "data": "2025-11-25",
+      "precos": {
+        "IVVB11.SA": 409.649994,
+        "BOVA11.SA": 152.970001,
+        "VOO": 613.591736,
+        "QQQ": 606.042542,
+        "BRL=X": 5.3868
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.8493,
+        "BOVA11 (Bolsa Brasil)": 100.407,
+        "VOO (S&P 500 em US$)": 100.9302,
+        "QQQ (Nasdaq Tech em US$)": 100.6164,
+        "USD/BRL (Dólar)": 99.7168,
+        "Selic Acumulada (Renda Fixa)": 100.0551
+      }
+    },
+    {
+      "data": "2025-11-26",
+      "precos": {
+        "IVVB11.SA": 408.649994,
+        "BOVA11.SA": 155.740005,
+        "VOO": 617.833008,
+        "QQQ": 611.397339,
+        "BRL=X": 5.3794
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.6031,
+        "BOVA11 (Bolsa Brasil)": 102.2251,
+        "VOO (S&P 500 em US$)": 101.6278,
+        "QQQ (Nasdaq Tech em US$)": 101.5054,
+        "USD/BRL (Dólar)": 99.5798,
+        "Selic Acumulada (Renda Fixa)": 100.1103
+      }
+    },
+    {
+      "data": "2025-11-27",
+      "precos": {
+        "IVVB11.SA": 410.399994,
+        "BOVA11.SA": 155.320007,
+        "VOO": 617.833008,
+        "QQQ": 611.397339,
+        "BRL=X": 5.3308
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.034,
+        "BOVA11 (Bolsa Brasil)": 101.9495,
+        "VOO (S&P 500 em US$)": 101.6278,
+        "QQQ (Nasdaq Tech em US$)": 101.5054,
+        "USD/BRL (Dólar)": 98.6801,
+        "Selic Acumulada (Renda Fixa)": 100.1655
+      }
+    },
+    {
+      "data": "2025-11-28",
+      "precos": {
+        "IVVB11.SA": 411.089996,
+        "BOVA11.SA": 155.850006,
+        "VOO": 621.25354,
+        "QQQ": 616.354004,
+        "BRL=X": 5.3554
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.2038,
+        "BOVA11 (Bolsa Brasil)": 102.2973,
+        "VOO (S&P 500 em US$)": 102.1905,
+        "QQQ (Nasdaq Tech em US$)": 102.3283,
+        "USD/BRL (Dólar)": 99.1355,
+        "Selic Acumulada (Renda Fixa)": 100.2207
+      }
+    },
+    {
+      "data": "2025-12-01",
+      "precos": {
+        "IVVB11.SA": 410.75,
+        "BOVA11.SA": 155.5,
+        "VOO": 618.396545,
+        "QQQ": 614.283752,
+        "BRL=X": 5.3354
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.1201,
+        "BOVA11 (Bolsa Brasil)": 102.0676,
+        "VOO (S&P 500 em US$)": 101.7205,
+        "QQQ (Nasdaq Tech em US$)": 101.9846,
+        "USD/BRL (Dólar)": 98.7653,
+        "Selic Acumulada (Renda Fixa)": 100.276
+      }
+    },
+    {
+      "data": "2025-12-02",
+      "precos": {
+        "IVVB11.SA": 409.350006,
+        "BOVA11.SA": 157.970001,
+        "VOO": 619.444397,
+        "QQQ": 619.091187,
+        "BRL=X": 5.3558
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.7755,
+        "BOVA11 (Bolsa Brasil)": 103.6889,
+        "VOO (S&P 500 em US$)": 101.8929,
+        "QQQ (Nasdaq Tech em US$)": 102.7827,
+        "USD/BRL (Dólar)": 99.1429,
+        "Selic Acumulada (Renda Fixa)": 100.3312
+      }
+    },
+    {
+      "data": "2025-12-03",
+      "precos": {
+        "IVVB11.SA": 409.309998,
+        "BOVA11.SA": 158.399994,
+        "VOO": 621.609436,
+        "QQQ": 620.604065,
+        "BRL=X": 5.3263
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.7656,
+        "BOVA11 (Bolsa Brasil)": 103.9711,
+        "VOO (S&P 500 em US$)": 102.249,
+        "QQQ (Nasdaq Tech em US$)": 103.0339,
+        "USD/BRL (Dólar)": 98.5968,
+        "Selic Acumulada (Renda Fixa)": 100.3866
+      }
+    },
+    {
+      "data": "2025-12-04",
+      "precos": {
+        "IVVB11.SA": 409.850006,
+        "BOVA11.SA": 161.289993,
+        "VOO": 622.133362,
+        "QQQ": 620.026855,
+        "BRL=X": 5.3061
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.8986,
+        "BOVA11 (Bolsa Brasil)": 105.8681,
+        "VOO (S&P 500 em US$)": 102.3352,
+        "QQQ (Nasdaq Tech em US$)": 102.9381,
+        "USD/BRL (Dólar)": 98.2229,
+        "Selic Acumulada (Renda Fixa)": 100.4419
+      }
+    },
+    {
+      "data": "2025-12-05",
+      "precos": {
+        "IVVB11.SA": 421.399994,
+        "BOVA11.SA": 154.179993,
+        "VOO": 623.299927,
+        "QQQ": 622.554871,
+        "BRL=X": 5.3093
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.742,
+        "BOVA11 (Bolsa Brasil)": 101.2012,
+        "VOO (S&P 500 em US$)": 102.5271,
+        "QQQ (Nasdaq Tech em US$)": 103.3578,
+        "USD/BRL (Dólar)": 98.2821,
+        "Selic Acumulada (Renda Fixa)": 100.4973
+      }
+    },
+    {
+      "data": "2025-12-08",
+      "precos": {
+        "IVVB11.SA": 418.820007,
+        "BOVA11.SA": 155.25,
+        "VOO": 621.451233,
+        "QQQ": 621.360535,
+        "BRL=X": 5.4381
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.1068,
+        "BOVA11 (Bolsa Brasil)": 101.9035,
+        "VOO (S&P 500 em US$)": 102.223,
+        "QQQ (Nasdaq Tech em US$)": 103.1595,
+        "USD/BRL (Dólar)": 100.6664,
+        "Selic Acumulada (Renda Fixa)": 100.5527
+      }
+    },
+    {
+      "data": "2025-12-09",
+      "precos": {
+        "IVVB11.SA": 418.649994,
+        "BOVA11.SA": 154.550003,
+        "VOO": 620.947021,
+        "QQQ": 622.126892,
+        "BRL=X": 5.43
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.065,
+        "BOVA11 (Bolsa Brasil)": 101.444,
+        "VOO (S&P 500 em US$)": 102.14,
+        "QQQ (Nasdaq Tech em US$)": 103.2867,
+        "USD/BRL (Dólar)": 100.5165,
+        "Selic Acumulada (Renda Fixa)": 100.6081
+      }
+    },
+    {
+      "data": "2025-12-10",
+      "precos": {
+        "IVVB11.SA": 424.149994,
+        "BOVA11.SA": 156,
+        "VOO": 624.960754,
+        "QQQ": 624.674927,
+        "BRL=X": 5.4315
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.419,
+        "BOVA11 (Bolsa Brasil)": 102.3958,
+        "VOO (S&P 500 em US$)": 102.8003,
+        "QQQ (Nasdaq Tech em US$)": 103.7098,
+        "USD/BRL (Dólar)": 100.5442,
+        "Selic Acumulada (Renda Fixa)": 100.6636
+      }
+    },
+    {
+      "data": "2025-12-11",
+      "precos": {
+        "IVVB11.SA": 419.850006,
+        "BOVA11.SA": 156.190002,
+        "VOO": 626.493225,
+        "QQQ": 622.65448,
+        "BRL=X": 5.4698
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.3604,
+        "BOVA11 (Bolsa Brasil)": 102.5205,
+        "VOO (S&P 500 em US$)": 103.0523,
+        "QQQ (Nasdaq Tech em US$)": 103.3743,
+        "USD/BRL (Dólar)": 101.2532,
+        "Selic Acumulada (Renda Fixa)": 100.7191
+      }
+    },
+    {
+      "data": "2025-12-12",
+      "precos": {
+        "IVVB11.SA": 416.76001,
+        "BOVA11.SA": 157.5,
+        "VOO": 619.731079,
+        "QQQ": 610.750366,
+        "BRL=X": 5.4055
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.5997,
+        "BOVA11 (Bolsa Brasil)": 103.3804,
+        "VOO (S&P 500 em US$)": 101.94,
+        "QQQ (Nasdaq Tech em US$)": 101.398,
+        "USD/BRL (Dólar)": 100.0629,
+        "Selic Acumulada (Renda Fixa)": 100.7746
+      }
+    },
+    {
+      "data": "2025-12-15",
+      "precos": {
+        "IVVB11.SA": 415.75,
+        "BOVA11.SA": 159.369995,
+        "VOO": 618.831482,
+        "QQQ": 607.684753,
+        "BRL=X": 5.4182
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.3511,
+        "BOVA11 (Bolsa Brasil)": 104.6078,
+        "VOO (S&P 500 em US$)": 101.792,
+        "QQQ (Nasdaq Tech em US$)": 100.889,
+        "USD/BRL (Dólar)": 100.298,
+        "Selic Acumulada (Renda Fixa)": 100.8302
+      }
+    },
+    {
+      "data": "2025-12-16",
+      "precos": {
+        "IVVB11.SA": 418,
+        "BOVA11.SA": 155.160004,
+        "VOO": 617.10144,
+        "QQQ": 608.889099,
+        "BRL=X": 5.4134
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.905,
+        "BOVA11 (Bolsa Brasil)": 101.8444,
+        "VOO (S&P 500 em US$)": 101.5075,
+        "QQQ (Nasdaq Tech em US$)": 101.089,
+        "USD/BRL (Dólar)": 100.2092,
+        "Selic Acumulada (Renda Fixa)": 100.8858
+      }
+    },
+    {
+      "data": "2025-12-17",
+      "precos": {
+        "IVVB11.SA": 417.170013,
+        "BOVA11.SA": 154.350006,
+        "VOO": 610.319519,
+        "QQQ": 597.602112,
+        "BRL=X": 5.5075
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.7006,
+        "BOVA11 (Bolsa Brasil)": 101.3128,
+        "VOO (S&P 500 em US$)": 100.3919,
+        "QQQ (Nasdaq Tech em US$)": 99.2151,
+        "USD/BRL (Dólar)": 101.9511,
+        "Selic Acumulada (Renda Fixa)": 100.9414
+      }
+    },
+    {
+      "data": "2025-12-18",
+      "precos": {
+        "IVVB11.SA": 420.5,
+        "BOVA11.SA": 154.860001,
+        "VOO": 614.926514,
+        "QQQ": 606.261475,
+        "BRL=X": 5.5185
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.5204,
+        "BOVA11 (Bolsa Brasil)": 101.6475,
+        "VOO (S&P 500 em US$)": 101.1497,
+        "QQQ (Nasdaq Tech em US$)": 100.6527,
+        "USD/BRL (Dólar)": 102.1547,
+        "Selic Acumulada (Renda Fixa)": 100.997
+      }
+    },
+    {
+      "data": "2025-12-19",
+      "precos": {
+        "IVVB11.SA": 425.899994,
+        "BOVA11.SA": 155.300003,
+        "VOO": 620.413208,
+        "QQQ": 614.164368,
+        "BRL=X": 5.5213
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.8498,
+        "BOVA11 (Bolsa Brasil)": 101.9363,
+        "VOO (S&P 500 em US$)": 102.0522,
+        "QQQ (Nasdaq Tech em US$)": 101.9648,
+        "USD/BRL (Dólar)": 102.2065,
+        "Selic Acumulada (Renda Fixa)": 101.0527
+      }
+    },
+    {
+      "data": "2025-12-22",
+      "precos": {
+        "IVVB11.SA": 432.149994,
+        "BOVA11.SA": 155.070007,
+        "VOO": 624.320374,
+        "QQQ": 617.108276,
+        "BRL=X": 5.5398
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.3885,
+        "BOVA11 (Bolsa Brasil)": 101.7854,
+        "VOO (S&P 500 em US$)": 102.6949,
+        "QQQ (Nasdaq Tech em US$)": 102.4535,
+        "USD/BRL (Dólar)": 102.549,
+        "Selic Acumulada (Renda Fixa)": 101.1084
+      }
+    },
+    {
+      "data": "2025-12-23",
+      "precos": {
+        "IVVB11.SA": 429.5,
+        "BOVA11.SA": 157.429993,
+        "VOO": 627.235107,
+        "QQQ": 619.998413,
+        "BRL=X": 5.59
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7361,
+        "BOVA11 (Bolsa Brasil)": 103.3344,
+        "VOO (S&P 500 em US$)": 103.1744,
+        "QQQ (Nasdaq Tech em US$)": 102.9334,
+        "USD/BRL (Dólar)": 103.4783,
+        "Selic Acumulada (Renda Fixa)": 101.1642
+      }
+    },
+    {
+      "data": "2025-12-24",
+      "precos": {
+        "IVVB11.SA": 429.5,
+        "BOVA11.SA": 157.429993,
+        "VOO": 629.327026,
+        "QQQ": 621.812317,
+        "BRL=X": 5.5185
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7361,
+        "BOVA11 (Bolsa Brasil)": 103.3344,
+        "VOO (S&P 500 em US$)": 103.5185,
+        "QQQ (Nasdaq Tech em US$)": 103.2345,
+        "USD/BRL (Dólar)": 102.1547,
+        "Selic Acumulada (Renda Fixa)": 101.2199
+      }
+    },
+    {
+      "data": "2025-12-26",
+      "precos": {
+        "IVVB11.SA": 431.700012,
+        "BOVA11.SA": 157.820007,
+        "VOO": 629.386536,
+        "QQQ": 621.7724,
+        "BRL=X": 5.5195
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.2777,
+        "BOVA11 (Bolsa Brasil)": 103.5904,
+        "VOO (S&P 500 em US$)": 103.5283,
+        "QQQ (Nasdaq Tech em US$)": 103.2279,
+        "USD/BRL (Dólar)": 102.1732,
+        "Selic Acumulada (Renda Fixa)": 101.2757
+      }
+    },
+    {
+      "data": "2025-12-29",
+      "precos": {
+        "IVVB11.SA": 433.079987,
+        "BOVA11.SA": 157.410004,
+        "VOO": 627.16571,
+        "QQQ": 618.762634,
+        "BRL=X": 5.5425
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.6174,
+        "BOVA11 (Bolsa Brasil)": 103.3213,
+        "VOO (S&P 500 em US$)": 103.163,
+        "QQQ (Nasdaq Tech em US$)": 102.7282,
+        "USD/BRL (Dólar)": 102.599,
+        "Selic Acumulada (Renda Fixa)": 101.3316
+      }
+    },
+    {
+      "data": "2025-12-30",
+      "precos": {
+        "IVVB11.SA": 424.200012,
+        "BOVA11.SA": 158,
+        "VOO": 626.293274,
+        "QQQ": 617.327515,
+        "BRL=X": 5.5691
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.4313,
+        "BOVA11 (Bolsa Brasil)": 103.7086,
+        "VOO (S&P 500 em US$)": 103.0194,
+        "QQQ (Nasdaq Tech em US$)": 102.4899,
+        "USD/BRL (Dólar)": 103.0914,
+        "Selic Acumulada (Renda Fixa)": 101.3874
+      }
+    },
+    {
+      "data": "2025-12-31",
+      "precos": {
+        "IVVB11.SA": 424.200012,
+        "BOVA11.SA": 158,
+        "VOO": 621.742676,
+        "QQQ": 612.224915,
+        "BRL=X": 5.4762
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.4313,
+        "BOVA11 (Bolsa Brasil)": 103.7086,
+        "VOO (S&P 500 em US$)": 102.2709,
+        "QQQ (Nasdaq Tech em US$)": 101.6428,
+        "USD/BRL (Dólar)": 101.3717,
+        "Selic Acumulada (Renda Fixa)": 101.4433
+      }
+    },
+    {
+      "data": "2026-01-02",
+      "precos": {
+        "IVVB11.SA": 419.5,
+        "BOVA11.SA": 157.360001,
+        "VOO": 622.902649,
+        "QQQ": 611.039001,
+        "BRL=X": 5.517
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.2742,
+        "BOVA11 (Bolsa Brasil)": 103.2885,
+        "VOO (S&P 500 em US$)": 102.4617,
+        "QQQ (Nasdaq Tech em US$)": 101.4459,
+        "USD/BRL (Dólar)": 102.127,
+        "Selic Acumulada (Renda Fixa)": 101.4993
+      }
+    },
+    {
+      "data": "2026-01-05",
+      "precos": {
+        "IVVB11.SA": 419.420013,
+        "BOVA11.SA": 158.520004,
+        "VOO": 627.026978,
+        "QQQ": 615.892395,
+        "BRL=X": 5.4216
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.2546,
+        "BOVA11 (Bolsa Brasil)": 104.0499,
+        "VOO (S&P 500 em US$)": 103.1401,
+        "QQQ (Nasdaq Tech em US$)": 102.2517,
+        "USD/BRL (Dólar)": 100.361,
+        "Selic Acumulada (Renda Fixa)": 101.5552
+      }
+    },
+    {
+      "data": "2026-01-06",
+      "precos": {
+        "IVVB11.SA": 419.5,
+        "BOVA11.SA": 160.199997,
+        "VOO": 630.744751,
+        "QQQ": 621.304016,
+        "BRL=X": 5.4075
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.2742,
+        "BOVA11 (Bolsa Brasil)": 105.1526,
+        "VOO (S&P 500 em US$)": 103.7517,
+        "QQQ (Nasdaq Tech em US$)": 103.1501,
+        "USD/BRL (Dólar)": 100.1,
+        "Selic Acumulada (Renda Fixa)": 101.6112
+      }
+    },
+    {
+      "data": "2026-01-07",
+      "precos": {
+        "IVVB11.SA": 419.200012,
+        "BOVA11.SA": 158.800003,
+        "VOO": 628.722168,
+        "QQQ": 621.902039,
+        "BRL=X": 5.372
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.2004,
+        "BOVA11 (Bolsa Brasil)": 104.2337,
+        "VOO (S&P 500 em US$)": 103.419,
+        "QQQ (Nasdaq Tech em US$)": 103.2494,
+        "USD/BRL (Dólar)": 99.4428,
+        "Selic Acumulada (Renda Fixa)": 101.6672
+      }
+    },
+    {
+      "data": "2026-01-08",
+      "precos": {
+        "IVVB11.SA": 419.070007,
+        "BOVA11.SA": 159.600006,
+        "VOO": 628.61322,
+        "QQQ": 618.364014,
+        "BRL=X": 5.3839
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.1684,
+        "BOVA11 (Bolsa Brasil)": 104.7588,
+        "VOO (S&P 500 em US$)": 103.4011,
+        "QQQ (Nasdaq Tech em US$)": 102.662,
+        "USD/BRL (Dólar)": 99.6631,
+        "Selic Acumulada (Renda Fixa)": 101.7233
+      }
+    },
+    {
+      "data": "2026-01-09",
+      "precos": {
+        "IVVB11.SA": 420.549988,
+        "BOVA11.SA": 160.100006,
+        "VOO": 632.826721,
+        "QQQ": 624.523071,
+        "BRL=X": 5.3866
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.5327,
+        "BOVA11 (Bolsa Brasil)": 105.087,
+        "VOO (S&P 500 em US$)": 104.0941,
+        "QQQ (Nasdaq Tech em US$)": 103.6845,
+        "USD/BRL (Dólar)": 99.7131,
+        "Selic Acumulada (Renda Fixa)": 101.7794
+      }
+    },
+    {
+      "data": "2026-01-12",
+      "precos": {
+        "IVVB11.SA": 421.839996,
+        "BOVA11.SA": 160.149994,
+        "VOO": 633.8479,
+        "QQQ": 625.04126,
+        "BRL=X": 5.3703
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.8503,
+        "BOVA11 (Bolsa Brasil)": 105.1198,
+        "VOO (S&P 500 em US$)": 104.2621,
+        "QQQ (Nasdaq Tech em US$)": 103.7706,
+        "USD/BRL (Dólar)": 99.4113,
+        "Selic Acumulada (Renda Fixa)": 101.8355
+      }
+    },
+    {
+      "data": "2026-01-13",
+      "precos": {
+        "IVVB11.SA": 420.600006,
+        "BOVA11.SA": 159.070007,
+        "VOO": 632.549133,
+        "QQQ": 624.114441,
+        "BRL=X": 5.3737
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.5451,
+        "BOVA11 (Bolsa Brasil)": 104.4109,
+        "VOO (S&P 500 em US$)": 104.0485,
+        "QQQ (Nasdaq Tech em US$)": 103.6167,
+        "USD/BRL (Dólar)": 99.4743,
+        "Selic Acumulada (Renda Fixa)": 101.8916
+      }
+    },
+    {
+      "data": "2026-01-14",
+      "precos": {
+        "IVVB11.SA": 419.670013,
+        "BOVA11.SA": 162.240005,
+        "VOO": 629.485657,
+        "QQQ": 617.447144,
+        "BRL=X": 5.3713
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.3161,
+        "BOVA11 (Bolsa Brasil)": 106.4916,
+        "VOO (S&P 500 em US$)": 103.5446,
+        "QQQ (Nasdaq Tech em US$)": 102.5098,
+        "USD/BRL (Dólar)": 99.4299,
+        "Selic Acumulada (Renda Fixa)": 101.9478
+      }
+    },
+    {
+      "data": "2026-01-15",
+      "precos": {
+        "IVVB11.SA": 419.25,
+        "BOVA11.SA": 162.550003,
+        "VOO": 631.151184,
+        "QQQ": 619.669617,
+        "BRL=X": 5.3961
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.2127,
+        "BOVA11 (Bolsa Brasil)": 106.6951,
+        "VOO (S&P 500 em US$)": 103.8185,
+        "QQQ (Nasdaq Tech em US$)": 102.8788,
+        "USD/BRL (Dólar)": 99.8889,
+        "Selic Acumulada (Renda Fixa)": 102.004
+      }
+    },
+    {
+      "data": "2026-01-16",
+      "precos": {
+        "IVVB11.SA": 419.149994,
+        "BOVA11.SA": 161.570007,
+        "VOO": 630.625793,
+        "QQQ": 619.151367,
+        "BRL=X": 5.3679
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.1881,
+        "BOVA11 (Bolsa Brasil)": 106.0519,
+        "VOO (S&P 500 em US$)": 103.7321,
+        "QQQ (Nasdaq Tech em US$)": 102.7927,
+        "USD/BRL (Dólar)": 99.3669,
+        "Selic Acumulada (Renda Fixa)": 102.0602
+      }
+    },
+    {
+      "data": "2026-01-19",
+      "precos": {
+        "IVVB11.SA": 418,
+        "BOVA11.SA": 161.940002,
+        "VOO": 630.625793,
+        "QQQ": 619.151367,
+        "BRL=X": 5.3677
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.905,
+        "BOVA11 (Bolsa Brasil)": 106.2947,
+        "VOO (S&P 500 em US$)": 103.7321,
+        "QQQ (Nasdaq Tech em US$)": 102.7927,
+        "USD/BRL (Dólar)": 99.3632,
+        "Selic Acumulada (Renda Fixa)": 102.1165
+      }
+    },
+    {
+      "data": "2026-01-20",
+      "precos": {
+        "IVVB11.SA": 411.519989,
+        "BOVA11.SA": 162.919998,
+        "VOO": 617.796936,
+        "QQQ": 605.996155,
+        "BRL=X": 5.3687
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.3097,
+        "BOVA11 (Bolsa Brasil)": 106.938,
+        "VOO (S&P 500 em US$)": 101.6219,
+        "QQQ (Nasdaq Tech em US$)": 100.6087,
+        "USD/BRL (Dólar)": 99.3817,
+        "Selic Acumulada (Renda Fixa)": 102.1728
+      }
+    },
+    {
+      "data": "2026-01-21",
+      "precos": {
+        "IVVB11.SA": 411.399994,
+        "BOVA11.SA": 168.949997,
+        "VOO": 624.875549,
+        "QQQ": 614.188232,
+        "BRL=X": 5.3743
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.2802,
+        "BOVA11 (Bolsa Brasil)": 110.896,
+        "VOO (S&P 500 em US$)": 102.7862,
+        "QQQ (Nasdaq Tech em US$)": 101.9687,
+        "USD/BRL (Dólar)": 99.4854,
+        "Selic Acumulada (Renda Fixa)": 102.2291
+      }
+    },
+    {
+      "data": "2026-01-22",
+      "precos": {
+        "IVVB11.SA": 411.440002,
+        "BOVA11.SA": 172.740005,
+        "VOO": 628.12738,
+        "QQQ": 618.653015,
+        "BRL=X": 5.3188
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.29,
+        "BOVA11 (Bolsa Brasil)": 113.3837,
+        "VOO (S&P 500 em US$)": 103.3211,
+        "QQQ (Nasdaq Tech em US$)": 102.71,
+        "USD/BRL (Dólar)": 98.458,
+        "Selic Acumulada (Renda Fixa)": 102.2855
+      }
+    },
+    {
+      "data": "2026-01-23",
+      "precos": {
+        "IVVB11.SA": 411.549988,
+        "BOVA11.SA": 175.699997,
+        "VOO": 628.385193,
+        "QQQ": 620.606384,
+        "BRL=X": 5.2837
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.3171,
+        "BOVA11 (Bolsa Brasil)": 115.3265,
+        "VOO (S&P 500 em US$)": 103.3635,
+        "QQQ (Nasdaq Tech em US$)": 103.0343,
+        "USD/BRL (Dólar)": 97.8083,
+        "Selic Acumulada (Renda Fixa)": 102.3419
+      }
+    },
+    {
+      "data": "2026-01-26",
+      "precos": {
+        "IVVB11.SA": 412.700012,
+        "BOVA11.SA": 175.300003,
+        "VOO": 631.617188,
+        "QQQ": 623.337097,
+        "BRL=X": 5.2889
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.6002,
+        "BOVA11 (Bolsa Brasil)": 115.064,
+        "VOO (S&P 500 em US$)": 103.8952,
+        "QQQ (Nasdaq Tech em US$)": 103.4876,
+        "USD/BRL (Dólar)": 97.9045,
+        "Selic Acumulada (Renda Fixa)": 102.3983
+      }
+    },
+    {
+      "data": "2026-01-27",
+      "precos": {
+        "IVVB11.SA": 407,
+        "BOVA11.SA": 178.229996,
+        "VOO": 634.204773,
+        "QQQ": 628.987854,
+        "BRL=X": 5.2791
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.1969,
+        "BOVA11 (Bolsa Brasil)": 116.9872,
+        "VOO (S&P 500 em US$)": 104.3208,
+        "QQQ (Nasdaq Tech em US$)": 104.4258,
+        "USD/BRL (Dólar)": 97.7231,
+        "Selic Acumulada (Renda Fixa)": 102.4547
+      }
+    },
+    {
+      "data": "2026-01-28",
+      "precos": {
+        "IVVB11.SA": 407.470001,
+        "BOVA11.SA": 181.399994,
+        "VOO": 634.105591,
+        "QQQ": 631.07074,
+        "BRL=X": 5.1836
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.3127,
+        "BOVA11 (Bolsa Brasil)": 119.0679,
+        "VOO (S&P 500 em US$)": 104.3045,
+        "QQQ (Nasdaq Tech em US$)": 104.7716,
+        "USD/BRL (Dólar)": 95.9553,
+        "Selic Acumulada (Renda Fixa)": 102.5112
+      }
+    },
+    {
+      "data": "2026-01-29",
+      "precos": {
+        "IVVB11.SA": 406.399994,
+        "BOVA11.SA": 179.649994,
+        "VOO": 632.786987,
+        "QQQ": 627.29364,
+        "BRL=X": 5.1971
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.0492,
+        "BOVA11 (Bolsa Brasil)": 117.9193,
+        "VOO (S&P 500 em US$)": 104.0876,
+        "QQQ (Nasdaq Tech em US$)": 104.1445,
+        "USD/BRL (Dólar)": 96.2052,
+        "Selic Acumulada (Renda Fixa)": 102.5677
+      }
+    },
+    {
+      "data": "2026-01-30",
+      "precos": {
+        "IVVB11.SA": 410.649994,
+        "BOVA11.SA": 178.199997,
+        "VOO": 630.754578,
+        "QQQ": 619.759277,
+        "BRL=X": 5.1892
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.0955,
+        "BOVA11 (Bolsa Brasil)": 116.9675,
+        "VOO (S&P 500 em US$)": 103.7533,
+        "QQQ (Nasdaq Tech em US$)": 102.8937,
+        "USD/BRL (Dólar)": 96.0589,
+        "Selic Acumulada (Renda Fixa)": 102.6243
+      }
+    },
+    {
+      "data": "2026-02-02",
+      "precos": {
+        "IVVB11.SA": 412.200012,
+        "BOVA11.SA": 179.199997,
+        "VOO": 634.184875,
+        "QQQ": 624.014832,
+        "BRL=X": 5.255
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 101.4771,
+        "BOVA11 (Bolsa Brasil)": 117.6239,
+        "VOO (S&P 500 em US$)": 104.3175,
+        "QQQ (Nasdaq Tech em US$)": 103.6002,
+        "USD/BRL (Dólar)": 97.277,
+        "Selic Acumulada (Renda Fixa)": 102.6809
+      }
+    },
+    {
+      "data": "2026-02-03",
+      "precos": {
+        "IVVB11.SA": 407.850006,
+        "BOVA11.SA": 182.190002,
+        "VOO": 628.702393,
+        "QQQ": 614.427429,
+        "BRL=X": 5.2594
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.4062,
+        "BOVA11 (Bolsa Brasil)": 119.5865,
+        "VOO (S&P 500 em US$)": 103.4157,
+        "QQQ (Nasdaq Tech em US$)": 102.0084,
+        "USD/BRL (Dólar)": 97.3584,
+        "Selic Acumulada (Renda Fixa)": 102.7375
+      }
+    },
+    {
+      "data": "2026-02-04",
+      "precos": {
+        "IVVB11.SA": 406.290009,
+        "BOVA11.SA": 178.199997,
+        "VOO": 625.490234,
+        "QQQ": 603.69397,
+        "BRL=X": 5.2375
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.0222,
+        "BOVA11 (Bolsa Brasil)": 116.9675,
+        "VOO (S&P 500 em US$)": 102.8874,
+        "QQQ (Nasdaq Tech em US$)": 100.2265,
+        "USD/BRL (Dólar)": 96.953,
+        "Selic Acumulada (Renda Fixa)": 102.7941
+      }
+    },
+    {
+      "data": "2026-02-05",
+      "precos": {
+        "IVVB11.SA": 402.920013,
+        "BOVA11.SA": 178.649994,
+        "VOO": 617.747314,
+        "QQQ": 595.003662,
+        "BRL=X": 5.238
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.1925,
+        "BOVA11 (Bolsa Brasil)": 117.2629,
+        "VOO (S&P 500 em US$)": 101.6137,
+        "QQQ (Nasdaq Tech em US$)": 98.7837,
+        "USD/BRL (Dólar)": 96.9623,
+        "Selic Acumulada (Renda Fixa)": 102.8508
+      }
+    },
+    {
+      "data": "2026-02-06",
+      "precos": {
+        "IVVB11.SA": 406.5,
+        "BOVA11.SA": 179.240005,
+        "VOO": 629.78302,
+        "QQQ": 607.58075,
+        "BRL=X": 5.2705
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.0739,
+        "BOVA11 (Bolsa Brasil)": 117.6501,
+        "VOO (S&P 500 em US$)": 103.5935,
+        "QQQ (Nasdaq Tech em US$)": 100.8717,
+        "USD/BRL (Dólar)": 97.5639,
+        "Selic Acumulada (Renda Fixa)": 102.9075
+      }
+    },
+    {
+      "data": "2026-02-09",
+      "precos": {
+        "IVVB11.SA": 406.299988,
+        "BOVA11.SA": 182.789993,
+        "VOO": 632.747314,
+        "QQQ": 612.234924,
+        "BRL=X": 5.2159
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.0246,
+        "BOVA11 (Bolsa Brasil)": 119.9803,
+        "VOO (S&P 500 em US$)": 104.0811,
+        "QQQ (Nasdaq Tech em US$)": 101.6444,
+        "USD/BRL (Dólar)": 96.5532,
+        "Selic Acumulada (Renda Fixa)": 102.9642
+      }
+    },
+    {
+      "data": "2026-02-10",
+      "precos": {
+        "IVVB11.SA": 405.75,
+        "BOVA11.SA": 182.399994,
+        "VOO": 630.972717,
+        "QQQ": 609.394531,
+        "BRL=X": 5.1916
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.8892,
+        "BOVA11 (Bolsa Brasil)": 119.7243,
+        "VOO (S&P 500 em US$)": 103.7892,
+        "QQQ (Nasdaq Tech em US$)": 101.1729,
+        "USD/BRL (Dólar)": 96.1034,
+        "Selic Acumulada (Renda Fixa)": 103.021
+      }
+    },
+    {
+      "data": "2026-02-11",
+      "precos": {
+        "IVVB11.SA": 404.450012,
+        "BOVA11.SA": 185.990005,
+        "VOO": 630.883484,
+        "QQQ": 611.028992,
+        "BRL=X": 5.1962
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.5692,
+        "BOVA11 (Bolsa Brasil)": 122.0807,
+        "VOO (S&P 500 em US$)": 103.7745,
+        "QQQ (Nasdaq Tech em US$)": 101.4442,
+        "USD/BRL (Dólar)": 96.1885,
+        "Selic Acumulada (Renda Fixa)": 103.0778
+      }
+    },
+    {
+      "data": "2026-02-12",
+      "precos": {
+        "IVVB11.SA": 400.25,
+        "BOVA11.SA": 184.279999,
+        "VOO": 621.108215,
+        "QQQ": 598.601318,
+        "BRL=X": 5.1987
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.5352,
+        "BOVA11 (Bolsa Brasil)": 120.9583,
+        "VOO (S&P 500 em US$)": 102.1666,
+        "QQQ (Nasdaq Tech em US$)": 99.381,
+        "USD/BRL (Dólar)": 96.2348,
+        "Selic Acumulada (Renda Fixa)": 103.1346
+      }
+    },
+    {
+      "data": "2026-02-13",
+      "precos": {
+        "IVVB11.SA": 401.519989,
+        "BOVA11.SA": 182.979996,
+        "VOO": 621.504761,
+        "QQQ": 599.877014,
+        "BRL=X": 5.2139
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.8479,
+        "BOVA11 (Bolsa Brasil)": 120.105,
+        "VOO (S&P 500 em US$)": 102.2318,
+        "QQQ (Nasdaq Tech em US$)": 99.5928,
+        "USD/BRL (Dólar)": 96.5162,
+        "Selic Acumulada (Renda Fixa)": 103.1915
+      }
+    },
+    {
+      "data": "2026-02-16",
+      "precos": {
+        "IVVB11.SA": 401.519989,
+        "BOVA11.SA": 182.979996,
+        "VOO": 621.504761,
+        "QQQ": 599.877014,
+        "BRL=X": 5.2179
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.8479,
+        "BOVA11 (Bolsa Brasil)": 120.105,
+        "VOO (S&P 500 em US$)": 102.2318,
+        "QQQ (Nasdaq Tech em US$)": 99.5928,
+        "USD/BRL (Dólar)": 96.5902,
+        "Selic Acumulada (Renda Fixa)": 103.1915
+      }
+    },
+    {
+      "data": "2026-02-17",
+      "precos": {
+        "IVVB11.SA": 401.519989,
+        "BOVA11.SA": 182.979996,
+        "VOO": 622.595276,
+        "QQQ": 599.259033,
+        "BRL=X": 5.2439
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.8479,
+        "BOVA11 (Bolsa Brasil)": 120.105,
+        "VOO (S&P 500 em US$)": 102.4112,
+        "QQQ (Nasdaq Tech em US$)": 99.4902,
+        "USD/BRL (Dólar)": 97.0715,
+        "Selic Acumulada (Renda Fixa)": 103.1915
+      }
+    },
+    {
+      "data": "2026-02-18",
+      "precos": {
+        "IVVB11.SA": 405.25,
+        "BOVA11.SA": 182.429993,
+        "VOO": 625.72821,
+        "QQQ": 603.733826,
+        "BRL=X": 5.2205
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.7661,
+        "BOVA11 (Bolsa Brasil)": 119.744,
+        "VOO (S&P 500 em US$)": 102.9265,
+        "QQQ (Nasdaq Tech em US$)": 100.2331,
+        "USD/BRL (Dólar)": 96.6383,
+        "Selic Acumulada (Renda Fixa)": 103.2484
+      }
+    },
+    {
+      "data": "2026-02-19",
+      "precos": {
+        "IVVB11.SA": 402.700012,
+        "BOVA11.SA": 184.990005,
+        "VOO": 624.122131,
+        "QQQ": 601.421692,
+        "BRL=X": 5.2344
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.1384,
+        "BOVA11 (Bolsa Brasil)": 121.4244,
+        "VOO (S&P 500 em US$)": 102.6623,
+        "QQQ (Nasdaq Tech em US$)": 99.8492,
+        "USD/BRL (Dólar)": 96.8957,
+        "Selic Acumulada (Renda Fixa)": 103.3053
+      }
+    },
+    {
+      "data": "2026-02-20",
+      "precos": {
+        "IVVB11.SA": 402.899994,
+        "BOVA11.SA": 186.690002,
+        "VOO": 628.573608,
+        "QQQ": 606.743591,
+        "BRL=X": 5.2088
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.1876,
+        "BOVA11 (Bolsa Brasil)": 122.5402,
+        "VOO (S&P 500 em US$)": 103.3945,
+        "QQQ (Nasdaq Tech em US$)": 100.7328,
+        "USD/BRL (Dólar)": 96.4218,
+        "Selic Acumulada (Renda Fixa)": 103.3622
+      }
+    },
+    {
+      "data": "2026-02-23",
+      "precos": {
+        "IVVB11.SA": 397.850006,
+        "BOVA11.SA": 185.169998,
+        "VOO": 622.238403,
+        "QQQ": 599.368652,
+        "BRL=X": 5.1765
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.9444,
+        "BOVA11 (Bolsa Brasil)": 121.5425,
+        "VOO (S&P 500 em US$)": 102.3525,
+        "QQQ (Nasdaq Tech em US$)": 99.5084,
+        "USD/BRL (Dólar)": 95.8238,
+        "Selic Acumulada (Renda Fixa)": 103.4192
+      }
+    },
+    {
+      "data": "2026-02-24",
+      "precos": {
+        "IVVB11.SA": 399.600006,
+        "BOVA11.SA": 187.779999,
+        "VOO": 626.779114,
+        "QQQ": 605.806763,
+        "BRL=X": 5.1709
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.3752,
+        "BOVA11 (Bolsa Brasil)": 123.2557,
+        "VOO (S&P 500 em US$)": 103.0994,
+        "QQQ (Nasdaq Tech em US$)": 100.5772,
+        "USD/BRL (Dólar)": 95.7202,
+        "Selic Acumulada (Renda Fixa)": 103.4762
+      }
+    },
+    {
+      "data": "2026-02-25",
+      "precos": {
+        "IVVB11.SA": 400.75,
+        "BOVA11.SA": 187.460007,
+        "VOO": 632.053406,
+        "QQQ": 614.586853,
+        "BRL=X": 5.152
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.6583,
+        "BOVA11 (Bolsa Brasil)": 123.0456,
+        "VOO (S&P 500 em US$)": 103.9669,
+        "QQQ (Nasdaq Tech em US$)": 102.0349,
+        "USD/BRL (Dólar)": 95.3703,
+        "Selic Acumulada (Renda Fixa)": 103.5333
+      }
+    },
+    {
+      "data": "2026-02-26",
+      "precos": {
+        "IVVB11.SA": 399.519989,
+        "BOVA11.SA": 187.350006,
+        "VOO": 628.504089,
+        "QQQ": 607.172119,
+        "BRL=X": 5.1242
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.3555,
+        "BOVA11 (Bolsa Brasil)": 122.9734,
+        "VOO (S&P 500 em US$)": 103.3831,
+        "QQQ (Nasdaq Tech em US$)": 100.8039,
+        "USD/BRL (Dólar)": 94.8557,
+        "Selic Acumulada (Renda Fixa)": 103.5904
+      }
+    },
+    {
+      "data": "2026-02-27",
+      "precos": {
+        "IVVB11.SA": 396.75,
+        "BOVA11.SA": 185.160004,
+        "VOO": 625.61908,
+        "QQQ": 605.228699,
+        "BRL=X": 5.1366
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.6736,
+        "BOVA11 (Bolsa Brasil)": 121.5359,
+        "VOO (S&P 500 em US$)": 102.9085,
+        "QQQ (Nasdaq Tech em US$)": 100.4813,
+        "USD/BRL (Dólar)": 95.0852,
+        "Selic Acumulada (Renda Fixa)": 103.6475
+      }
+    },
+    {
+      "data": "2026-03-02",
+      "precos": {
+        "IVVB11.SA": 400.350006,
+        "BOVA11.SA": 185.5,
+        "VOO": 625.857056,
+        "QQQ": 606.026062,
+        "BRL=X": 5.1296
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.5598,
+        "BOVA11 (Bolsa Brasil)": 121.7591,
+        "VOO (S&P 500 em US$)": 102.9477,
+        "QQQ (Nasdaq Tech em US$)": 100.6136,
+        "USD/BRL (Dólar)": 94.9557,
+        "Selic Acumulada (Renda Fixa)": 103.7046
+      }
+    },
+    {
+      "data": "2026-03-03",
+      "precos": {
+        "IVVB11.SA": 404.450012,
+        "BOVA11.SA": 179.300003,
+        "VOO": 620.344727,
+        "QQQ": 599.538147,
+        "BRL=X": 5.1703
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.5692,
+        "BOVA11 (Bolsa Brasil)": 117.6895,
+        "VOO (S&P 500 em US$)": 102.041,
+        "QQQ (Nasdaq Tech em US$)": 99.5365,
+        "USD/BRL (Dólar)": 95.7091,
+        "Selic Acumulada (Renda Fixa)": 103.7618
+      }
+    },
+    {
+      "data": "2026-03-04",
+      "precos": {
+        "IVVB11.SA": 404.399994,
+        "BOVA11.SA": 181.600006,
+        "VOO": 624.766479,
+        "QQQ": 608.677002,
+        "BRL=X": 5.2773
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.5569,
+        "BOVA11 (Bolsa Brasil)": 119.1992,
+        "VOO (S&P 500 em US$)": 102.7683,
+        "QQQ (Nasdaq Tech em US$)": 101.0537,
+        "USD/BRL (Dólar)": 97.6898,
+        "Selic Acumulada (Renda Fixa)": 103.819
+      }
+    },
+    {
+      "data": "2026-03-05",
+      "precos": {
+        "IVVB11.SA": 404.850006,
+        "BOVA11.SA": 176.75,
+        "VOO": 621.425476,
+        "QQQ": 606.843201,
+        "BRL=X": 5.2301
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.6676,
+        "BOVA11 (Bolsa Brasil)": 116.0157,
+        "VOO (S&P 500 em US$)": 102.2187,
+        "QQQ (Nasdaq Tech em US$)": 100.7493,
+        "USD/BRL (Dólar)": 96.8161,
+        "Selic Acumulada (Renda Fixa)": 103.8762
+      }
+    },
+    {
+      "data": "2026-03-06",
+      "precos": {
+        "IVVB11.SA": 397.869995,
+        "BOVA11.SA": 175.889999,
+        "VOO": 613.117432,
+        "QQQ": 597.714355,
+        "BRL=X": 5.2634
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.9493,
+        "BOVA11 (Bolsa Brasil)": 115.4513,
+        "VOO (S&P 500 em US$)": 100.8521,
+        "QQQ (Nasdaq Tech em US$)": 99.2337,
+        "USD/BRL (Dólar)": 97.4325,
+        "Selic Acumulada (Renda Fixa)": 103.9335
+      }
+    },
+    {
+      "data": "2026-03-09",
+      "precos": {
+        "IVVB11.SA": 395.399994,
+        "BOVA11.SA": 177.259995,
+        "VOO": 618.441345,
+        "QQQ": 605.697144,
+        "BRL=X": 5.2435
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.3412,
+        "BOVA11 (Bolsa Brasil)": 116.3505,
+        "VOO (S&P 500 em US$)": 101.7279,
+        "QQQ (Nasdaq Tech em US$)": 100.559,
+        "USD/BRL (Dólar)": 97.0641,
+        "Selic Acumulada (Renda Fixa)": 103.9908
+      }
+    },
+    {
+      "data": "2026-03-10",
+      "precos": {
+        "IVVB11.SA": 393.850006,
+        "BOVA11.SA": 179.75,
+        "VOO": 617.370544,
+        "QQQ": 605.707153,
+        "BRL=X": 5.2053
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.9596,
+        "BOVA11 (Bolsa Brasil)": 117.9849,
+        "VOO (S&P 500 em US$)": 101.5517,
+        "QQQ (Nasdaq Tech em US$)": 100.5607,
+        "USD/BRL (Dólar)": 96.357,
+        "Selic Acumulada (Renda Fixa)": 104.0481
+      }
+    },
+    {
+      "data": "2026-03-11",
+      "precos": {
+        "IVVB11.SA": 393.299988,
+        "BOVA11.SA": 180.210007,
+        "VOO": 616.686584,
+        "QQQ": 605.62738,
+        "BRL=X": 5.1624
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.8242,
+        "BOVA11 (Bolsa Brasil)": 118.2868,
+        "VOO (S&P 500 em US$)": 101.4392,
+        "QQQ (Nasdaq Tech em US$)": 100.5474,
+        "USD/BRL (Dólar)": 95.5628,
+        "Selic Acumulada (Renda Fixa)": 104.1055
+      }
+    },
+    {
+      "data": "2026-03-12",
+      "precos": {
+        "IVVB11.SA": 393.950012,
+        "BOVA11.SA": 175.850006,
+        "VOO": 607.238342,
+        "QQQ": 595.232849,
+        "BRL=X": 5.1514
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.9842,
+        "BOVA11 (Bolsa Brasil)": 115.425,
+        "VOO (S&P 500 em US$)": 99.8851,
+        "QQQ (Nasdaq Tech em US$)": 98.8217,
+        "USD/BRL (Dólar)": 95.3592,
+        "Selic Acumulada (Renda Fixa)": 104.1629
+      }
+    },
+    {
+      "data": "2026-03-13",
+      "precos": {
+        "IVVB11.SA": 397.299988,
+        "BOVA11.SA": 174.550003,
+        "VOO": 603.857727,
+        "QQQ": 591.704773,
+        "BRL=X": 5.2439
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.809,
+        "BOVA11 (Bolsa Brasil)": 114.5717,
+        "VOO (S&P 500 em US$)": 99.329,
+        "QQQ (Nasdaq Tech em US$)": 98.236,
+        "USD/BRL (Dólar)": 97.0715,
+        "Selic Acumulada (Renda Fixa)": 104.2203
+      }
+    },
+    {
+      "data": "2026-03-16",
+      "precos": {
+        "IVVB11.SA": 394.950012,
+        "BOVA11.SA": 176.550003,
+        "VOO": 609.905212,
+        "QQQ": 598.342224,
+        "BRL=X": 5.3291
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.2304,
+        "BOVA11 (Bolsa Brasil)": 115.8845,
+        "VOO (S&P 500 em US$)": 100.3238,
+        "QQQ (Nasdaq Tech em US$)": 99.3379,
+        "USD/BRL (Dólar)": 98.6487,
+        "Selic Acumulada (Renda Fixa)": 104.2778
+      }
+    },
+    {
+      "data": "2026-03-17",
+      "precos": {
+        "IVVB11.SA": 393.149994,
+        "BOVA11.SA": 176.830002,
+        "VOO": 611.590698,
+        "QQQ": 601.262268,
+        "BRL=X": 5.2334
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.7873,
+        "BOVA11 (Bolsa Brasil)": 116.0683,
+        "VOO (S&P 500 em US$)": 100.601,
+        "QQQ (Nasdaq Tech em US$)": 99.8227,
+        "USD/BRL (Dólar)": 96.8771,
+        "Selic Acumulada (Renda Fixa)": 104.3353
+      }
+    },
+    {
+      "data": "2026-03-18",
+      "precos": {
+        "IVVB11.SA": 391.100006,
+        "BOVA11.SA": 175.800003,
+        "VOO": 603.153748,
+        "QQQ": 592.880859,
+        "BRL=X": 5.1929
+      },
+      "selicDiariaDecimal": 0.00055131,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.2826,
+        "BOVA11 (Bolsa Brasil)": 115.3922,
+        "VOO (S&P 500 em US$)": 99.2132,
+        "QQQ (Nasdaq Tech em US$)": 98.4312,
+        "USD/BRL (Dólar)": 96.1274,
+        "Selic Acumulada (Renda Fixa)": 104.3928
+      }
+    },
+    {
+      "data": "2026-03-19",
+      "precos": {
+        "IVVB11.SA": 387.920013,
+        "BOVA11.SA": 177.5,
+        "VOO": 601.537781,
+        "QQQ": 591.007202,
+        "BRL=X": 5.2621
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.4998,
+        "BOVA11 (Bolsa Brasil)": 116.508,
+        "VOO (S&P 500 em US$)": 98.9474,
+        "QQQ (Nasdaq Tech em US$)": 98.1202,
+        "USD/BRL (Dólar)": 97.4084,
+        "Selic Acumulada (Renda Fixa)": 104.4494
+      }
+    },
+    {
+      "data": "2026-03-20",
+      "precos": {
+        "IVVB11.SA": 389.450012,
+        "BOVA11.SA": 172.300003,
+        "VOO": 592.803467,
+        "QQQ": 580.084412,
+        "BRL=X": 5.2199
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.8764,
+        "BOVA11 (Bolsa Brasil)": 113.0948,
+        "VOO (S&P 500 em US$)": 97.5107,
+        "QQQ (Nasdaq Tech em US$)": 96.3068,
+        "USD/BRL (Dólar)": 96.6272,
+        "Selic Acumulada (Renda Fixa)": 104.5061
+      }
+    },
+    {
+      "data": "2026-03-23",
+      "precos": {
+        "IVVB11.SA": 388,
+        "BOVA11.SA": 178.899994,
+        "VOO": 599.237671,
+        "QQQ": 586.743164,
+        "BRL=X": 5.3119
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.5194,
+        "BOVA11 (Bolsa Brasil)": 117.427,
+        "VOO (S&P 500 em US$)": 98.569,
+        "QQQ (Nasdaq Tech em US$)": 97.4123,
+        "USD/BRL (Dólar)": 98.3303,
+        "Selic Acumulada (Renda Fixa)": 104.5628
+      }
+    },
+    {
+      "data": "2026-03-24",
+      "precos": {
+        "IVVB11.SA": 387.559998,
+        "BOVA11.SA": 179.190002,
+        "VOO": 597.205322,
+        "QQQ": 582.731689,
+        "BRL=X": 5.2329
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.4111,
+        "BOVA11 (Bolsa Brasil)": 117.6173,
+        "VOO (S&P 500 em US$)": 98.2347,
+        "QQQ (Nasdaq Tech em US$)": 96.7463,
+        "USD/BRL (Dólar)": 96.8679,
+        "Selic Acumulada (Renda Fixa)": 104.6196
+      }
+    },
+    {
+      "data": "2026-03-25",
+      "precos": {
+        "IVVB11.SA": 387.299988,
+        "BOVA11.SA": 182.199997,
+        "VOO": 600.457153,
+        "QQQ": 586.563538,
+        "BRL=X": 5.2326
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.3471,
+        "BOVA11 (Bolsa Brasil)": 119.593,
+        "VOO (S&P 500 em US$)": 98.7696,
+        "QQQ (Nasdaq Tech em US$)": 97.3824,
+        "USD/BRL (Dólar)": 96.8623,
+        "Selic Acumulada (Renda Fixa)": 104.6763
+      }
+    },
+    {
+      "data": "2026-03-26",
+      "precos": {
+        "IVVB11.SA": 383.450012,
+        "BOVA11.SA": 179.449997,
+        "VOO": 589.809448,
+        "QQQ": 572.563477,
+        "BRL=X": 5.2368
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.3993,
+        "BOVA11 (Bolsa Brasil)": 117.788,
+        "VOO (S&P 500 em US$)": 97.0182,
+        "QQQ (Nasdaq Tech em US$)": 95.0581,
+        "USD/BRL (Dólar)": 96.9401,
+        "Selic Acumulada (Renda Fixa)": 104.7331
+      }
+    },
+    {
+      "data": "2026-03-27",
+      "precos": {
+        "IVVB11.SA": 375.299988,
+        "BOVA11.SA": 177.740005,
+        "VOO": 579.77655,
+        "QQQ": 561.377502,
+        "BRL=X": 5.2351
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 92.3929,
+        "BOVA11 (Bolsa Brasil)": 116.6656,
+        "VOO (S&P 500 em US$)": 95.3679,
+        "QQQ (Nasdaq Tech em US$)": 93.201,
+        "USD/BRL (Dólar)": 96.9086,
+        "Selic Acumulada (Renda Fixa)": 104.79
+      }
+    },
+    {
+      "data": "2026-03-29",
+      "precos": {
+        "IVVB11.SA": 375.299988,
+        "BOVA11.SA": 177.740005,
+        "VOO": 579.77655,
+        "QQQ": 561.377502,
+        "BRL=X": 5.238
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 92.3929,
+        "BOVA11 (Bolsa Brasil)": 116.6656,
+        "VOO (S&P 500 em US$)": 95.3679,
+        "QQQ (Nasdaq Tech em US$)": 93.201,
+        "USD/BRL (Dólar)": 96.9623,
+        "Selic Acumulada (Renda Fixa)": 104.79
+      }
+    },
+    {
+      "data": "2026-03-30",
+      "precos": {
+        "IVVB11.SA": 374.570007,
+        "BOVA11.SA": 179,
+        "VOO": 577.757568,
+        "QQQ": 557.08667,
+        "BRL=X": 5.264
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 92.2132,
+        "BOVA11 (Bolsa Brasil)": 117.4926,
+        "VOO (S&P 500 em US$)": 95.0358,
+        "QQQ (Nasdaq Tech em US$)": 92.4886,
+        "USD/BRL (Dólar)": 97.4436,
+        "Selic Acumulada (Renda Fixa)": 104.8468
+      }
+    },
+    {
+      "data": "2026-03-31",
+      "precos": {
+        "IVVB11.SA": 380.149994,
+        "BOVA11.SA": 184.279999,
+        "VOO": 594.286865,
+        "QQQ": 575.946228,
+        "BRL=X": 5.1928
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 93.5869,
+        "BOVA11 (Bolsa Brasil)": 120.9583,
+        "VOO (S&P 500 em US$)": 97.7547,
+        "QQQ (Nasdaq Tech em US$)": 95.6197,
+        "USD/BRL (Dólar)": 96.1256,
+        "Selic Acumulada (Renda Fixa)": 104.9037
+      }
+    },
+    {
+      "data": "2026-04-01",
+      "precos": {
+        "IVVB11.SA": 381.410004,
+        "BOVA11.SA": 184.179993,
+        "VOO": 599.010925,
+        "QQQ": 583.061035,
+        "BRL=X": 5.1545
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 93.8971,
+        "BOVA11 (Bolsa Brasil)": 120.8927,
+        "VOO (S&P 500 em US$)": 98.5318,
+        "QQQ (Nasdaq Tech em US$)": 96.8009,
+        "USD/BRL (Dólar)": 95.4166,
+        "Selic Acumulada (Renda Fixa)": 104.9607
+      }
+    },
+    {
+      "data": "2026-04-02",
+      "precos": {
+        "IVVB11.SA": 381.970001,
+        "BOVA11.SA": 184.369995,
+        "VOO": 599.697144,
+        "QQQ": 583.729553,
+        "BRL=X": 5.1564
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.035,
+        "BOVA11 (Bolsa Brasil)": 121.0174,
+        "VOO (S&P 500 em US$)": 98.6446,
+        "QQQ (Nasdaq Tech em US$)": 96.9119,
+        "USD/BRL (Dólar)": 95.4518,
+        "Selic Acumulada (Renda Fixa)": 105.0176
+      }
+    },
+    {
+      "data": "2026-04-05",
+      "precos": {
+        "IVVB11.SA": 381.970001,
+        "BOVA11.SA": 184.369995,
+        "VOO": 599.697144,
+        "QQQ": 583.729553,
+        "BRL=X": 5.1579
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.035,
+        "BOVA11 (Bolsa Brasil)": 121.0174,
+        "VOO (S&P 500 em US$)": 98.6446,
+        "QQQ (Nasdaq Tech em US$)": 96.9119,
+        "USD/BRL (Dólar)": 95.4795,
+        "Selic Acumulada (Renda Fixa)": 105.0176
+      }
+    },
+    {
+      "data": "2026-04-06",
+      "precos": {
+        "IVVB11.SA": 383.5,
+        "BOVA11.SA": 184.559998,
+        "VOO": 602.362427,
+        "QQQ": 587.242065,
+        "BRL=X": 5.1383
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.4116,
+        "BOVA11 (Bolsa Brasil)": 121.1421,
+        "VOO (S&P 500 em US$)": 99.083,
+        "QQQ (Nasdaq Tech em US$)": 97.4951,
+        "USD/BRL (Dólar)": 95.1167,
+        "Selic Acumulada (Renda Fixa)": 105.0746
+      }
+    },
+    {
+      "data": "2026-04-07",
+      "precos": {
+        "IVVB11.SA": 383.959991,
+        "BOVA11.SA": 185,
+        "VOO": 602.730469,
+        "QQQ": 587.331909,
+        "BRL=X": 5.1506
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.5249,
+        "BOVA11 (Bolsa Brasil)": 121.4309,
+        "VOO (S&P 500 em US$)": 99.1436,
+        "QQQ (Nasdaq Tech em US$)": 97.51,
+        "USD/BRL (Dólar)": 95.3444,
+        "Selic Acumulada (Renda Fixa)": 105.1316
+      }
+    },
+    {
+      "data": "2026-04-08",
+      "precos": {
+        "IVVB11.SA": 389.850006,
+        "BOVA11.SA": 189,
+        "VOO": 617.94696,
+        "QQQ": 604.794495,
+        "BRL=X": 5.1002
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.9749,
+        "BOVA11 (Bolsa Brasil)": 124.0564,
+        "VOO (S&P 500 em US$)": 101.6466,
+        "QQQ (Nasdaq Tech em US$)": 100.4092,
+        "USD/BRL (Dólar)": 94.4114,
+        "Selic Acumulada (Renda Fixa)": 105.1887
+      }
+    },
+    {
+      "data": "2026-04-09",
+      "precos": {
+        "IVVB11.SA": 388.570007,
+        "BOVA11.SA": 191.699997,
+        "VOO": 621.606873,
+        "QQQ": 608.885742,
+        "BRL=X": 5.0958
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.6598,
+        "BOVA11 (Bolsa Brasil)": 125.8287,
+        "VOO (S&P 500 em US$)": 102.2486,
+        "QQQ (Nasdaq Tech em US$)": 101.0884,
+        "USD/BRL (Dólar)": 94.33,
+        "Selic Acumulada (Renda Fixa)": 105.2458
+      }
+    },
+    {
+      "data": "2026-04-10",
+      "precos": {
+        "IVVB11.SA": 384.700012,
+        "BOVA11.SA": 193.839996,
+        "VOO": 621.189087,
+        "QQQ": 609.763855,
+        "BRL=X": 5.0958
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.707,
+        "BOVA11 (Bolsa Brasil)": 127.2333,
+        "VOO (S&P 500 em US$)": 102.1799,
+        "QQQ (Nasdaq Tech em US$)": 101.2342,
+        "USD/BRL (Dólar)": 94.33,
+        "Selic Acumulada (Renda Fixa)": 105.3029
+      }
+    },
+    {
+      "data": "2026-04-12",
+      "precos": {
+        "IVVB11.SA": 384.700012,
+        "BOVA11.SA": 193.839996,
+        "VOO": 621.189087,
+        "QQQ": 609.763855,
+        "BRL=X": 5.005
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 94.707,
+        "BOVA11 (Bolsa Brasil)": 127.2333,
+        "VOO (S&P 500 em US$)": 102.1799,
+        "QQQ (Nasdaq Tech em US$)": 101.2342,
+        "USD/BRL (Dólar)": 92.6492,
+        "Selic Acumulada (Renda Fixa)": 105.3029
+      }
+    },
+    {
+      "data": "2026-04-13",
+      "precos": {
+        "IVVB11.SA": 386.529999,
+        "BOVA11.SA": 194.300003,
+        "VOO": 627.275696,
+        "QQQ": 616.070313,
+        "BRL=X": 4.9944
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 95.1576,
+        "BOVA11 (Bolsa Brasil)": 127.5353,
+        "VOO (S&P 500 em US$)": 103.181,
+        "QQQ (Nasdaq Tech em US$)": 102.2812,
+        "USD/BRL (Dólar)": 92.4529,
+        "Selic Acumulada (Renda Fixa)": 105.36
+      }
+    },
+    {
+      "data": "2026-04-14",
+      "precos": {
+        "IVVB11.SA": 391.299988,
+        "BOVA11.SA": 195.160004,
+        "VOO": 634.864014,
+        "QQQ": 627.256287,
+        "BRL=X": 4.9848
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 96.3319,
+        "BOVA11 (Bolsa Brasil)": 128.0998,
+        "VOO (S&P 500 em US$)": 104.4293,
+        "QQQ (Nasdaq Tech em US$)": 104.1383,
+        "USD/BRL (Dólar)": 92.2752,
+        "Selic Acumulada (Renda Fixa)": 105.4172
+      }
+    },
+    {
+      "data": "2026-04-15",
+      "precos": {
+        "IVVB11.SA": 394.950012,
+        "BOVA11.SA": 193.860001,
+        "VOO": 639.936157,
+        "QQQ": 636.037537,
+        "BRL=X": 4.9924
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.2304,
+        "BOVA11 (Bolsa Brasil)": 127.2465,
+        "VOO (S&P 500 em US$)": 105.2636,
+        "QQQ (Nasdaq Tech em US$)": 105.5962,
+        "USD/BRL (Dólar)": 92.4159,
+        "Selic Acumulada (Renda Fixa)": 105.4744
+      }
+    },
+    {
+      "data": "2026-04-16",
+      "precos": {
+        "IVVB11.SA": 395.850006,
+        "BOVA11.SA": 193.050003,
+        "VOO": 641.33844,
+        "QQQ": 639.100952,
+        "BRL=X": 4.98709
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 97.452,
+        "BOVA11 (Bolsa Brasil)": 126.7148,
+        "VOO (S&P 500 em US$)": 105.4942,
+        "QQQ (Nasdaq Tech em US$)": 106.1048,
+        "USD/BRL (Dólar)": 92.3176,
+        "Selic Acumulada (Renda Fixa)": 105.5316
+      }
+    },
+    {
+      "data": "2026-04-17",
+      "precos": {
+        "IVVB11.SA": 399.5,
+        "BOVA11.SA": 192.100006,
+        "VOO": 649.21521,
+        "QQQ": 647.463013,
+        "BRL=X": 4.98709
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.3506,
+        "BOVA11 (Bolsa Brasil)": 126.0912,
+        "VOO (S&P 500 em US$)": 106.7899,
+        "QQQ (Nasdaq Tech em US$)": 107.4931,
+        "USD/BRL (Dólar)": 92.3176,
+        "Selic Acumulada (Renda Fixa)": 105.5889
+      }
+    },
+    {
+      "data": "2026-04-19",
+      "precos": {
+        "IVVB11.SA": 399.5,
+        "BOVA11.SA": 192.100006,
+        "VOO": 649.21521,
+        "QQQ": 647.463013,
+        "BRL=X": 5.0063
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.3506,
+        "BOVA11 (Bolsa Brasil)": 126.0912,
+        "VOO (S&P 500 em US$)": 106.7899,
+        "QQQ (Nasdaq Tech em US$)": 107.4931,
+        "USD/BRL (Dólar)": 92.6732,
+        "Selic Acumulada (Renda Fixa)": 105.5889
+      }
+    },
+    {
+      "data": "2026-04-20",
+      "precos": {
+        "IVVB11.SA": 398.100006,
+        "BOVA11.SA": 192.639999,
+        "VOO": 647.981934,
+        "QQQ": 645.40741,
+        "BRL=X": 4.9524
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.0059,
+        "BOVA11 (Bolsa Brasil)": 126.4457,
+        "VOO (S&P 500 em US$)": 106.587,
+        "QQQ (Nasdaq Tech em US$)": 107.1518,
+        "USD/BRL (Dólar)": 91.6755,
+        "Selic Acumulada (Renda Fixa)": 105.6462
+      }
+    },
+    {
+      "data": "2026-04-21",
+      "precos": {
+        "IVVB11.SA": 398.100006,
+        "BOVA11.SA": 192.639999,
+        "VOO": 643.715393,
+        "QQQ": 642.952698,
+        "BRL=X": 5.008
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.0059,
+        "BOVA11 (Bolsa Brasil)": 126.4457,
+        "VOO (S&P 500 em US$)": 105.8852,
+        "QQQ (Nasdaq Tech em US$)": 106.7443,
+        "USD/BRL (Dólar)": 92.7047,
+        "Selic Acumulada (Renda Fixa)": 105.6462
+      }
+    },
+    {
+      "data": "2026-04-22",
+      "precos": {
+        "IVVB11.SA": 399.329987,
+        "BOVA11.SA": 189.330002,
+        "VOO": 650.329163,
+        "QQQ": 653.709717,
+        "BRL=X": 4.9849
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.3087,
+        "BOVA11 (Bolsa Brasil)": 124.2731,
+        "VOO (S&P 500 em US$)": 106.9731,
+        "QQQ (Nasdaq Tech em US$)": 108.5302,
+        "USD/BRL (Dólar)": 92.2771,
+        "Selic Acumulada (Renda Fixa)": 105.7035
+      }
+    },
+    {
+      "data": "2026-04-23",
+      "precos": {
+        "IVVB11.SA": 400.549988,
+        "BOVA11.SA": 187.869995,
+        "VOO": 647.703491,
+        "QQQ": 650.027527,
+        "BRL=X": 5.0308
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.6091,
+        "BOVA11 (Bolsa Brasil)": 123.3147,
+        "VOO (S&P 500 em US$)": 106.5412,
+        "QQQ (Nasdaq Tech em US$)": 107.9188,
+        "USD/BRL (Dólar)": 93.1267,
+        "Selic Acumulada (Renda Fixa)": 105.7609
+      }
+    },
+    {
+      "data": "2026-04-24",
+      "precos": {
+        "IVVB11.SA": 403,
+        "BOVA11.SA": 187.009995,
+        "VOO": 652.835327,
+        "QQQ": 662.460938,
+        "BRL=X": 5.0308
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.2122,
+        "BOVA11 (Bolsa Brasil)": 122.7502,
+        "VOO (S&P 500 em US$)": 107.3854,
+        "QQQ (Nasdaq Tech em US$)": 109.9831,
+        "USD/BRL (Dólar)": 93.1267,
+        "Selic Acumulada (Renda Fixa)": 105.8183
+      }
+    },
+    {
+      "data": "2026-04-26",
+      "precos": {
+        "IVVB11.SA": 403,
+        "BOVA11.SA": 187.009995,
+        "VOO": 652.835327,
+        "QQQ": 662.460938,
+        "BRL=X": 4.9791
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.2122,
+        "BOVA11 (Bolsa Brasil)": 122.7502,
+        "VOO (S&P 500 em US$)": 107.3854,
+        "QQQ (Nasdaq Tech em US$)": 109.9831,
+        "USD/BRL (Dólar)": 92.1697,
+        "Selic Acumulada (Renda Fixa)": 105.8183
+      }
+    },
+    {
+      "data": "2026-04-27",
+      "precos": {
+        "IVVB11.SA": 402.140015,
+        "BOVA11.SA": 186.059998,
+        "VOO": 653.909485,
+        "QQQ": 662.810181,
+        "BRL=X": 4.9996
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.0005,
+        "BOVA11 (Bolsa Brasil)": 122.1267,
+        "VOO (S&P 500 em US$)": 107.5621,
+        "QQQ (Nasdaq Tech em US$)": 110.041,
+        "USD/BRL (Dólar)": 92.5492,
+        "Selic Acumulada (Renda Fixa)": 105.8757
+      }
+    },
+    {
+      "data": "2026-04-28",
+      "precos": {
+        "IVVB11.SA": 400.149994,
+        "BOVA11.SA": 185.160004,
+        "VOO": 650.687134,
+        "QQQ": 656.14447,
+        "BRL=X": 4.9943
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.5106,
+        "BOVA11 (Bolsa Brasil)": 121.5359,
+        "VOO (S&P 500 em US$)": 107.032,
+        "QQQ (Nasdaq Tech em US$)": 108.9344,
+        "USD/BRL (Dólar)": 92.4511,
+        "Selic Acumulada (Renda Fixa)": 105.9332
+      }
+    },
+    {
+      "data": "2026-04-29",
+      "precos": {
+        "IVVB11.SA": 401.48999,
+        "BOVA11.SA": 181.029999,
+        "VOO": 650.667236,
+        "QQQ": 660.155884,
+        "BRL=X": 5.0175
+      },
+      "selicDiariaDecimal": 0.00054266,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.8405,
+        "BOVA11 (Bolsa Brasil)": 118.8251,
+        "VOO (S&P 500 em US$)": 107.0287,
+        "QQQ (Nasdaq Tech em US$)": 109.6004,
+        "USD/BRL (Dólar)": 92.8805,
+        "Selic Acumulada (Renda Fixa)": 105.9906
+      }
+    },
+    {
+      "data": "2026-04-30",
+      "precos": {
+        "IVVB11.SA": 402.5,
+        "BOVA11.SA": 184.089996,
+        "VOO": 656.972656,
+        "QQQ": 666.312622,
+        "BRL=X": 4.9695
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.0891,
+        "BOVA11 (Bolsa Brasil)": 120.8336,
+        "VOO (S&P 500 em US$)": 108.0659,
+        "QQQ (Nasdaq Tech em US$)": 110.6225,
+        "USD/BRL (Dólar)": 91.992,
+        "Selic Acumulada (Renda Fixa)": 106.0472
+      }
+    },
+    {
+      "data": "2026-05-01",
+      "precos": {
+        "IVVB11.SA": 402.5,
+        "BOVA11.SA": 184.089996,
+        "VOO": 658.902039,
+        "QQQ": 672.708984,
+        "BRL=X": 4.9695
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.0891,
+        "BOVA11 (Bolsa Brasil)": 120.8336,
+        "VOO (S&P 500 em US$)": 108.3833,
+        "QQQ (Nasdaq Tech em US$)": 111.6845,
+        "USD/BRL (Dólar)": 91.992,
+        "Selic Acumulada (Renda Fixa)": 106.0472
+      }
+    },
+    {
+      "data": "2026-05-03",
+      "precos": {
+        "IVVB11.SA": 402.5,
+        "BOVA11.SA": 184.089996,
+        "VOO": 658.902039,
+        "QQQ": 672.708984,
+        "BRL=X": 4.951929
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.0891,
+        "BOVA11 (Bolsa Brasil)": 120.8336,
+        "VOO (S&P 500 em US$)": 108.3833,
+        "QQQ (Nasdaq Tech em US$)": 111.6845,
+        "USD/BRL (Dólar)": 91.6667,
+        "Selic Acumulada (Renda Fixa)": 106.0472
+      }
+    },
+    {
+      "data": "2026-05-04",
+      "precos": {
+        "IVVB11.SA": 402.549988,
+        "BOVA11.SA": 181.759995,
+        "VOO": 656.515137,
+        "QQQ": 671.441711,
+        "BRL=X": 4.9848
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 99.1014,
+        "BOVA11 (Bolsa Brasil)": 119.3042,
+        "VOO (S&P 500 em US$)": 107.9907,
+        "QQQ (Nasdaq Tech em US$)": 111.4741,
+        "USD/BRL (Dólar)": 92.2752,
+        "Selic Acumulada (Renda Fixa)": 106.1039
+      }
+    },
+    {
+      "data": "2026-05-05",
+      "precos": {
+        "IVVB11.SA": 401.799988,
+        "BOVA11.SA": 183.270004,
+        "VOO": 661.66687,
+        "QQQ": 680.153015,
+        "BRL=X": 4.9273
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 98.9168,
+        "BOVA11 (Bolsa Brasil)": 120.2954,
+        "VOO (S&P 500 em US$)": 108.8381,
+        "QQQ (Nasdaq Tech em US$)": 112.9203,
+        "USD/BRL (Dólar)": 91.2108,
+        "Selic Acumulada (Renda Fixa)": 106.1605
+      }
+    },
+    {
+      "data": "2026-05-06",
+      "precos": {
+        "IVVB11.SA": 408.5,
+        "BOVA11.SA": 184.25,
+        "VOO": 670.975708,
+        "QQQ": 694.282776,
+        "BRL=X": 4.932272
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.5662,
+        "BOVA11 (Bolsa Brasil)": 120.9386,
+        "VOO (S&P 500 em US$)": 110.3693,
+        "QQQ (Nasdaq Tech em US$)": 115.2662,
+        "USD/BRL (Dólar)": 91.3029,
+        "Selic Acumulada (Renda Fixa)": 106.2172
+      }
+    },
+    {
+      "data": "2026-05-07",
+      "precos": {
+        "IVVB11.SA": 406.809998,
+        "BOVA11.SA": 179.699997,
+        "VOO": 668.86731,
+        "QQQ": 693.454529,
+        "BRL=X": 4.9449
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.1502,
+        "BOVA11 (Bolsa Brasil)": 117.9521,
+        "VOO (S&P 500 em US$)": 110.0225,
+        "QQQ (Nasdaq Tech em US$)": 115.1287,
+        "USD/BRL (Dólar)": 91.5366,
+        "Selic Acumulada (Renda Fixa)": 106.2739
+      }
+    },
+    {
+      "data": "2026-05-08",
+      "precos": {
+        "IVVB11.SA": 407.799988,
+        "BOVA11.SA": 180.929993,
+        "VOO": 674.337219,
+        "QQQ": 709.709717,
+        "BRL=X": 4.9449
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.3939,
+        "BOVA11 (Bolsa Brasil)": 118.7594,
+        "VOO (S&P 500 em US$)": 110.9222,
+        "QQQ (Nasdaq Tech em US$)": 117.8274,
+        "USD/BRL (Dólar)": 91.5366,
+        "Selic Acumulada (Renda Fixa)": 106.3307
+      }
+    },
+    {
+      "data": "2026-05-10",
+      "precos": {
+        "IVVB11.SA": 407.799988,
+        "BOVA11.SA": 180.929993,
+        "VOO": 674.337219,
+        "QQQ": 709.709717,
+        "BRL=X": 4.9133
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.3939,
+        "BOVA11 (Bolsa Brasil)": 118.7594,
+        "VOO (S&P 500 em US$)": 110.9222,
+        "QQQ (Nasdaq Tech em US$)": 117.8274,
+        "USD/BRL (Dólar)": 90.9517,
+        "Selic Acumulada (Renda Fixa)": 106.3307
+      }
+    },
+    {
+      "data": "2026-05-11",
+      "precos": {
+        "IVVB11.SA": 408.899994,
+        "BOVA11.SA": 178.589996,
+        "VOO": 675.809204,
+        "QQQ": 711.765259,
+        "BRL=X": 4.9064
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.6647,
+        "BOVA11 (Bolsa Brasil)": 117.2235,
+        "VOO (S&P 500 em US$)": 111.1644,
+        "QQQ (Nasdaq Tech em US$)": 118.1687,
+        "USD/BRL (Dólar)": 90.8239,
+        "Selic Acumulada (Renda Fixa)": 106.3875
+      }
+    },
+    {
+      "data": "2026-05-12",
+      "precos": {
+        "IVVB11.SA": 407.799988,
+        "BOVA11.SA": 177.190002,
+        "VOO": 674.963806,
+        "QQQ": 705.72821,
+        "BRL=X": 4.9097
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 100.3939,
+        "BOVA11 (Bolsa Brasil)": 116.3046,
+        "VOO (S&P 500 em US$)": 111.0253,
+        "QQQ (Nasdaq Tech em US$)": 117.1664,
+        "USD/BRL (Dólar)": 90.885,
+        "Selic Acumulada (Renda Fixa)": 106.4443
+      }
+    },
+    {
+      "data": "2026-05-13",
+      "precos": {
+        "IVVB11.SA": 420,
+        "BOVA11.SA": 173.789993,
+        "VOO": 678.683411,
+        "QQQ": 713.182312,
+        "BRL=X": 5.0249
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.3973,
+        "BOVA11 (Bolsa Brasil)": 114.0728,
+        "VOO (S&P 500 em US$)": 111.6371,
+        "QQQ (Nasdaq Tech em US$)": 118.4039,
+        "USD/BRL (Dólar)": 93.0175,
+        "Selic Acumulada (Renda Fixa)": 106.5011
+      }
+    },
+    {
+      "data": "2026-05-14",
+      "precos": {
+        "IVVB11.SA": 421.399994,
+        "BOVA11.SA": 175.160004,
+        "VOO": 683.974304,
+        "QQQ": 718.251404,
+        "BRL=X": 5.0041
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.742,
+        "BOVA11 (Bolsa Brasil)": 114.9721,
+        "VOO (S&P 500 em US$)": 112.5074,
+        "QQQ (Nasdaq Tech em US$)": 119.2455,
+        "USD/BRL (Dólar)": 92.6325,
+        "Selic Acumulada (Renda Fixa)": 106.558
+      }
+    },
+    {
+      "data": "2026-05-15",
+      "precos": {
+        "IVVB11.SA": 422.549988,
+        "BOVA11.SA": 173.880005,
+        "VOO": 675.729614,
+        "QQQ": 707.414673,
+        "BRL=X": 5.0041
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.0251,
+        "BOVA11 (Bolsa Brasil)": 114.1319,
+        "VOO (S&P 500 em US$)": 111.1513,
+        "QQQ (Nasdaq Tech em US$)": 117.4464,
+        "USD/BRL (Dólar)": 92.6325,
+        "Selic Acumulada (Renda Fixa)": 106.6149
+      }
+    },
+    {
+      "data": "2026-05-17",
+      "precos": {
+        "IVVB11.SA": 422.549988,
+        "BOVA11.SA": 173.880005,
+        "VOO": 675.729614,
+        "QQQ": 707.414673,
+        "BRL=X": 5.0604
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.0251,
+        "BOVA11 (Bolsa Brasil)": 114.1319,
+        "VOO (S&P 500 em US$)": 111.1513,
+        "QQQ (Nasdaq Tech em US$)": 117.4464,
+        "USD/BRL (Dólar)": 93.6747,
+        "Selic Acumulada (Renda Fixa)": 106.6149
+      }
+    },
+    {
+      "data": "2026-05-18",
+      "precos": {
+        "IVVB11.SA": 417.25,
+        "BOVA11.SA": 174,
+        "VOO": 675.202515,
+        "QQQ": 704.371155,
+        "BRL=X": 5.005625
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.7203,
+        "BOVA11 (Bolsa Brasil)": 114.2107,
+        "VOO (S&P 500 em US$)": 111.0646,
+        "QQQ (Nasdaq Tech em US$)": 116.9411,
+        "USD/BRL (Dólar)": 92.6607,
+        "Selic Acumulada (Renda Fixa)": 106.6718
+      }
+    },
+    {
+      "data": "2026-05-19",
+      "precos": {
+        "IVVB11.SA": 417.649994,
+        "BOVA11.SA": 170.869995,
+        "VOO": 670.906189,
+        "QQQ": 700.030518,
+        "BRL=X": 5.0582
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 102.8188,
+        "BOVA11 (Bolsa Brasil)": 112.1562,
+        "VOO (S&P 500 em US$)": 110.3579,
+        "QQQ (Nasdaq Tech em US$)": 116.2204,
+        "USD/BRL (Dólar)": 93.634,
+        "Selic Acumulada (Renda Fixa)": 106.7288
+      }
+    },
+    {
+      "data": "2026-05-20",
+      "precos": {
+        "IVVB11.SA": 419,
+        "BOVA11.SA": 173.949997,
+        "VOO": 677.848022,
+        "QQQ": 711.625671,
+        "BRL=X": 5.0117
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.1512,
+        "BOVA11 (Bolsa Brasil)": 114.1779,
+        "VOO (S&P 500 em US$)": 111.4997,
+        "QQQ (Nasdaq Tech em US$)": 118.1455,
+        "USD/BRL (Dólar)": 92.7732,
+        "Selic Acumulada (Renda Fixa)": 106.7858
+      }
+    },
+    {
+      "data": "2026-05-21",
+      "precos": {
+        "IVVB11.SA": 419.75,
+        "BOVA11.SA": 174.169998,
+        "VOO": 679.111084,
+        "QQQ": 712.982727,
+        "BRL=X": 5.0171
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.3358,
+        "BOVA11 (Bolsa Brasil)": 114.3223,
+        "VOO (S&P 500 em US$)": 111.7075,
+        "QQQ (Nasdaq Tech em US$)": 118.3708,
+        "USD/BRL (Dólar)": 92.8731,
+        "Selic Acumulada (Renda Fixa)": 106.8428
+      }
+    },
+    {
+      "data": "2026-05-22",
+      "precos": {
+        "IVVB11.SA": 423.100006,
+        "BOVA11.SA": 173.300003,
+        "VOO": 681.806213,
+        "QQQ": 716.006226,
+        "BRL=X": 5.0171
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.1605,
+        "BOVA11 (Bolsa Brasil)": 113.7512,
+        "VOO (S&P 500 em US$)": 112.1508,
+        "QQQ (Nasdaq Tech em US$)": 118.8728,
+        "USD/BRL (Dólar)": 92.8731,
+        "Selic Acumulada (Renda Fixa)": 106.8999
+      }
+    },
+    {
+      "data": "2026-05-24",
+      "precos": {
+        "IVVB11.SA": 423.100006,
+        "BOVA11.SA": 173.300003,
+        "VOO": 681.806213,
+        "QQQ": 716.006226,
+        "BRL=X": 5.0257
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.1605,
+        "BOVA11 (Bolsa Brasil)": 113.7512,
+        "VOO (S&P 500 em US$)": 112.1508,
+        "QQQ (Nasdaq Tech em US$)": 118.8728,
+        "USD/BRL (Dólar)": 93.0323,
+        "Selic Acumulada (Renda Fixa)": 106.8999
+      }
+    },
+    {
+      "data": "2026-05-25",
+      "precos": {
+        "IVVB11.SA": 427,
+        "BOVA11.SA": 174.479996,
+        "VOO": 681.806213,
+        "QQQ": 716.006226,
+        "BRL=X": 5.0104
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.1206,
+        "BOVA11 (Bolsa Brasil)": 114.5258,
+        "VOO (S&P 500 em US$)": 112.1508,
+        "QQQ (Nasdaq Tech em US$)": 118.8728,
+        "USD/BRL (Dólar)": 92.7491,
+        "Selic Acumulada (Renda Fixa)": 106.957
+      }
+    },
+    {
+      "data": "2026-05-26",
+      "precos": {
+        "IVVB11.SA": 426.980011,
+        "BOVA11.SA": 173.289993,
+        "VOO": 686.241943,
+        "QQQ": 728.719055,
+        "BRL=X": 5.0445
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.1157,
+        "BOVA11 (Bolsa Brasil)": 113.7447,
+        "VOO (S&P 500 em US$)": 112.8804,
+        "QQQ (Nasdaq Tech em US$)": 120.9834,
+        "USD/BRL (Dólar)": 93.3804,
+        "Selic Acumulada (Renda Fixa)": 107.0141
+      }
+    },
+    {
+      "data": "2026-05-27",
+      "precos": {
+        "IVVB11.SA": 429.200012,
+        "BOVA11.SA": 172.539993,
+        "VOO": 686.1922,
+        "QQQ": 727.890808,
+        "BRL=X": 5.0729
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.6622,
+        "BOVA11 (Bolsa Brasil)": 113.2524,
+        "VOO (S&P 500 em US$)": 112.8723,
+        "QQQ (Nasdaq Tech em US$)": 120.8459,
+        "USD/BRL (Dólar)": 93.9061,
+        "Selic Acumulada (Renda Fixa)": 107.0712
+      }
+    },
+    {
+      "data": "2026-05-28",
+      "precos": {
+        "IVVB11.SA": 429.630005,
+        "BOVA11.SA": 171.699997,
+        "VOO": 690.120544,
+        "QQQ": 734.027588,
+        "BRL=X": 5.0517
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7681,
+        "BOVA11 (Bolsa Brasil)": 112.701,
+        "VOO (S&P 500 em US$)": 113.5184,
+        "QQQ (Nasdaq Tech em US$)": 121.8647,
+        "USD/BRL (Dólar)": 93.5136,
+        "Selic Acumulada (Renda Fixa)": 107.1284
+      }
+    },
+    {
+      "data": "2026-05-29",
+      "precos": {
+        "IVVB11.SA": 430.399994,
+        "BOVA11.SA": 170.75,
+        "VOO": 691.691956,
+        "QQQ": 736.731812,
+        "BRL=X": 5.0517
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.9577,
+        "BOVA11 (Bolsa Brasil)": 112.0774,
+        "VOO (S&P 500 em US$)": 113.7769,
+        "QQQ (Nasdaq Tech em US$)": 122.3137,
+        "USD/BRL (Dólar)": 93.5136,
+        "Selic Acumulada (Renda Fixa)": 107.1856
+      }
+    },
+    {
+      "data": "2026-05-31",
+      "precos": {
+        "IVVB11.SA": 430.399994,
+        "BOVA11.SA": 170.75,
+        "VOO": 691.691956,
+        "QQQ": 736.731812,
+        "BRL=X": 5.0392
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.9577,
+        "BOVA11 (Bolsa Brasil)": 112.0774,
+        "VOO (S&P 500 em US$)": 113.7769,
+        "QQQ (Nasdaq Tech em US$)": 122.3137,
+        "USD/BRL (Dólar)": 93.2822,
+        "Selic Acumulada (Renda Fixa)": 107.1856
+      }
+    },
+    {
+      "data": "2026-06-01",
+      "precos": {
+        "IVVB11.SA": 429.959991,
+        "BOVA11.SA": 169.119995,
+        "VOO": 693.492065,
+        "QQQ": 741.152405,
+        "BRL=X": 5.0386
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.8493,
+        "BOVA11 (Bolsa Brasil)": 111.0075,
+        "VOO (S&P 500 em US$)": 114.073,
+        "QQQ (Nasdaq Tech em US$)": 123.0476,
+        "USD/BRL (Dólar)": 93.2711,
+        "Selic Acumulada (Renda Fixa)": 107.2428
+      }
+    },
+    {
+      "data": "2026-06-02",
+      "precos": {
+        "IVVB11.SA": 429.619995,
+        "BOVA11.SA": 171.429993,
+        "VOO": 694.446899,
+        "QQQ": 744.565002,
+        "BRL=X": 5.0207
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7656,
+        "BOVA11 (Bolsa Brasil)": 112.5238,
+        "VOO (S&P 500 em US$)": 114.2301,
+        "QQQ (Nasdaq Tech em US$)": 123.6141,
+        "USD/BRL (Dólar)": 92.9398,
+        "Selic Acumulada (Renda Fixa)": 107.3001
+      }
+    },
+    {
+      "data": "2026-06-03",
+      "precos": {
+        "IVVB11.SA": 431.700012,
+        "BOVA11.SA": 167.279999,
+        "VOO": 689.573608,
+        "QQQ": 742.619263,
+        "BRL=X": 5.0774
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.2777,
+        "BOVA11 (Bolsa Brasil)": 109.7998,
+        "VOO (S&P 500 em US$)": 113.4285,
+        "QQQ (Nasdaq Tech em US$)": 123.2911,
+        "USD/BRL (Dólar)": 93.9894,
+        "Selic Acumulada (Renda Fixa)": 107.3574
+      }
+    },
+    {
+      "data": "2026-06-04",
+      "precos": {
+        "IVVB11.SA": 431.700012,
+        "BOVA11.SA": 167.279999,
+        "VOO": 692.25885,
+        "QQQ": 739.026917,
+        "BRL=X": 5.0607
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.2777,
+        "BOVA11 (Bolsa Brasil)": 109.7998,
+        "VOO (S&P 500 em US$)": 113.8702,
+        "QQQ (Nasdaq Tech em US$)": 122.6947,
+        "USD/BRL (Dólar)": 93.6802,
+        "Selic Acumulada (Renda Fixa)": 107.3574
+      }
+    },
+    {
+      "data": "2026-06-05",
+      "precos": {
+        "IVVB11.SA": 429.470001,
+        "BOVA11.SA": 165.75,
+        "VOO": 674.297485,
+        "QQQ": 703.552917,
+        "BRL=X": 5.0607
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7287,
+        "BOVA11 (Bolsa Brasil)": 108.7955,
+        "VOO (S&P 500 em US$)": 110.9157,
+        "QQQ (Nasdaq Tech em US$)": 116.8052,
+        "USD/BRL (Dólar)": 93.6802,
+        "Selic Acumulada (Renda Fixa)": 107.4147
+      }
+    },
+    {
+      "data": "2026-06-07",
+      "precos": {
+        "IVVB11.SA": 429.470001,
+        "BOVA11.SA": 165.75,
+        "VOO": 674.297485,
+        "QQQ": 703.552917,
+        "BRL=X": 5.177
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7287,
+        "BOVA11 (Bolsa Brasil)": 108.7955,
+        "VOO (S&P 500 em US$)": 110.9157,
+        "QQQ (Nasdaq Tech em US$)": 116.8052,
+        "USD/BRL (Dólar)": 95.8331,
+        "Selic Acumulada (Renda Fixa)": 107.4147
+      }
+    },
+    {
+      "data": "2026-06-08",
+      "precos": {
+        "IVVB11.SA": 432.649994,
+        "BOVA11.SA": 165.5,
+        "VOO": 675.968262,
+        "QQQ": 714.539368,
+        "BRL=X": 5.2031
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.5116,
+        "BOVA11 (Bolsa Brasil)": 108.6314,
+        "VOO (S&P 500 em US$)": 111.1905,
+        "QQQ (Nasdaq Tech em US$)": 118.6292,
+        "USD/BRL (Dólar)": 96.3162,
+        "Selic Acumulada (Renda Fixa)": 107.4721
+      }
+    },
+    {
+      "data": "2026-06-09",
+      "precos": {
+        "IVVB11.SA": 431.299988,
+        "BOVA11.SA": 166.419998,
+        "VOO": 673.999146,
+        "QQQ": 706.316956,
+        "BRL=X": 5.1901
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.1792,
+        "BOVA11 (Bolsa Brasil)": 109.2353,
+        "VOO (S&P 500 em US$)": 110.8666,
+        "QQQ (Nasdaq Tech em US$)": 117.2641,
+        "USD/BRL (Dólar)": 96.0756,
+        "Selic Acumulada (Renda Fixa)": 107.5295
+      }
+    },
+    {
+      "data": "2026-06-10",
+      "precos": {
+        "IVVB11.SA": 423.779999,
+        "BOVA11.SA": 165.820007,
+        "VOO": 663.407288,
+        "QQQ": 692.207214,
+        "BRL=X": 5.1921
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.3279,
+        "BOVA11 (Bolsa Brasil)": 108.8415,
+        "VOO (S&P 500 em US$)": 109.1244,
+        "QQQ (Nasdaq Tech em US$)": 114.9216,
+        "USD/BRL (Dólar)": 96.1126,
+        "Selic Acumulada (Renda Fixa)": 107.5869
+      }
+    },
+    {
+      "data": "2026-06-11",
+      "precos": {
+        "IVVB11.SA": 424.75,
+        "BOVA11.SA": 168.699997,
+        "VOO": 674.526184,
+        "QQQ": 715.587097,
+        "BRL=X": 5.1138
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.5667,
+        "BOVA11 (Bolsa Brasil)": 110.7319,
+        "VOO (S&P 500 em US$)": 110.9533,
+        "QQQ (Nasdaq Tech em US$)": 118.8032,
+        "USD/BRL (Dólar)": 94.6632,
+        "Selic Acumulada (Renda Fixa)": 107.6444
+      }
+    },
+    {
+      "data": "2026-06-12",
+      "precos": {
+        "IVVB11.SA": 424.100006,
+        "BOVA11.SA": 167.919998,
+        "VOO": 678.225891,
+        "QQQ": 719.798096,
+        "BRL=X": 5.1138
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.4067,
+        "BOVA11 (Bolsa Brasil)": 110.2199,
+        "VOO (S&P 500 em US$)": 111.5619,
+        "QQQ (Nasdaq Tech em US$)": 119.5023,
+        "USD/BRL (Dólar)": 94.6632,
+        "Selic Acumulada (Renda Fixa)": 107.7018
+      }
+    },
+    {
+      "data": "2026-06-14",
+      "precos": {
+        "IVVB11.SA": 424.100006,
+        "BOVA11.SA": 167.919998,
+        "VOO": 678.225891,
+        "QQQ": 719.798096,
+        "BRL=X": 5.0609
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.4067,
+        "BOVA11 (Bolsa Brasil)": 110.2199,
+        "VOO (S&P 500 em US$)": 111.5619,
+        "QQQ (Nasdaq Tech em US$)": 119.5023,
+        "USD/BRL (Dólar)": 93.6839,
+        "Selic Acumulada (Renda Fixa)": 107.7018
+      }
+    },
+    {
+      "data": "2026-06-15",
+      "precos": {
+        "IVVB11.SA": 431.5,
+        "BOVA11.SA": 167.589996,
+        "VOO": 690.041077,
+        "QQQ": 742.409668,
+        "BRL=X": 5.0751
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.2285,
+        "BOVA11 (Bolsa Brasil)": 110.0033,
+        "VOO (S&P 500 em US$)": 113.5054,
+        "QQQ (Nasdaq Tech em US$)": 123.2563,
+        "USD/BRL (Dólar)": 93.9468,
+        "Selic Acumulada (Renda Fixa)": 107.7593
+      }
+    },
+    {
+      "data": "2026-06-16",
+      "precos": {
+        "IVVB11.SA": 430.799988,
+        "BOVA11.SA": 166.350006,
+        "VOO": 685.983337,
+        "QQQ": 728.299866,
+        "BRL=X": 5.1019
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.0561,
+        "BOVA11 (Bolsa Brasil)": 109.1894,
+        "VOO (S&P 500 em US$)": 112.8379,
+        "QQQ (Nasdaq Tech em US$)": 120.9138,
+        "USD/BRL (Dólar)": 94.4429,
+        "Selic Acumulada (Renda Fixa)": 107.8169
+      }
+    },
+    {
+      "data": "2026-06-17",
+      "precos": {
+        "IVVB11.SA": 427.890015,
+        "BOVA11.SA": 165.139999,
+        "VOO": 677.688843,
+        "QQQ": 720.965576,
+        "BRL=X": 5.1221
+      },
+      "selicDiariaDecimal": 0.0005340000000000001,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.3397,
+        "BOVA11 (Bolsa Brasil)": 108.3951,
+        "VOO (S&P 500 em US$)": 111.4735,
+        "QQQ (Nasdaq Tech em US$)": 119.6961,
+        "USD/BRL (Dólar)": 94.8168,
+        "Selic Acumulada (Renda Fixa)": 107.8745
+      }
+    },
+    {
+      "data": "2026-06-18",
+      "precos": {
+        "IVVB11.SA": 437,
+        "BOVA11.SA": 165.380005,
+        "VOO": 684.352234,
+        "QQQ": 739.036926,
+        "BRL=X": 5.1815
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.5825,
+        "BOVA11 (Bolsa Brasil)": 108.5527,
+        "VOO (S&P 500 em US$)": 112.5696,
+        "QQQ (Nasdaq Tech em US$)": 122.6964,
+        "USD/BRL (Dólar)": 95.9164,
+        "Selic Acumulada (Renda Fixa)": 107.9311
+      }
+    },
+    {
+      "data": "2026-06-19",
+      "precos": {
+        "IVVB11.SA": 437,
+        "BOVA11.SA": 165.130005,
+        "VOO": 684.352234,
+        "QQQ": 739.036926,
+        "BRL=X": 5.1815
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.5825,
+        "BOVA11 (Bolsa Brasil)": 108.3886,
+        "VOO (S&P 500 em US$)": 112.5696,
+        "QQQ (Nasdaq Tech em US$)": 122.6964,
+        "USD/BRL (Dólar)": 95.9164,
+        "Selic Acumulada (Renda Fixa)": 107.9878
+      }
+    },
+    {
+      "data": "2026-06-21",
+      "precos": {
+        "IVVB11.SA": 437,
+        "BOVA11.SA": 165.130005,
+        "VOO": 684.352234,
+        "QQQ": 739.036926,
+        "BRL=X": 5.1514
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.5825,
+        "BOVA11 (Bolsa Brasil)": 108.3886,
+        "VOO (S&P 500 em US$)": 112.5696,
+        "QQQ (Nasdaq Tech em US$)": 122.6964,
+        "USD/BRL (Dólar)": 95.3592,
+        "Selic Acumulada (Renda Fixa)": 107.9878
+      }
+    },
+    {
+      "data": "2026-06-22",
+      "precos": {
+        "IVVB11.SA": 433.109985,
+        "BOVA11.SA": 167.119995,
+        "VOO": 682.35321,
+        "QQQ": 737.181824,
+        "BRL=X": 5.1565
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.6248,
+        "BOVA11 (Bolsa Brasil)": 109.6948,
+        "VOO (S&P 500 em US$)": 112.2408,
+        "QQQ (Nasdaq Tech em US$)": 122.3884,
+        "USD/BRL (Dólar)": 95.4536,
+        "Selic Acumulada (Renda Fixa)": 108.0446
+      }
+    },
+    {
+      "data": "2026-06-23",
+      "precos": {
+        "IVVB11.SA": 430.450012,
+        "BOVA11.SA": 168.210007,
+        "VOO": 672.646545,
+        "QQQ": 712.907166,
+        "BRL=X": 5.1977
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.97,
+        "BOVA11 (Bolsa Brasil)": 110.4102,
+        "VOO (S&P 500 em US$)": 110.6441,
+        "QQQ (Nasdaq Tech em US$)": 118.3582,
+        "USD/BRL (Dólar)": 96.2163,
+        "Selic Acumulada (Renda Fixa)": 108.1013
+      }
+    },
+    {
+      "data": "2026-06-24",
+      "precos": {
+        "IVVB11.SA": 431,
+        "BOVA11.SA": 167.610001,
+        "VOO": 672.000122,
+        "QQQ": 709.88031,
+        "BRL=X": 5.2075
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.1054,
+        "BOVA11 (Bolsa Brasil)": 110.0164,
+        "VOO (S&P 500 em US$)": 110.5378,
+        "QQQ (Nasdaq Tech em US$)": 117.8557,
+        "USD/BRL (Dólar)": 96.3977,
+        "Selic Acumulada (Renda Fixa)": 108.1581
+      }
+    },
+    {
+      "data": "2026-06-25",
+      "precos": {
+        "IVVB11.SA": 429.630005,
+        "BOVA11.SA": 169,
+        "VOO": 672.02002,
+        "QQQ": 715.634277,
+        "BRL=X": 5.1941
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.7681,
+        "BOVA11 (Bolsa Brasil)": 110.9288,
+        "VOO (S&P 500 em US$)": 110.5411,
+        "QQQ (Nasdaq Tech em US$)": 118.811,
+        "USD/BRL (Dólar)": 96.1496,
+        "Selic Acumulada (Renda Fixa)": 108.2149
+      }
+    },
+    {
+      "data": "2026-06-26",
+      "precos": {
+        "IVVB11.SA": 427.029999,
+        "BOVA11.SA": 170.220001,
+        "VOO": 668.540955,
+        "QQQ": 705.784607,
+        "BRL=X": 5.1941
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.128,
+        "BOVA11 (Bolsa Brasil)": 111.7296,
+        "VOO (S&P 500 em US$)": 109.9688,
+        "QQQ (Nasdaq Tech em US$)": 117.1757,
+        "USD/BRL (Dólar)": 96.1496,
+        "Selic Acumulada (Renda Fixa)": 108.2718
+      }
+    },
+    {
+      "data": "2026-06-28",
+      "precos": {
+        "IVVB11.SA": 427.029999,
+        "BOVA11.SA": 170.220001,
+        "VOO": 668.540955,
+        "QQQ": 705.784607,
+        "BRL=X": 5.1707
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.128,
+        "BOVA11 (Bolsa Brasil)": 111.7296,
+        "VOO (S&P 500 em US$)": 109.9688,
+        "QQQ (Nasdaq Tech em US$)": 117.1757,
+        "USD/BRL (Dólar)": 95.7165,
+        "Selic Acumulada (Renda Fixa)": 108.2718
+      }
+    },
+    {
+      "data": "2026-06-29",
+      "precos": {
+        "IVVB11.SA": 433.399994,
+        "BOVA11.SA": 170.210007,
+        "VOO": 679.263428,
+        "QQQ": 723.326294,
+        "BRL=X": 5.181787
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.6962,
+        "BOVA11 (Bolsa Brasil)": 111.723,
+        "VOO (S&P 500 em US$)": 111.7325,
+        "QQQ (Nasdaq Tech em US$)": 120.088,
+        "USD/BRL (Dólar)": 95.9217,
+        "Selic Acumulada (Renda Fixa)": 108.3286
+      }
+    },
+    {
+      "data": "2026-06-30",
+      "precos": {
+        "IVVB11.SA": 435.649994,
+        "BOVA11.SA": 169.050003,
+        "VOO": 685.048523,
+        "QQQ": 735.633484,
+        "BRL=X": 5.1747
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.2501,
+        "BOVA11 (Bolsa Brasil)": 110.9616,
+        "VOO (S&P 500 em US$)": 112.6841,
+        "QQQ (Nasdaq Tech em US$)": 122.1313,
+        "USD/BRL (Dólar)": 95.7905,
+        "Selic Acumulada (Renda Fixa)": 108.3855
+      }
+    },
+    {
+      "data": "2026-07-01",
+      "precos": {
+        "IVVB11.SA": 439.200012,
+        "BOVA11.SA": 168.800003,
+        "VOO": 683.702026,
+        "QQQ": 724.4151,
+        "BRL=X": 5.2206
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1241,
+        "BOVA11 (Bolsa Brasil)": 110.7975,
+        "VOO (S&P 500 em US$)": 112.4627,
+        "QQQ (Nasdaq Tech em US$)": 120.2688,
+        "USD/BRL (Dólar)": 96.6402,
+        "Selic Acumulada (Renda Fixa)": 108.4425
+      }
+    },
+    {
+      "data": "2026-07-02",
+      "precos": {
+        "IVVB11.SA": 439,
+        "BOVA11.SA": 169.899994,
+        "VOO": 683.083618,
+        "QQQ": 711.858215,
+        "BRL=X": 5.2222
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.0748,
+        "BOVA11 (Bolsa Brasil)": 111.5195,
+        "VOO (S&P 500 em US$)": 112.3609,
+        "QQQ (Nasdaq Tech em US$)": 118.1841,
+        "USD/BRL (Dólar)": 96.6698,
+        "Selic Acumulada (Renda Fixa)": 108.4994
+      }
+    },
+    {
+      "data": "2026-07-03",
+      "precos": {
+        "IVVB11.SA": 437.179993,
+        "BOVA11.SA": 171.110001,
+        "VOO": 683.083618,
+        "QQQ": 711.858215,
+        "BRL=X": 5.2222
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.6268,
+        "BOVA11 (Bolsa Brasil)": 112.3137,
+        "VOO (S&P 500 em US$)": 112.3609,
+        "QQQ (Nasdaq Tech em US$)": 118.1841,
+        "USD/BRL (Dólar)": 96.6698,
+        "Selic Acumulada (Renda Fixa)": 108.5564
+      }
+    },
+    {
+      "data": "2026-07-05",
+      "precos": {
+        "IVVB11.SA": 437.179993,
+        "BOVA11.SA": 171.110001,
+        "VOO": 683.083618,
+        "QQQ": 711.858215,
+        "BRL=X": 5.1844
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.6268,
+        "BOVA11 (Bolsa Brasil)": 112.3137,
+        "VOO (S&P 500 em US$)": 112.3609,
+        "QQQ (Nasdaq Tech em US$)": 118.1841,
+        "USD/BRL (Dólar)": 95.9701,
+        "Selic Acumulada (Renda Fixa)": 108.5564
+      }
+    },
+    {
+      "data": "2026-07-06",
+      "precos": {
+        "IVVB11.SA": 436.279999,
+        "BOVA11.SA": 169.25,
+        "VOO": 688.848755,
+        "QQQ": 722.067627,
+        "BRL=X": 5.1436
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.4052,
+        "BOVA11 (Bolsa Brasil)": 111.0929,
+        "VOO (S&P 500 em US$)": 113.3092,
+        "QQQ (Nasdaq Tech em US$)": 119.8791,
+        "USD/BRL (Dólar)": 95.2148,
+        "Selic Acumulada (Renda Fixa)": 108.6135
+      }
+    },
+    {
+      "data": "2026-07-07",
+      "precos": {
+        "IVVB11.SA": 435.700012,
+        "BOVA11.SA": 169.029999,
+        "VOO": 685.317871,
+        "QQQ": 708.691528,
+        "BRL=X": 5.1709
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.2624,
+        "BOVA11 (Bolsa Brasil)": 110.9485,
+        "VOO (S&P 500 em US$)": 112.7284,
+        "QQQ (Nasdaq Tech em US$)": 117.6584,
+        "USD/BRL (Dólar)": 95.7202,
+        "Selic Acumulada (Renda Fixa)": 108.6705
+      }
+    },
+    {
+      "data": "2026-07-08",
+      "precos": {
+        "IVVB11.SA": 433.700012,
+        "BOVA11.SA": 167.559998,
+        "VOO": 683.502502,
+        "QQQ": 710.699463,
+        "BRL=X": 5.1635
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.7701,
+        "BOVA11 (Bolsa Brasil)": 109.9836,
+        "VOO (S&P 500 em US$)": 112.4298,
+        "QQQ (Nasdaq Tech em US$)": 117.9917,
+        "USD/BRL (Dólar)": 95.5832,
+        "Selic Acumulada (Renda Fixa)": 108.7276
+      }
+    },
+    {
+      "data": "2026-07-09",
+      "precos": {
+        "IVVB11.SA": 435.079987,
+        "BOVA11.SA": 169.800003,
+        "VOO": 688.918579,
+        "QQQ": 722.527161,
+        "BRL=X": 5.1339
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.1098,
+        "BOVA11 (Bolsa Brasil)": 111.4539,
+        "VOO (S&P 500 em US$)": 113.3207,
+        "QQQ (Nasdaq Tech em US$)": 119.9554,
+        "USD/BRL (Dólar)": 95.0353,
+        "Selic Acumulada (Renda Fixa)": 108.7847
+      }
+    },
+    {
+      "data": "2026-07-10",
+      "precos": {
+        "IVVB11.SA": 436.290009,
+        "BOVA11.SA": 175.009995,
+        "VOO": 692.080444,
+        "QQQ": 724.754822,
+        "BRL=X": 5.1339
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.4077,
+        "BOVA11 (Bolsa Brasil)": 114.8736,
+        "VOO (S&P 500 em US$)": 113.8408,
+        "QQQ (Nasdaq Tech em US$)": 120.3252,
+        "USD/BRL (Dólar)": 95.0353,
+        "Selic Acumulada (Renda Fixa)": 108.8419
+      }
+    },
+    {
+      "data": "2026-07-12",
+      "precos": {
+        "IVVB11.SA": 436.290009,
+        "BOVA11.SA": 175.009995,
+        "VOO": 692.080444,
+        "QQQ": 724.754822,
+        "BRL=X": 5.1078
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.4077,
+        "BOVA11 (Bolsa Brasil)": 114.8736,
+        "VOO (S&P 500 em US$)": 113.8408,
+        "QQQ (Nasdaq Tech em US$)": 120.3252,
+        "USD/BRL (Dólar)": 94.5521,
+        "Selic Acumulada (Renda Fixa)": 108.8419
+      }
+    },
+    {
+      "data": "2026-07-13",
+      "precos": {
+        "IVVB11.SA": 434.600006,
+        "BOVA11.SA": 172.25,
+        "VOO": 686.734192,
+        "QQQ": 710.999084,
+        "BRL=X": 5.1479
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.9916,
+        "BOVA11 (Bolsa Brasil)": 113.062,
+        "VOO (S&P 500 em US$)": 112.9614,
+        "QQQ (Nasdaq Tech em US$)": 118.0415,
+        "USD/BRL (Dólar)": 95.2944,
+        "Selic Acumulada (Renda Fixa)": 108.899
+      }
+    },
+    {
+      "data": "2026-07-14",
+      "precos": {
+        "IVVB11.SA": 432,
+        "BOVA11.SA": 173.600006,
+        "VOO": 689.327515,
+        "QQQ": 718.940857,
+        "BRL=X": 5.0879
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.3515,
+        "BOVA11 (Bolsa Brasil)": 113.9481,
+        "VOO (S&P 500 em US$)": 113.388,
+        "QQQ (Nasdaq Tech em US$)": 119.36,
+        "USD/BRL (Dólar)": 94.1837,
+        "Selic Acumulada (Renda Fixa)": 108.9563
+      }
+    },
+    {
+      "data": "2026-07-15",
+      "precos": {
+        "IVVB11.SA": 433.399994,
+        "BOVA11.SA": 172.759995,
+        "VOO": 692.020569,
+        "QQQ": 716.992859,
+        "BRL=X": 5.0909
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.6962,
+        "BOVA11 (Bolsa Brasil)": 113.3968,
+        "VOO (S&P 500 em US$)": 113.831,
+        "QQQ (Nasdaq Tech em US$)": 119.0366,
+        "USD/BRL (Dólar)": 94.2393,
+        "Selic Acumulada (Renda Fixa)": 109.0135
+      }
+    },
+    {
+      "data": "2026-07-16",
+      "precos": {
+        "IVVB11.SA": 433.040009,
+        "BOVA11.SA": 170.770004,
+        "VOO": 688.369995,
+        "QQQ": 705.205139,
+        "BRL=X": 5.1136
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 106.6076,
+        "BOVA11 (Bolsa Brasil)": 112.0906,
+        "VOO (S&P 500 em US$)": 113.2305,
+        "QQQ (Nasdaq Tech em US$)": 117.0795,
+        "USD/BRL (Dólar)": 94.6595,
+        "Selic Acumulada (Renda Fixa)": 109.0708
+      }
+    },
+    {
+      "data": "2026-07-17",
+      "precos": {
+        "IVVB11.SA": 429.119995,
+        "BOVA11.SA": 170.630005,
+        "VOO": 681.417847,
+        "QQQ": 694.606201,
+        "BRL=X": 5.1136
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.6425,
+        "BOVA11 (Bolsa Brasil)": 111.9987,
+        "VOO (S&P 500 em US$)": 112.0869,
+        "QQQ (Nasdaq Tech em US$)": 115.3199,
+        "USD/BRL (Dólar)": 94.6595,
+        "Selic Acumulada (Renda Fixa)": 109.128
+      }
+    },
+    {
+      "data": "2026-07-19",
+      "precos": {
+        "IVVB11.SA": 429.119995,
+        "BOVA11.SA": 170.630005,
+        "VOO": 681.417847,
+        "QQQ": 694.606201,
+        "BRL=X": 5.127
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.6425,
+        "BOVA11 (Bolsa Brasil)": 111.9987,
+        "VOO (S&P 500 em US$)": 112.0869,
+        "QQQ (Nasdaq Tech em US$)": 115.3199,
+        "USD/BRL (Dólar)": 94.9075,
+        "Selic Acumulada (Renda Fixa)": 109.128
+      }
+    },
+    {
+      "data": "2026-07-20",
+      "precos": {
+        "IVVB11.SA": 426.970001,
+        "BOVA11.SA": 170.300003,
+        "VOO": 680.460327,
+        "QQQ": 695.335449,
+        "BRL=X": 5.1044
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.1132,
+        "BOVA11 (Bolsa Brasil)": 111.7821,
+        "VOO (S&P 500 em US$)": 111.9294,
+        "QQQ (Nasdaq Tech em US$)": 115.441,
+        "USD/BRL (Dólar)": 94.4892,
+        "Selic Acumulada (Renda Fixa)": 109.1854
+      }
+    },
+    {
+      "data": "2026-07-21",
+      "precos": {
+        "IVVB11.SA": 430.109985,
+        "BOVA11.SA": 170.339996,
+        "VOO": 686.105774,
+        "QQQ": 708.231995,
+        "BRL=X": 5.0875
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.8863,
+        "BOVA11 (Bolsa Brasil)": 111.8083,
+        "VOO (S&P 500 em US$)": 112.858,
+        "QQQ (Nasdaq Tech em US$)": 117.5821,
+        "USD/BRL (Dólar)": 94.1763,
+        "Selic Acumulada (Renda Fixa)": 109.2427
+      }
+    },
+    {
+      "data": "2026-07-22",
+      "precos": {
+        "IVVB11.SA": 428.859985,
+        "BOVA11.SA": 174.699997,
+        "VOO": 685.268005,
+        "QQQ": 704.615723,
+        "BRL=X": 5.062488
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.5785,
+        "BOVA11 (Bolsa Brasil)": 114.6702,
+        "VOO (S&P 500 em US$)": 112.7202,
+        "QQQ (Nasdaq Tech em US$)": 116.9817,
+        "USD/BRL (Dólar)": 93.7133,
+        "Selic Acumulada (Renda Fixa)": 109.3001
+      }
+    },
+    {
+      "data": "2026-07-23",
+      "precos": {
+        "IVVB11.SA": 425.519989,
+        "BOVA11.SA": 173.449997,
+        "VOO": 676.869507,
+        "QQQ": 691.239746,
+        "BRL=X": 5.0969
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.7563,
+        "BOVA11 (Bolsa Brasil)": 113.8497,
+        "VOO (S&P 500 em US$)": 111.3388,
+        "QQQ (Nasdaq Tech em US$)": 114.761,
+        "USD/BRL (Dólar)": 94.3503,
+        "Selic Acumulada (Renda Fixa)": 109.3575
+      }
+    },
+    {
+      "data": "2026-07-24",
+      "precos": {
+        "IVVB11.SA": 425.049988,
+        "BOVA11.SA": 170.949997,
+        "VOO": 677.398193,
+        "QQQ": 683.517761,
+        "BRL=X": 5.0969
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.6406,
+        "BOVA11 (Bolsa Brasil)": 112.2087,
+        "VOO (S&P 500 em US$)": 111.4257,
+        "QQQ (Nasdaq Tech em US$)": 113.479,
+        "USD/BRL (Dólar)": 94.3503,
+        "Selic Acumulada (Renda Fixa)": 109.415
+      }
+    },
+    {
+      "data": "2026-07-26",
+      "precos": {
+        "IVVB11.SA": 425.049988,
+        "BOVA11.SA": 170.949997,
+        "VOO": 677.398193,
+        "QQQ": 683.517761,
+        "BRL=X": 5.0825
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.6406,
+        "BOVA11 (Bolsa Brasil)": 112.2087,
+        "VOO (S&P 500 em US$)": 111.4257,
+        "QQQ (Nasdaq Tech em US$)": 113.479,
+        "USD/BRL (Dólar)": 94.0838,
+        "Selic Acumulada (Renda Fixa)": 109.415
+      }
+    },
+    {
+      "data": "2026-07-27",
+      "precos": {
+        "IVVB11.SA": 426.859985,
+        "BOVA11.SA": 172.75,
+        "VOO": 677.567749,
+        "QQQ": 681.409973,
+        "BRL=X": 5.123026
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.0862,
+        "BOVA11 (Bolsa Brasil)": 113.3902,
+        "VOO (S&P 500 em US$)": 111.4536,
+        "QQQ (Nasdaq Tech em US$)": 113.129,
+        "USD/BRL (Dólar)": 94.834,
+        "Selic Acumulada (Renda Fixa)": 109.4725
+      }
+    },
+    {
+      "data": "2026-07-28",
+      "precos": {
+        "IVVB11.SA": 428.609985,
+        "BOVA11.SA": 173.740005,
+        "VOO": 679.213562,
+        "QQQ": 674.786865,
+        "BRL=X": 5.1371
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.517,
+        "BOVA11 (Bolsa Brasil)": 114.04,
+        "VOO (S&P 500 em US$)": 111.7243,
+        "QQQ (Nasdaq Tech em US$)": 112.0294,
+        "USD/BRL (Dólar)": 95.0945,
+        "Selic Acumulada (Renda Fixa)": 109.53
+      }
+    },
+    {
+      "data": "2026-07-29",
+      "precos": {
+        "IVVB11.SA": 421.559998,
+        "BOVA11.SA": 170.550003,
+        "VOO": 668.910034,
+        "QQQ": 661.041138,
+        "BRL=X": 5.1271
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 103.7814,
+        "BOVA11 (Bolsa Brasil)": 111.9462,
+        "VOO (S&P 500 em US$)": 110.0295,
+        "QQQ (Nasdaq Tech em US$)": 109.7473,
+        "USD/BRL (Dólar)": 94.9094,
+        "Selic Acumulada (Renda Fixa)": 109.5875
+      }
+    },
+    {
+      "data": "2026-07-30",
+      "precos": {
+        "IVVB11.SA": 425.369995,
+        "BOVA11.SA": 174.309998,
+        "VOO": 680.041382,
+        "QQQ": 682.83844,
+        "BRL=X": 5.0781
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 104.7193,
+        "BOVA11 (Bolsa Brasil)": 114.4142,
+        "VOO (S&P 500 em US$)": 111.8605,
+        "QQQ (Nasdaq Tech em US$)": 113.3662,
+        "USD/BRL (Dólar)": 94.0023,
+        "Selic Acumulada (Renda Fixa)": 109.6451
+      }
+    },
+    {
+      "data": "2026-07-31",
+      "precos": {
+        "IVVB11.SA": 428.390015,
+        "BOVA11.SA": 175.020004,
+        "VOO": 684.888977,
+        "QQQ": 687.273865,
+        "BRL=X": 5.0781
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.4628,
+        "BOVA11 (Bolsa Brasil)": 114.8802,
+        "VOO (S&P 500 em US$)": 112.6579,
+        "QQQ (Nasdaq Tech em US$)": 114.1026,
+        "USD/BRL (Dólar)": 94.0023,
+        "Selic Acumulada (Renda Fixa)": 109.7027
+      }
+    },
+    {
+      "data": "2026-08-02",
+      "precos": {
+        "IVVB11.SA": 428.390015,
+        "BOVA11.SA": 175.020004,
+        "VOO": 684.888977,
+        "QQQ": 687.273865,
+        "BRL=X": 5.0727
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.4628,
+        "BOVA11 (Bolsa Brasil)": 114.8802,
+        "VOO (S&P 500 em US$)": 112.6579,
+        "QQQ (Nasdaq Tech em US$)": 114.1026,
+        "USD/BRL (Dólar)": 93.9024,
+        "Selic Acumulada (Renda Fixa)": 109.7027
+      }
+    },
+    {
+      "data": "2026-08-03",
+      "precos": {
+        "IVVB11.SA": 435.829987,
+        "BOVA11.SA": 174.899994,
+        "VOO": 694.613953,
+        "QQQ": 699.341309,
+        "BRL=X": 5.1029
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.2944,
+        "BOVA11 (Bolsa Brasil)": 114.8014,
+        "VOO (S&P 500 em US$)": 114.2576,
+        "QQQ (Nasdaq Tech em US$)": 116.106,
+        "USD/BRL (Dólar)": 94.4614,
+        "Selic Acumulada (Renda Fixa)": 109.7603
+      }
+    },
+    {
+      "data": "2026-08-04",
+      "precos": {
+        "IVVB11.SA": 447.549988,
+        "BOVA11.SA": 174.850006,
+        "VOO": 707.161621,
+        "QQQ": 723.096497,
+        "BRL=X": 5.1437
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.1797,
+        "BOVA11 (Bolsa Brasil)": 114.7686,
+        "VOO (S&P 500 em US$)": 116.3215,
+        "QQQ (Nasdaq Tech em US$)": 120.0499,
+        "USD/BRL (Dólar)": 95.2167,
+        "Selic Acumulada (Renda Fixa)": 109.818
+      }
+    },
+    {
+      "data": "2026-08-05",
+      "precos": {
+        "IVVB11.SA": 446.51001,
+        "BOVA11.SA": 174.699997,
+        "VOO": 705.785156,
+        "QQQ": 716.553345,
+        "BRL=X": 5.1385
+      },
+      "selicDiariaDecimal": 0.00052531,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.9237,
+        "BOVA11 (Bolsa Brasil)": 114.6702,
+        "VOO (S&P 500 em US$)": 116.0951,
+        "QQQ (Nasdaq Tech em US$)": 118.9636,
+        "USD/BRL (Dólar)": 95.1204,
+        "Selic Acumulada (Renda Fixa)": 109.8756
+      }
+    },
+    {
+      "data": "2026-08-06",
+      "precos": {
+        "IVVB11.SA": 443.950012,
+        "BOVA11.SA": 172.039993,
+        "VOO": 704.588318,
+        "QQQ": 713.906128,
+        "BRL=X": 5.1218
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.2935,
+        "BOVA11 (Bolsa Brasil)": 112.9242,
+        "VOO (S&P 500 em US$)": 115.8983,
+        "QQQ (Nasdaq Tech em US$)": 118.5241,
+        "USD/BRL (Dólar)": 94.8113,
+        "Selic Acumulada (Renda Fixa)": 109.9324
+      }
+    },
+    {
+      "data": "2026-08-07",
+      "precos": {
+        "IVVB11.SA": 444.350006,
+        "BOVA11.SA": 169.369995,
+        "VOO": 708.887268,
+        "QQQ": 722.277405,
+        "BRL=X": 5.1218
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.3919,
+        "BOVA11 (Bolsa Brasil)": 111.1716,
+        "VOO (S&P 500 em US$)": 116.6054,
+        "QQQ (Nasdaq Tech em US$)": 119.9139,
+        "USD/BRL (Dólar)": 94.8113,
+        "Selic Acumulada (Renda Fixa)": 109.9892
+      }
+    },
+    {
+      "data": "2026-08-09",
+      "precos": {
+        "IVVB11.SA": 444.350006,
+        "BOVA11.SA": 169.369995,
+        "VOO": 708.887268,
+        "QQQ": 722.277405,
+        "BRL=X": 5.0826
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.3919,
+        "BOVA11 (Bolsa Brasil)": 111.1716,
+        "VOO (S&P 500 em US$)": 116.6054,
+        "QQQ (Nasdaq Tech em US$)": 119.9139,
+        "USD/BRL (Dólar)": 94.0856,
+        "Selic Acumulada (Renda Fixa)": 109.9892
+      }
+    },
+    {
+      "data": "2026-08-10",
+      "precos": {
+        "IVVB11.SA": 446.850006,
+        "BOVA11.SA": 169.270004,
+        "VOO": 708.827393,
+        "QQQ": 720.119629,
+        "BRL=X": 5.106
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.0074,
+        "BOVA11 (Bolsa Brasil)": 111.106,
+        "VOO (S&P 500 em US$)": 116.5955,
+        "QQQ (Nasdaq Tech em US$)": 119.5557,
+        "USD/BRL (Dólar)": 94.5188,
+        "Selic Acumulada (Renda Fixa)": 110.046
+      }
+    },
+    {
+      "data": "2026-08-11",
+      "precos": {
+        "IVVB11.SA": 450.350006,
+        "BOVA11.SA": 165.050003,
+        "VOO": 706.603088,
+        "QQQ": 717.702148,
+        "BRL=X": 5.1735
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.869,
+        "BOVA11 (Bolsa Brasil)": 108.3361,
+        "VOO (S&P 500 em US$)": 116.2297,
+        "QQQ (Nasdaq Tech em US$)": 119.1543,
+        "USD/BRL (Dólar)": 95.7683,
+        "Selic Acumulada (Renda Fixa)": 110.1029
+      }
+    },
+    {
+      "data": "2026-08-12",
+      "precos": {
+        "IVVB11.SA": 452.440002,
+        "BOVA11.SA": 164.669998,
+        "VOO": 708.348572,
+        "QQQ": 722.946716,
+        "BRL=X": 5.1954
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.3836,
+        "BOVA11 (Bolsa Brasil)": 108.0866,
+        "VOO (S&P 500 em US$)": 116.5168,
+        "QQQ (Nasdaq Tech em US$)": 120.025,
+        "USD/BRL (Dólar)": 96.1737,
+        "Selic Acumulada (Renda Fixa)": 110.1597
+      }
+    },
+    {
+      "data": "2026-08-13",
+      "precos": {
+        "IVVB11.SA": 457,
+        "BOVA11.SA": 164.149994,
+        "VOO": 713.116333,
+        "QQQ": 731.307983,
+        "BRL=X": 5.1998
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 112.5062,
+        "BOVA11 (Bolsa Brasil)": 107.7453,
+        "VOO (S&P 500 em US$)": 117.301,
+        "QQQ (Nasdaq Tech em US$)": 121.4132,
+        "USD/BRL (Dólar)": 96.2552,
+        "Selic Acumulada (Renda Fixa)": 110.2167
+      }
+    },
+    {
+      "data": "2026-08-14",
+      "precos": {
+        "IVVB11.SA": 458.100006,
+        "BOVA11.SA": 163.899994,
+        "VOO": 711.779785,
+        "QQQ": 730.309021,
+        "BRL=X": 5.1998
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 112.777,
+        "BOVA11 (Bolsa Brasil)": 107.5812,
+        "VOO (S&P 500 em US$)": 117.0812,
+        "QQQ (Nasdaq Tech em US$)": 121.2473,
+        "USD/BRL (Dólar)": 96.2552,
+        "Selic Acumulada (Renda Fixa)": 110.2736
+      }
+    },
+    {
+      "data": "2026-08-16",
+      "precos": {
+        "IVVB11.SA": 458.100006,
+        "BOVA11.SA": 163.899994,
+        "VOO": 711.779785,
+        "QQQ": 730.309021,
+        "BRL=X": 5.2217
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 112.777,
+        "BOVA11 (Bolsa Brasil)": 107.5812,
+        "VOO (S&P 500 em US$)": 117.0812,
+        "QQQ (Nasdaq Tech em US$)": 121.2473,
+        "USD/BRL (Dólar)": 96.6606,
+        "Selic Acumulada (Renda Fixa)": 110.2736
+      }
+    },
+    {
+      "data": "2026-08-17",
+      "precos": {
+        "IVVB11.SA": 453.890015,
+        "BOVA11.SA": 163.800003,
+        "VOO": 708.448364,
+        "QQQ": 729.110229,
+        "BRL=X": 5.2025
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.7405,
+        "BOVA11 (Bolsa Brasil)": 107.5156,
+        "VOO (S&P 500 em US$)": 116.5332,
+        "QQQ (Nasdaq Tech em US$)": 121.0483,
+        "USD/BRL (Dólar)": 96.3051,
+        "Selic Acumulada (Renda Fixa)": 110.3306
+      }
+    },
+    {
+      "data": "2026-08-18",
+      "precos": {
+        "IVVB11.SA": 453.25,
+        "BOVA11.SA": 163.550003,
+        "VOO": 703.590881,
+        "QQQ": 716.763123,
+        "BRL=X": 5.2143
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.583,
+        "BOVA11 (Bolsa Brasil)": 107.3515,
+        "VOO (S&P 500 em US$)": 115.7342,
+        "QQQ (Nasdaq Tech em US$)": 118.9984,
+        "USD/BRL (Dólar)": 96.5236,
+        "Selic Acumulada (Renda Fixa)": 110.3876
+      }
+    },
+    {
+      "data": "2026-08-19",
+      "precos": {
+        "IVVB11.SA": 450.299988,
+        "BOVA11.SA": 165,
+        "VOO": 705.096924,
+        "QQQ": 715.334595,
+        "BRL=X": 5.1767
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.8567,
+        "BOVA11 (Bolsa Brasil)": 108.3032,
+        "VOO (S&P 500 em US$)": 115.9819,
+        "QQQ (Nasdaq Tech em US$)": 118.7613,
+        "USD/BRL (Dólar)": 95.8275,
+        "Selic Acumulada (Renda Fixa)": 110.4446
+      }
+    },
+    {
+      "data": "2026-08-20",
+      "precos": {
+        "IVVB11.SA": 448,
+        "BOVA11.SA": 165,
+        "VOO": 699.212097,
+        "QQQ": 710.189941,
+        "BRL=X": 5.1931
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.2905,
+        "BOVA11 (Bolsa Brasil)": 108.3032,
+        "VOO (S&P 500 em US$)": 115.0139,
+        "QQQ (Nasdaq Tech em US$)": 117.9071,
+        "USD/BRL (Dólar)": 96.1311,
+        "Selic Acumulada (Renda Fixa)": 110.5016
+      }
+    },
+    {
+      "data": "2026-08-21",
+      "precos": {
+        "IVVB11.SA": 445.850006,
+        "BOVA11.SA": 168.330002,
+        "VOO": 701.905212,
+        "QQQ": 712.697388,
+        "BRL=X": 5.1931
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.7612,
+        "BOVA11 (Bolsa Brasil)": 110.489,
+        "VOO (S&P 500 em US$)": 115.4569,
+        "QQQ (Nasdaq Tech em US$)": 118.3234,
+        "USD/BRL (Dólar)": 96.1311,
+        "Selic Acumulada (Renda Fixa)": 110.5587
+      }
+    },
+    {
+      "data": "2026-08-23",
+      "precos": {
+        "IVVB11.SA": 445.850006,
+        "BOVA11.SA": 168.330002,
+        "VOO": 701.905212,
+        "QQQ": 712.697388,
+        "BRL=X": 5.1373
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.7612,
+        "BOVA11 (Bolsa Brasil)": 110.489,
+        "VOO (S&P 500 em US$)": 115.4569,
+        "QQQ (Nasdaq Tech em US$)": 118.3234,
+        "USD/BRL (Dólar)": 95.0982,
+        "Selic Acumulada (Renda Fixa)": 110.5587
+      }
+    },
+    {
+      "data": "2026-08-24",
+      "precos": {
+        "IVVB11.SA": 444.700012,
+        "BOVA11.SA": 169.009995,
+        "VOO": 700.030029,
+        "QQQ": 705.584778,
+        "BRL=X": 5.1543
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.4781,
+        "BOVA11 (Bolsa Brasil)": 110.9353,
+        "VOO (S&P 500 em US$)": 115.1485,
+        "QQQ (Nasdaq Tech em US$)": 117.1426,
+        "USD/BRL (Dólar)": 95.4129,
+        "Selic Acumulada (Renda Fixa)": 110.6158
+      }
+    },
+    {
+      "data": "2026-08-25",
+      "precos": {
+        "IVVB11.SA": 445,
+        "BOVA11.SA": 171.880005,
+        "VOO": 702.214417,
+        "QQQ": 709.980164,
+        "BRL=X": 5.1464
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.5519,
+        "BOVA11 (Bolsa Brasil)": 112.8192,
+        "VOO (S&P 500 em US$)": 115.5078,
+        "QQQ (Nasdaq Tech em US$)": 117.8723,
+        "USD/BRL (Dólar)": 95.2667,
+        "Selic Acumulada (Renda Fixa)": 110.673
+      }
+    },
+    {
+      "data": "2026-08-26",
+      "precos": {
+        "IVVB11.SA": 446.149994,
+        "BOVA11.SA": 171.820007,
+        "VOO": 702.393921,
+        "QQQ": 710.629517,
+        "BRL=X": 5.1474
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.8351,
+        "BOVA11 (Bolsa Brasil)": 112.7798,
+        "VOO (S&P 500 em US$)": 115.5373,
+        "QQQ (Nasdaq Tech em US$)": 117.9801,
+        "USD/BRL (Dólar)": 95.2852,
+        "Selic Acumulada (Renda Fixa)": 110.7302
+      }
+    },
+    {
+      "data": "2026-08-27",
+      "precos": {
+        "IVVB11.SA": 450,
+        "BOVA11.SA": 172.399994,
+        "VOO": 706.932251,
+        "QQQ": 720.359375,
+        "BRL=X": 5.1611
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.7829,
+        "BOVA11 (Bolsa Brasil)": 113.1605,
+        "VOO (S&P 500 em US$)": 116.2838,
+        "QQQ (Nasdaq Tech em US$)": 119.5955,
+        "USD/BRL (Dólar)": 95.5388,
+        "Selic Acumulada (Renda Fixa)": 110.7874
+      }
+    },
+    {
+      "data": "2026-08-28",
+      "precos": {
+        "IVVB11.SA": 452.049988,
+        "BOVA11.SA": 172.720001,
+        "VOO": 705.426086,
+        "QQQ": 715.684265,
+        "BRL=X": 5.1611
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.2875,
+        "BOVA11 (Bolsa Brasil)": 113.3705,
+        "VOO (S&P 500 em US$)": 116.0361,
+        "QQQ (Nasdaq Tech em US$)": 118.8193,
+        "USD/BRL (Dólar)": 95.5388,
+        "Selic Acumulada (Renda Fixa)": 110.8446
+      }
+    },
+    {
+      "data": "2026-08-30",
+      "precos": {
+        "IVVB11.SA": 452.049988,
+        "BOVA11.SA": 172.720001,
+        "VOO": 705.426086,
+        "QQQ": 715.684265,
+        "BRL=X": 5.1912
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.2875,
+        "BOVA11 (Bolsa Brasil)": 113.3705,
+        "VOO (S&P 500 em US$)": 116.0361,
+        "QQQ (Nasdaq Tech em US$)": 118.8193,
+        "USD/BRL (Dólar)": 96.096,
+        "Selic Acumulada (Renda Fixa)": 110.8446
+      }
+    },
+    {
+      "data": "2026-08-31",
+      "precos": {
+        "IVVB11.SA": 449.350006,
+        "BOVA11.SA": 174.779999,
+        "VOO": 703.082153,
+        "QQQ": 716.013916,
+        "BRL=X": 5.1817
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.6228,
+        "BOVA11 (Bolsa Brasil)": 114.7227,
+        "VOO (S&P 500 em US$)": 115.6505,
+        "QQQ (Nasdaq Tech em US$)": 118.874,
+        "USD/BRL (Dólar)": 95.9201,
+        "Selic Acumulada (Renda Fixa)": 110.9019
+      }
+    },
+    {
+      "data": "2026-09-01",
+      "precos": {
+        "IVVB11.SA": 444.350006,
+        "BOVA11.SA": 177.100006,
+        "VOO": 698.484009,
+        "QQQ": 706.903381,
+        "BRL=X": 5.1522
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.3919,
+        "BOVA11 (Bolsa Brasil)": 116.2455,
+        "VOO (S&P 500 em US$)": 114.8942,
+        "QQQ (Nasdaq Tech em US$)": 117.3615,
+        "USD/BRL (Dólar)": 95.374,
+        "Selic Acumulada (Renda Fixa)": 110.9591
+      }
+    },
+    {
+      "data": "2026-09-02",
+      "precos": {
+        "IVVB11.SA": 441.799988,
+        "BOVA11.SA": 182.270004,
+        "VOO": 701.605896,
+        "QQQ": 708.501709,
+        "BRL=X": 5.0927
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.7641,
+        "BOVA11 (Bolsa Brasil)": 119.639,
+        "VOO (S&P 500 em US$)": 115.4077,
+        "QQQ (Nasdaq Tech em US$)": 117.6268,
+        "USD/BRL (Dólar)": 94.2726,
+        "Selic Acumulada (Renda Fixa)": 111.0165
+      }
+    },
+    {
+      "data": "2026-09-03",
+      "precos": {
+        "IVVB11.SA": 446,
+        "BOVA11.SA": 182.25,
+        "VOO": 708.897156,
+        "QQQ": 716.922913,
+        "BRL=X": 5.101
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.7981,
+        "BOVA11 (Bolsa Brasil)": 119.6259,
+        "VOO (S&P 500 em US$)": 116.607,
+        "QQQ (Nasdaq Tech em US$)": 119.0249,
+        "USD/BRL (Dólar)": 94.4262,
+        "Selic Acumulada (Renda Fixa)": 111.0738
+      }
+    },
+    {
+      "data": "2026-09-04",
+      "precos": {
+        "IVVB11.SA": 447.350006,
+        "BOVA11.SA": 181.940002,
+        "VOO": 706.194153,
+        "QQQ": 718.211609,
+        "BRL=X": 5.101
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.1305,
+        "BOVA11 (Bolsa Brasil)": 119.4224,
+        "VOO (S&P 500 em US$)": 116.1624,
+        "QQQ (Nasdaq Tech em US$)": 119.2389,
+        "USD/BRL (Dólar)": 94.4262,
+        "Selic Acumulada (Renda Fixa)": 111.1312
+      }
+    },
+    {
+      "data": "2026-09-06",
+      "precos": {
+        "IVVB11.SA": 447.350006,
+        "BOVA11.SA": 181.940002,
+        "VOO": 706.194153,
+        "QQQ": 718.211609,
+        "BRL=X": 5.1262
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.1305,
+        "BOVA11 (Bolsa Brasil)": 119.4224,
+        "VOO (S&P 500 em US$)": 116.1624,
+        "QQQ (Nasdaq Tech em US$)": 119.2389,
+        "USD/BRL (Dólar)": 94.8927,
+        "Selic Acumulada (Renda Fixa)": 111.1312
+      }
+    },
+    {
+      "data": "2026-09-07",
+      "precos": {
+        "IVVB11.SA": 447.350006,
+        "BOVA11.SA": 181.940002,
+        "VOO": 706.194153,
+        "QQQ": 718.211609,
+        "BRL=X": 5.1267
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.1305,
+        "BOVA11 (Bolsa Brasil)": 119.4224,
+        "VOO (S&P 500 em US$)": 116.1624,
+        "QQQ (Nasdaq Tech em US$)": 119.2389,
+        "USD/BRL (Dólar)": 94.902,
+        "Selic Acumulada (Renda Fixa)": 111.1312
+      }
+    },
+    {
+      "data": "2026-09-08",
+      "precos": {
+        "IVVB11.SA": 440.5,
+        "BOVA11.SA": 184.789993,
+        "VOO": 702.264282,
+        "QQQ": 717.612244,
+        "BRL=X": 5.0848
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.4441,
+        "BOVA11 (Bolsa Brasil)": 121.2931,
+        "VOO (S&P 500 em US$)": 115.516,
+        "QQQ (Nasdaq Tech em US$)": 119.1394,
+        "USD/BRL (Dólar)": 94.1264,
+        "Selic Acumulada (Renda Fixa)": 111.1886
+      }
+    },
+    {
+      "data": "2026-09-09",
+      "precos": {
+        "IVVB11.SA": 440.75,
+        "BOVA11.SA": 182.869995,
+        "VOO": 699.072449,
+        "QQQ": 715.564392,
+        "BRL=X": 5.1034
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.5057,
+        "BOVA11 (Bolsa Brasil)": 120.0328,
+        "VOO (S&P 500 em US$)": 114.9909,
+        "QQQ (Nasdaq Tech em US$)": 118.7994,
+        "USD/BRL (Dólar)": 94.4707,
+        "Selic Acumulada (Renda Fixa)": 111.246
+      }
+    },
+    {
+      "data": "2026-09-10",
+      "precos": {
+        "IVVB11.SA": 437.649994,
+        "BOVA11.SA": 185.210007,
+        "VOO": 694.863281,
+        "QQQ": 707.952332,
+        "BRL=X": 5.1028
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.7425,
+        "BOVA11 (Bolsa Brasil)": 121.5688,
+        "VOO (S&P 500 em US$)": 114.2986,
+        "QQQ (Nasdaq Tech em US$)": 117.5356,
+        "USD/BRL (Dólar)": 94.4596,
+        "Selic Acumulada (Renda Fixa)": 111.3035
+      }
+    },
+    {
+      "data": "2026-09-11",
+      "precos": {
+        "IVVB11.SA": 443.149994,
+        "BOVA11.SA": 183.850006,
+        "VOO": 700.758118,
+        "QQQ": 714.135864,
+        "BRL=X": 5.1028
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.0965,
+        "BOVA11 (Bolsa Brasil)": 120.6761,
+        "VOO (S&P 500 em US$)": 115.2682,
+        "QQQ (Nasdaq Tech em US$)": 118.5622,
+        "USD/BRL (Dólar)": 94.4596,
+        "Selic Acumulada (Renda Fixa)": 111.361
+      }
+    },
+    {
+      "data": "2026-09-13",
+      "precos": {
+        "IVVB11.SA": 443.149994,
+        "BOVA11.SA": 183.850006,
+        "VOO": 700.758118,
+        "QQQ": 714.135864,
+        "BRL=X": 5.111208
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.0965,
+        "BOVA11 (Bolsa Brasil)": 120.6761,
+        "VOO (S&P 500 em US$)": 115.2682,
+        "QQQ (Nasdaq Tech em US$)": 118.5622,
+        "USD/BRL (Dólar)": 94.6152,
+        "Selic Acumulada (Renda Fixa)": 111.361
+      }
+    },
+    {
+      "data": "2026-09-14",
+      "precos": {
+        "IVVB11.SA": 442.670013,
+        "BOVA11.SA": 182.550003,
+        "VOO": 697.50647,
+        "QQQ": 708.441772,
+        "BRL=X": 5.138
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.9783,
+        "BOVA11 (Bolsa Brasil)": 119.8228,
+        "VOO (S&P 500 em US$)": 114.7334,
+        "QQQ (Nasdaq Tech em US$)": 117.6169,
+        "USD/BRL (Dólar)": 95.1112,
+        "Selic Acumulada (Renda Fixa)": 111.4185
+      }
+    },
+    {
+      "data": "2026-09-15",
+      "precos": {
+        "IVVB11.SA": 441.070007,
+        "BOVA11.SA": 183.889999,
+        "VOO": 694.414429,
+        "QQQ": 703.80658,
+        "BRL=X": 5.1429
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.5844,
+        "BOVA11 (Bolsa Brasil)": 120.7023,
+        "VOO (S&P 500 em US$)": 114.2247,
+        "QQQ (Nasdaq Tech em US$)": 116.8473,
+        "USD/BRL (Dólar)": 95.2019,
+        "Selic Acumulada (Renda Fixa)": 111.4761
+      }
+    },
+    {
+      "data": "2026-09-16",
+      "precos": {
+        "IVVB11.SA": 438.799988,
+        "BOVA11.SA": 182.660004,
+        "VOO": 691.462036,
+        "QQQ": 703.986389,
+        "BRL=X": 5.1509
+      },
+      "selicDiariaDecimal": 0.0005166,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.0256,
+        "BOVA11 (Bolsa Brasil)": 119.895,
+        "VOO (S&P 500 em US$)": 113.7391,
+        "QQQ (Nasdaq Tech em US$)": 116.8772,
+        "USD/BRL (Dólar)": 95.35,
+        "Selic Acumulada (Renda Fixa)": 111.5337
+      }
+    },
+    {
+      "data": "2026-09-17",
+      "precos": {
+        "IVVB11.SA": 442.600006,
+        "BOVA11.SA": 183.279999,
+        "VOO": 699.232056,
+        "QQQ": 716.173706,
+        "BRL=X": 5.1241
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.9611,
+        "BOVA11 (Bolsa Brasil)": 120.3019,
+        "VOO (S&P 500 em US$)": 115.0172,
+        "QQQ (Nasdaq Tech em US$)": 118.9006,
+        "USD/BRL (Dólar)": 94.8539,
+        "Selic Acumulada (Renda Fixa)": 111.5903
+      }
+    },
+    {
+      "data": "2026-09-18",
+      "precos": {
+        "IVVB11.SA": 443.5,
+        "BOVA11.SA": 182.470001,
+        "VOO": 699.980164,
+        "QQQ": 720.699036,
+        "BRL=X": 5.1241
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.1827,
+        "BOVA11 (Bolsa Brasil)": 119.7703,
+        "VOO (S&P 500 em US$)": 115.1403,
+        "QQQ (Nasdaq Tech em US$)": 119.6519,
+        "USD/BRL (Dólar)": 94.8539,
+        "Selic Acumulada (Renda Fixa)": 111.647
+      }
+    },
+    {
+      "data": "2026-09-20",
+      "precos": {
+        "IVVB11.SA": 443.5,
+        "BOVA11.SA": 182.470001,
+        "VOO": 699.980164,
+        "QQQ": 720.699036,
+        "BRL=X": 5.1407
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.1827,
+        "BOVA11 (Bolsa Brasil)": 119.7703,
+        "VOO (S&P 500 em US$)": 115.1403,
+        "QQQ (Nasdaq Tech em US$)": 119.6519,
+        "USD/BRL (Dólar)": 95.1611,
+        "Selic Acumulada (Renda Fixa)": 111.647
+      }
+    },
+    {
+      "data": "2026-09-21",
+      "precos": {
+        "IVVB11.SA": 447,
+        "BOVA11.SA": 183.949997,
+        "VOO": 710.951965,
+        "QQQ": 741.469971,
+        "BRL=X": 5.1104
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.0443,
+        "BOVA11 (Bolsa Brasil)": 120.7417,
+        "VOO (S&P 500 em US$)": 116.945,
+        "QQQ (Nasdaq Tech em US$)": 123.1003,
+        "USD/BRL (Dólar)": 94.6002,
+        "Selic Acumulada (Renda Fixa)": 111.7037
+      }
+    },
+    {
+      "data": "2026-09-22",
+      "precos": {
+        "IVVB11.SA": 447,
+        "BOVA11.SA": 184.300003,
+        "VOO": 710.951965,
+        "QQQ": 747.460022,
+        "BRL=X": 5.0999
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.0443,
+        "BOVA11 (Bolsa Brasil)": 120.9714,
+        "VOO (S&P 500 em US$)": 116.945,
+        "QQQ (Nasdaq Tech em US$)": 124.0948,
+        "USD/BRL (Dólar)": 94.4059,
+        "Selic Acumulada (Renda Fixa)": 111.7604
+      }
+    },
+    {
+      "data": "2026-09-23",
+      "precos": {
+        "IVVB11.SA": 449.190002,
+        "BOVA11.SA": 182.860001,
+        "VOO": 705.785156,
+        "QQQ": 741.210022,
+        "BRL=X": 5.1643
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.5835,
+        "BOVA11 (Bolsa Brasil)": 120.0263,
+        "VOO (S&P 500 em US$)": 116.0951,
+        "QQQ (Nasdaq Tech em US$)": 123.0571,
+        "USD/BRL (Dólar)": 95.598,
+        "Selic Acumulada (Renda Fixa)": 111.8172
+      }
+    },
+    {
+      "data": "2026-09-24",
+      "precos": {
+        "IVVB11.SA": 451.149994,
+        "BOVA11.SA": 180.869995,
+        "VOO": 705.176758,
+        "QQQ": 741.099976,
+        "BRL=X": 5.1905
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.066,
+        "BOVA11 (Bolsa Brasil)": 118.72,
+        "VOO (S&P 500 em US$)": 115.995,
+        "QQQ (Nasdaq Tech em US$)": 123.0389,
+        "USD/BRL (Dólar)": 96.083,
+        "Selic Acumulada (Renda Fixa)": 111.874
+      }
+    },
+    {
+      "data": "2026-09-25",
+      "precos": {
+        "IVVB11.SA": 453,
+        "BOVA11.SA": 180.820007,
+        "VOO": 708.96698,
+        "QQQ": 744.5,
+        "BRL=X": 5.1905
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.5214,
+        "BOVA11 (Bolsa Brasil)": 118.6872,
+        "VOO (S&P 500 em US$)": 116.6185,
+        "QQQ (Nasdaq Tech em US$)": 123.6033,
+        "USD/BRL (Dólar)": 96.083,
+        "Selic Acumulada (Renda Fixa)": 111.9308
+      }
+    },
+    {
+      "data": "2026-09-27",
+      "precos": {
+        "IVVB11.SA": 453,
+        "BOVA11.SA": 180.820007,
+        "VOO": 708.96698,
+        "QQQ": 744.5,
+        "BRL=X": 5.1875
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.5214,
+        "BOVA11 (Bolsa Brasil)": 118.6872,
+        "VOO (S&P 500 em US$)": 116.6185,
+        "QQQ (Nasdaq Tech em US$)": 123.6033,
+        "USD/BRL (Dólar)": 96.0275,
+        "Selic Acumulada (Renda Fixa)": 111.9308
+      }
+    },
+    {
+      "data": "2026-09-28",
+      "precos": {
+        "IVVB11.SA": 453,
+        "BOVA11.SA": 180.179993,
+        "VOO": 703.609985,
+        "QQQ": 736.530029,
+        "BRL=X": 5.2229
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.5214,
+        "BOVA11 (Bolsa Brasil)": 118.2671,
+        "VOO (S&P 500 em US$)": 115.7373,
+        "QQQ (Nasdaq Tech em US$)": 122.2802,
+        "USD/BRL (Dólar)": 96.6828,
+        "Selic Acumulada (Renda Fixa)": 111.9877
+      }
+    },
+    {
+      "data": "2026-09-29",
+      "precos": {
+        "IVVB11.SA": 451.529999,
+        "BOVA11.SA": 181.050003,
+        "VOO": 702.460022,
+        "QQQ": 737.929993,
+        "BRL=X": 5.2029
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.1595,
+        "BOVA11 (Bolsa Brasil)": 118.8382,
+        "VOO (S&P 500 em US$)": 115.5482,
+        "QQQ (Nasdaq Tech em US$)": 122.5126,
+        "USD/BRL (Dólar)": 96.3125,
+        "Selic Acumulada (Renda Fixa)": 112.0445
+      }
+    },
+    {
+      "data": "2026-09-30",
+      "precos": {
+        "IVVB11.SA": 447.369995,
+        "BOVA11.SA": 184.080002,
+        "VOO": 700.859985,
+        "QQQ": 739.77002,
+        "BRL=X": 5.1791
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 110.1354,
+        "BOVA11 (Bolsa Brasil)": 120.827,
+        "VOO (S&P 500 em US$)": 115.285,
+        "QQQ (Nasdaq Tech em US$)": 122.8181,
+        "USD/BRL (Dólar)": 95.872,
+        "Selic Acumulada (Renda Fixa)": 112.1014
+      }
+    },
+    {
+      "data": "2026-10-01",
+      "precos": {
+        "IVVB11.SA": 452.079987,
+        "BOVA11.SA": 184.410004,
+        "VOO": 702.349976,
+        "QQQ": 742.030029,
+        "BRL=X": 5.2226
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.2949,
+        "BOVA11 (Bolsa Brasil)": 121.0436,
+        "VOO (S&P 500 em US$)": 115.5301,
+        "QQQ (Nasdaq Tech em US$)": 123.1933,
+        "USD/BRL (Dólar)": 96.6772,
+        "Selic Acumulada (Renda Fixa)": 112.1584
+      }
+    },
+    {
+      "data": "2026-10-02",
+      "precos": {
+        "IVVB11.SA": 454.700012,
+        "BOVA11.SA": 190,
+        "VOO": 707.539978,
+        "QQQ": 749.580017,
+        "BRL=X": 5.2226
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.9399,
+        "BOVA11 (Bolsa Brasil)": 124.7128,
+        "VOO (S&P 500 em US$)": 116.3838,
+        "QQQ (Nasdaq Tech em US$)": 124.4467,
+        "USD/BRL (Dólar)": 96.6772,
+        "Selic Acumulada (Renda Fixa)": 112.2153
+      }
+    },
+    {
+      "data": "2026-10-04",
+      "precos": {
+        "IVVB11.SA": 454.700012,
+        "BOVA11.SA": 190,
+        "VOO": 707.539978,
+        "QQQ": 749.580017,
+        "BRL=X": 5.2231
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 111.9399,
+        "BOVA11 (Bolsa Brasil)": 124.7128,
+        "VOO (S&P 500 em US$)": 116.3838,
+        "QQQ (Nasdaq Tech em US$)": 124.4467,
+        "USD/BRL (Dólar)": 96.6865,
+        "Selic Acumulada (Renda Fixa)": 112.2153
+      }
+    },
+    {
+      "data": "2026-10-05",
+      "precos": {
+        "IVVB11.SA": 439.149994,
+        "BOVA11.SA": 204.350006,
+        "VOO": 712.320007,
+        "QQQ": 756.200012,
+        "BRL=X": 4.9967
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1118,
+        "BOVA11 (Bolsa Brasil)": 134.1319,
+        "VOO (S&P 500 em US$)": 117.17,
+        "QQQ (Nasdaq Tech em US$)": 125.5458,
+        "USD/BRL (Dólar)": 92.4955,
+        "Selic Acumulada (Renda Fixa)": 112.2723
+      }
+    },
+    {
+      "data": "2026-10-06",
+      "precos": {
+        "IVVB11.SA": 439.279999,
+        "BOVA11.SA": 202.5,
+        "VOO": 716.200012,
+        "QQQ": 759.659973,
+        "BRL=X": 4.9814
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1438,
+        "BOVA11 (Bolsa Brasil)": 132.9176,
+        "VOO (S&P 500 em US$)": 117.8083,
+        "QQQ (Nasdaq Tech em US$)": 126.1202,
+        "USD/BRL (Dólar)": 92.2123,
+        "Selic Acumulada (Renda Fixa)": 112.3294
+      }
+    },
+    {
+      "data": "2026-10-07",
+      "precos": {
+        "IVVB11.SA": 441.149994,
+        "BOVA11.SA": 201.25,
+        "VOO": 714.340027,
+        "QQQ": 757.72998,
+        "BRL=X": 5.0192
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.6041,
+        "BOVA11 (Bolsa Brasil)": 132.0971,
+        "VOO (S&P 500 em US$)": 117.5023,
+        "QQQ (Nasdaq Tech em US$)": 125.7998,
+        "USD/BRL (Dólar)": 92.912,
+        "Selic Acumulada (Renda Fixa)": 112.3864
+      }
+    },
+    {
+      "data": "2026-10-08",
+      "precos": {
+        "IVVB11.SA": 440.350006,
+        "BOVA11.SA": 203.080002,
+        "VOO": 711.280029,
+        "QQQ": 747.580017,
+        "BRL=X": 5.0177
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.4072,
+        "BOVA11 (Bolsa Brasil)": 133.2983,
+        "VOO (S&P 500 em US$)": 116.999,
+        "QQQ (Nasdaq Tech em US$)": 124.1147,
+        "USD/BRL (Dólar)": 92.8842,
+        "Selic Acumulada (Renda Fixa)": 112.4435
+      }
+    },
+    {
+      "data": "2026-10-09",
+      "precos": {
+        "IVVB11.SA": 439.25,
+        "BOVA11.SA": 205.550003,
+        "VOO": 715.590027,
+        "QQQ": 751.27002,
+        "BRL=X": 5.0177
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1364,
+        "BOVA11 (Bolsa Brasil)": 134.9196,
+        "VOO (S&P 500 em US$)": 117.7079,
+        "QQQ (Nasdaq Tech em US$)": 124.7273,
+        "USD/BRL (Dólar)": 92.8842,
+        "Selic Acumulada (Renda Fixa)": 112.5006
+      }
+    },
+    {
+      "data": "2026-10-11",
+      "precos": {
+        "IVVB11.SA": 439.25,
+        "BOVA11.SA": 205.550003,
+        "VOO": 715.590027,
+        "QQQ": 751.27002,
+        "BRL=X": 4.9859
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1364,
+        "BOVA11 (Bolsa Brasil)": 134.9196,
+        "VOO (S&P 500 em US$)": 117.7079,
+        "QQQ (Nasdaq Tech em US$)": 124.7273,
+        "USD/BRL (Dólar)": 92.2956,
+        "Selic Acumulada (Renda Fixa)": 112.5006
+      }
+    },
+    {
+      "data": "2026-10-12",
+      "precos": {
+        "IVVB11.SA": 439.25,
+        "BOVA11.SA": 205.550003,
+        "VOO": 715.130005,
+        "QQQ": 746.039978,
+        "BRL=X": 4.985
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.1364,
+        "BOVA11 (Bolsa Brasil)": 134.9196,
+        "VOO (S&P 500 em US$)": 117.6323,
+        "QQQ (Nasdaq Tech em US$)": 123.859,
+        "USD/BRL (Dólar)": 92.2789,
+        "Selic Acumulada (Renda Fixa)": 112.5006
+      }
+    },
+    {
+      "data": "2026-10-13",
+      "precos": {
+        "IVVB11.SA": 442.450012,
+        "BOVA11.SA": 203.600006,
+        "VOO": 715.200012,
+        "QQQ": 743.570007,
+        "BRL=X": 5.0258
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.9242,
+        "BOVA11 (Bolsa Brasil)": 133.6396,
+        "VOO (S&P 500 em US$)": 117.6438,
+        "QQQ (Nasdaq Tech em US$)": 123.449,
+        "USD/BRL (Dólar)": 93.0342,
+        "Selic Acumulada (Renda Fixa)": 112.5577
+      }
+    },
+    {
+      "data": "2026-10-14",
+      "precos": {
+        "IVVB11.SA": 438.709991,
+        "BOVA11.SA": 203.649994,
+        "VOO": 707.429993,
+        "QQQ": 728.950012,
+        "BRL=X": 5.0395
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.0034,
+        "BOVA11 (Bolsa Brasil)": 133.6725,
+        "VOO (S&P 500 em US$)": 116.3657,
+        "QQQ (Nasdaq Tech em US$)": 121.0217,
+        "USD/BRL (Dólar)": 93.2878,
+        "Selic Acumulada (Renda Fixa)": 112.6149
+      }
+    },
+    {
+      "data": "2026-10-15",
+      "precos": {
+        "IVVB11.SA": 444.450012,
+        "BOVA11.SA": 201.389999,
+        "VOO": 709.429993,
+        "QQQ": 728,
+        "BRL=X": 5.0966
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 109.4165,
+        "BOVA11 (Bolsa Brasil)": 132.189,
+        "VOO (S&P 500 em US$)": 116.6947,
+        "QQQ (Nasdaq Tech em US$)": 120.864,
+        "USD/BRL (Dólar)": 94.3448,
+        "Selic Acumulada (Renda Fixa)": 112.6721
+      }
+    },
+    {
+      "data": "2026-10-16",
+      "precos": {
+        "IVVB11.SA": 438.549988,
+        "BOVA11.SA": 202.300003,
+        "VOO": 701.609985,
+        "QQQ": 709.799988,
+        "BRL=X": 5.0966
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.9641,
+        "BOVA11 (Bolsa Brasil)": 132.7863,
+        "VOO (S&P 500 em US$)": 115.4083,
+        "QQQ (Nasdaq Tech em US$)": 117.8424,
+        "USD/BRL (Dólar)": 94.3448,
+        "Selic Acumulada (Renda Fixa)": 112.7293
+      }
+    },
+    {
+      "data": "2026-10-18",
+      "precos": {
+        "IVVB11.SA": 438.549988,
+        "BOVA11.SA": 202.300003,
+        "VOO": 701.609985,
+        "QQQ": 709.799988,
+        "BRL=X": 5.0631
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.9641,
+        "BOVA11 (Bolsa Brasil)": 132.7863,
+        "VOO (S&P 500 em US$)": 115.4083,
+        "QQQ (Nasdaq Tech em US$)": 117.8424,
+        "USD/BRL (Dólar)": 93.7247,
+        "Selic Acumulada (Renda Fixa)": 112.7293
+      }
+    },
+    {
+      "data": "2026-10-19",
+      "precos": {
+        "IVVB11.SA": 438.549988,
+        "BOVA11.SA": 202.419998,
+        "VOO": 704.599976,
+        "QQQ": 718.359985,
+        "BRL=X": 5.037
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.9641,
+        "BOVA11 (Bolsa Brasil)": 132.8651,
+        "VOO (S&P 500 em US$)": 115.9002,
+        "QQQ (Nasdaq Tech em US$)": 119.2635,
+        "USD/BRL (Dólar)": 93.2415,
+        "Selic Acumulada (Renda Fixa)": 112.7866
+      }
+    },
+    {
+      "data": "2026-10-20",
+      "precos": {
+        "IVVB11.SA": 437.149994,
+        "BOVA11.SA": 205.009995,
+        "VOO": 706.799988,
+        "QQQ": 717.630005,
+        "BRL=X": 5.0227
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.6194,
+        "BOVA11 (Bolsa Brasil)": 134.5651,
+        "VOO (S&P 500 em US$)": 116.2621,
+        "QQQ (Nasdaq Tech em US$)": 119.1423,
+        "USD/BRL (Dólar)": 92.9768,
+        "Selic Acumulada (Renda Fixa)": 112.8438
+      }
+    },
+    {
+      "data": "2026-10-21",
+      "precos": {
+        "IVVB11.SA": 440.5,
+        "BOVA11.SA": 203.5,
+        "VOO": 710.719971,
+        "QQQ": 725.200012,
+        "BRL=X": 5.020391
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 108.4441,
+        "BOVA11 (Bolsa Brasil)": 133.574,
+        "VOO (S&P 500 em US$)": 116.9069,
+        "QQQ (Nasdaq Tech em US$)": 120.3991,
+        "USD/BRL (Dólar)": 92.9341,
+        "Selic Acumulada (Renda Fixa)": 112.9012
+      }
+    },
+    {
+      "data": "2026-10-22",
+      "precos": {
+        "IVVB11.SA": 436.549988,
+        "BOVA11.SA": 200.960007,
+        "VOO": 702.299988,
+        "QQQ": 704.469971,
+        "BRL=X": 5.0499
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 107.4717,
+        "BOVA11 (Bolsa Brasil)": 131.9068,
+        "VOO (S&P 500 em US$)": 115.5218,
+        "QQQ (Nasdaq Tech em US$)": 116.9575,
+        "USD/BRL (Dólar)": 93.4803,
+        "Selic Acumulada (Renda Fixa)": 112.9585
+      }
+    },
+    {
+      "data": "2026-10-23",
+      "precos": {
+        "IVVB11.SA": 430,
+        "BOVA11.SA": 201.690002,
+        "VOO": 698.580017,
+        "QQQ": 704.400024,
+        "BRL=X": 5.0499
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 105.8592,
+        "BOVA11 (Bolsa Brasil)": 132.3859,
+        "VOO (S&P 500 em US$)": 114.9099,
+        "QQQ (Nasdaq Tech em US$)": 116.9459,
+        "USD/BRL (Dólar)": 93.4803,
+        "Selic Acumulada (Renda Fixa)": 113.0159
+      }
+    },
+    {
+      "data": "2026-10-26",
+      "precos": {
+        "IVVB11.SA": 468.540009,
+        "BOVA11.SA": 172.419998,
+        "VOO": 703.409973,
+        "QQQ": 712.200012,
+        "BRL=X": 4.9602
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 115.3471,
+        "BOVA11 (Bolsa Brasil)": 113.1736,
+        "VOO (S&P 500 em US$)": 115.7044,
+        "QQQ (Nasdaq Tech em US$)": 118.2408,
+        "USD/BRL (Dólar)": 91.8198,
+        "Selic Acumulada (Renda Fixa)": 113.0733
+      }
+    },
+    {
+      "data": "2026-10-27",
+      "precos": {
+        "IVVB11.SA": 466.160004,
+        "BOVA11.SA": 173,
+        "VOO": 707.52002,
+        "QQQ": 721.25,
+        "BRL=X": 5.3726
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 114.7612,
+        "BOVA11 (Bolsa Brasil)": 113.5543,
+        "VOO (S&P 500 em US$)": 116.3805,
+        "QQQ (Nasdaq Tech em US$)": 119.7433,
+        "USD/BRL (Dólar)": 99.4539,
+        "Selic Acumulada (Renda Fixa)": 113.1307
+      }
+    },
+    {
+      "data": "2026-10-28",
+      "precos": {
+        "IVVB11.SA": 467.450012,
+        "BOVA11.SA": 168.470001,
+        "VOO": 709.900024,
+        "QQQ": 725.609985,
+        "BRL=X": 5.3503
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 115.0788,
+        "BOVA11 (Bolsa Brasil)": 110.5809,
+        "VOO (S&P 500 em US$)": 116.772,
+        "QQQ (Nasdaq Tech em US$)": 120.4672,
+        "USD/BRL (Dólar)": 99.0411,
+        "Selic Acumulada (Renda Fixa)": 113.1882
+      }
+    },
+    {
+      "data": "2026-10-29",
+      "precos": {
+        "IVVB11.SA": 468,
+        "BOVA11.SA": 166.509995,
+        "VOO": 707.320007,
+        "QQQ": 715.340027,
+        "BRL=X": 5.3459
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 115.2142,
+        "BOVA11 (Bolsa Brasil)": 109.2944,
+        "VOO (S&P 500 em US$)": 116.3476,
+        "QQQ (Nasdaq Tech em US$)": 118.7622,
+        "USD/BRL (Dólar)": 98.9597,
+        "Selic Acumulada (Renda Fixa)": 113.2456
+      }
+    },
+    {
+      "data": "2026-10-30",
+      "precos": {
+        "IVVB11.SA": 466.5,
+        "BOVA11.SA": 165.399994,
+        "VOO": 694.809998,
+        "QQQ": 690.48999,
+        "BRL=X": 5.3848
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 114.8449,
+        "BOVA11 (Bolsa Brasil)": 108.5658,
+        "VOO (S&P 500 em US$)": 114.2898,
+        "QQQ (Nasdaq Tech em US$)": 114.6365,
+        "USD/BRL (Dólar)": 99.6798,
+        "Selic Acumulada (Renda Fixa)": 113.3032
+      }
+    },
+    {
+      "data": "2026-11-02",
+      "precos": {
+        "IVVB11.SA": 466.5,
+        "BOVA11.SA": 165.399994,
+        "VOO": 691.320007,
+        "QQQ": 681.090027,
+        "BRL=X": 5.4351
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 114.8449,
+        "BOVA11 (Bolsa Brasil)": 108.5658,
+        "VOO (S&P 500 em US$)": 113.7157,
+        "QQQ (Nasdaq Tech em US$)": 113.0759,
+        "USD/BRL (Dólar)": 100.6109,
+        "Selic Acumulada (Renda Fixa)": 113.3032
+      }
+    },
+    {
+      "data": "2026-11-03",
+      "precos": {
+        "IVVB11.SA": 469.600006,
+        "BOVA11.SA": 163.009995,
+        "VOO": 693.539978,
+        "QQQ": 685.280029,
+        "BRL=X": 5.4363
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 115.6081,
+        "BOVA11 (Bolsa Brasil)": 106.997,
+        "VOO (S&P 500 em US$)": 114.0809,
+        "QQQ (Nasdaq Tech em US$)": 113.7715,
+        "USD/BRL (Dólar)": 100.6331,
+        "Selic Acumulada (Renda Fixa)": 113.3607
+      }
+    },
+    {
+      "data": "2026-11-04",
+      "precos": {
+        "IVVB11.SA": 473.890015,
+        "BOVA11.SA": 164.820007,
+        "VOO": 704.780029,
+        "QQQ": 691.950012,
+        "BRL=X": 5.487
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 116.6642,
+        "BOVA11 (Bolsa Brasil)": 108.1851,
+        "VOO (S&P 500 em US$)": 115.9298,
+        "QQQ (Nasdaq Tech em US$)": 114.8789,
+        "USD/BRL (Dólar)": 101.5716,
+        "Selic Acumulada (Renda Fixa)": 113.4183
+      }
+    },
+    {
+      "data": "2026-11-05",
+      "precos": {
+        "IVVB11.SA": 455.700012,
+        "BOVA11.SA": 163.029999,
+        "VOO": 673.969971,
+        "QQQ": 647.049988,
+        "BRL=X": 5.4587
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 112.1861,
+        "BOVA11 (Bolsa Brasil)": 107.0102,
+        "VOO (S&P 500 em US$)": 110.8618,
+        "QQQ (Nasdaq Tech em US$)": 107.4245,
+        "USD/BRL (Dólar)": 101.0477,
+        "Selic Acumulada (Renda Fixa)": 113.4759
+      }
+    },
+    {
+      "data": "2026-11-06",
+      "precos": {
+        "IVVB11.SA": 459,
+        "BOVA11.SA": 165.929993,
+        "VOO": 675.98999,
+        "QQQ": 656.099976,
+        "BRL=X": 5.5035
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 112.9985,
+        "BOVA11 (Bolsa Brasil)": 108.9137,
+        "VOO (S&P 500 em US$)": 111.1941,
+        "QQQ (Nasdaq Tech em US$)": 108.927,
+        "USD/BRL (Dólar)": 101.877,
+        "Selic Acumulada (Renda Fixa)": 113.5335
+      }
+    },
+    {
+      "data": "2026-11-09",
+      "precos": {
+        "IVVB11.SA": 470.25,
+        "BOVA11.SA": 169.669998,
+        "VOO": 691.869995,
+        "QQQ": 679.349976,
+        "BRL=X": 5.5034
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 115.7681,
+        "BOVA11 (Bolsa Brasil)": 111.3686,
+        "VOO (S&P 500 em US$)": 113.8062,
+        "QQQ (Nasdaq Tech em US$)": 112.787,
+        "USD/BRL (Dólar)": 101.8752,
+        "Selic Acumulada (Renda Fixa)": 113.5912
+      }
+    },
+    {
+      "data": "2026-11-10",
+      "precos": {
+        "IVVB11.SA": 474.359985,
+        "BOVA11.SA": 168.850006,
+        "VOO": 689.5,
+        "QQQ": 674.76001,
+        "BRL=X": 5.5086
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 116.7799,
+        "BOVA11 (Bolsa Brasil)": 110.8303,
+        "VOO (S&P 500 em US$)": 113.4164,
+        "QQQ (Nasdaq Tech em US$)": 112.025,
+        "USD/BRL (Dólar)": 101.9715,
+        "Selic Acumulada (Renda Fixa)": 113.6489
+      }
+    },
+    {
+      "data": "2026-11-11",
+      "precos": {
+        "IVVB11.SA": 478.799988,
+        "BOVA11.SA": 169.199997,
+        "VOO": 698.349976,
+        "QQQ": 690.380005,
+        "BRL=X": 5.5827
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 117.873,
+        "BOVA11 (Bolsa Brasil)": 111.0601,
+        "VOO (S&P 500 em US$)": 114.8721,
+        "QQQ (Nasdaq Tech em US$)": 114.6182,
+        "USD/BRL (Dólar)": 103.3431,
+        "Selic Acumulada (Renda Fixa)": 113.7066
+      }
+    },
+    {
+      "data": "2026-11-12",
+      "precos": {
+        "IVVB11.SA": 483.799988,
+        "BOVA11.SA": 168.550003,
+        "VOO": 696,
+        "QQQ": 688.169983,
+        "BRL=X": 5.5821
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 119.1039,
+        "BOVA11 (Bolsa Brasil)": 110.6334,
+        "VOO (S&P 500 em US$)": 114.4856,
+        "QQQ (Nasdaq Tech em US$)": 114.2513,
+        "USD/BRL (Dólar)": 103.332,
+        "Selic Acumulada (Renda Fixa)": 113.7643
+      }
+    },
+    {
+      "data": "2026-11-13",
+      "precos": {
+        "IVVB11.SA": 483.149994,
+        "BOVA11.SA": 169.679993,
+        "VOO": 693.380005,
+        "QQQ": 679.890015,
+        "BRL=X": 5.6407
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 118.9439,
+        "BOVA11 (Bolsa Brasil)": 111.3751,
+        "VOO (S&P 500 em US$)": 114.0546,
+        "QQQ (Nasdaq Tech em US$)": 112.8767,
+        "USD/BRL (Dólar)": 104.4168,
+        "Selic Acumulada (Renda Fixa)": 113.8221
+      }
+    },
+    {
+      "data": "2026-11-16",
+      "precos": {
+        "IVVB11.SA": 485,
+        "BOVA11.SA": 166.580002,
+        "VOO": 680.26001,
+        "QQQ": 661.75,
+        "BRL=X": 5.6648
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 119.3993,
+        "BOVA11 (Bolsa Brasil)": 109.3403,
+        "VOO (S&P 500 em US$)": 111.8965,
+        "QQQ (Nasdaq Tech em US$)": 109.865,
+        "USD/BRL (Dólar)": 104.8629,
+        "Selic Acumulada (Renda Fixa)": 113.8799
+      }
+    },
+    {
+      "data": "2026-11-17",
+      "precos": {
+        "IVVB11.SA": 479,
+        "BOVA11.SA": 167.419998,
+        "VOO": 673.190002,
+        "QQQ": 656.950012,
+        "BRL=X": 5.7826
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 117.9222,
+        "BOVA11 (Bolsa Brasil)": 109.8917,
+        "VOO (S&P 500 em US$)": 110.7335,
+        "QQQ (Nasdaq Tech em US$)": 109.0681,
+        "USD/BRL (Dólar)": 107.0436,
+        "Selic Acumulada (Renda Fixa)": 113.9378
+      }
+    },
+    {
+      "data": "2026-11-18",
+      "precos": {
+        "IVVB11.SA": 486.100006,
+        "BOVA11.SA": 164.399994,
+        "VOO": 671.309998,
+        "QQQ": 659.51001,
+        "BRL=X": 5.7768
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 119.6701,
+        "BOVA11 (Bolsa Brasil)": 107.9094,
+        "VOO (S&P 500 em US$)": 110.4243,
+        "QQQ (Nasdaq Tech em US$)": 109.4931,
+        "USD/BRL (Dólar)": 106.9362,
+        "Selic Acumulada (Renda Fixa)": 113.9956
+      }
+    },
+    {
+      "data": "2026-11-19",
+      "precos": {
+        "IVVB11.SA": 481.170013,
+        "BOVA11.SA": 163.600006,
+        "VOO": 658.01001,
+        "QQQ": 645.039978,
+        "BRL=X": 5.8817
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 118.4564,
+        "BOVA11 (Bolsa Brasil)": 107.3843,
+        "VOO (S&P 500 em US$)": 108.2366,
+        "QQQ (Nasdaq Tech em US$)": 107.0908,
+        "USD/BRL (Dólar)": 108.878,
+        "Selic Acumulada (Renda Fixa)": 114.0535
+      }
+    },
+    {
+      "data": "2026-11-20",
+      "precos": {
+        "IVVB11.SA": 481.170013,
+        "BOVA11.SA": 163.600006,
+        "VOO": 635.539978,
+        "QQQ": 608.450012,
+        "BRL=X": 5.9335
+      },
+      "selicDiariaDecimal": 0,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 118.4564,
+        "BOVA11 (Bolsa Brasil)": 107.3843,
+        "VOO (S&P 500 em US$)": 104.5404,
+        "QQQ (Nasdaq Tech em US$)": 101.0161,
+        "USD/BRL (Dólar)": 109.8369,
+        "Selic Acumulada (Renda Fixa)": 114.0535
+      }
+    },
+    {
+      "data": "2026-11-23",
+      "precos": {
+        "IVVB11.SA": 485.720001,
+        "BOVA11.SA": 162.350006,
+        "VOO": 663.909973,
+        "QQQ": 651.030029,
+        "BRL=X": 5.948
+      },
+      "selicDiariaDecimal": 0.00050788,
+      "base100": {
+        "IVVB11 (S&P 500 em R$)": 119.5766,
+        "BOVA11 (Bolsa Brasil)": 106.5638,
+        "VOO (S&P 500 em US$)": 109.207,
+        "QQQ (Nasdaq Tech em US$)": 108.0853,
+        "USD/BRL (Dólar)": 110.1053,
+        "Selic Acumulada (Renda Fixa)": 114.1114
+      }
+    }
+  ]
+}

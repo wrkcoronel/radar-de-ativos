@@ -1,0 +1,11 @@
+{
+  "name": "extrator-radar-etfs",
+  "version": "1.0.0",
+  "description": "Extrator de dados do Yahoo Finance e Selic (BCB) para ETFs dolarizados vs. Bolsa Brasil vs. Selic",
+  "type": "module",
+  "scripts": {
+    "extrair": "node backend/index.js",
+    "noticias": "node backend/services/noticias.service.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
